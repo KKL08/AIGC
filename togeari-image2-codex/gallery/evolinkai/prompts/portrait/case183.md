@@ -1,0 +1,9 @@
+# Negative Prompt Portrait Template
+
+**Author:** ZephyraLeigh
+**Category:** portrait
+**Original Case:** 234
+
+## Prompt
+
+low quality, blurry, distorted face, extra fingers, bad hands, duplicate facial features, unrealistic reflection, cartoon, anime, watermark, logo, text, noisy image, oversaturated colors, poorly drawn eyes, bad anatomy, broken proportions, low resolution.

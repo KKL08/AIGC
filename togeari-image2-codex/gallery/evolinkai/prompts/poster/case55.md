@@ -1,0 +1,9 @@
+# Avant-Garde Tennis Racket Sculpture Sports Fashion Ad
+
+**Author:** AIwithSynthia
+**Category:** poster
+**Original Case:** 74
+
+## Prompt
+
+Avant-garde sports fashion advertisement, oversized tennis racket positioned like monumental sculpture, female athlete seated casually on the strings as if a suspended lounge, giant word “PRECISION” in bold typography behind, crisp white studio backdrop, reflective court-like floor, luxury sportswear editorial aesthetic, cinematic lighting, ultra-clean composition, 1:1

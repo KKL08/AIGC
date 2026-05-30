@@ -1,0 +1,9 @@
+# Personal Color Analysis Graphic Board
+
+**Author:** ZaraIrahh
+**Category:** ui
+**Original Case:** 128
+
+## Prompt
+
+Create a personal color analysis graphic using this portrait. Point out which season colour suits the subject best. Show side-by-side clothing color comparisons to highlight which colors suit the subject best. List out what texture/accessories/hairstyle suit the subject best. Make it visual-first, with short labels only and no paragraphs.

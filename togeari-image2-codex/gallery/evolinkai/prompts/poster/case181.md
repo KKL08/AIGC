@@ -1,0 +1,9 @@
+# Japanese Fashion Collage Poster
+
+**Author:** Mind_Boticni
+**Category:** poster
+**Original Case:** 257
+
+## Prompt
+
+Cinematic vertical collage featuring a Japanese woman in elegant fashion captured during golden sunset. Background composed of warm-toned rounded storyboard frames arranged diagonally, each showing soft monochrome motion scenes—running fingers through hair, walking on bridge, looking at skyline, soft smile in wind. The main subject is in rich color with glowing sunset highlights, wearing flowing rust-orange designer dress with natural fabric movement. Emotional storytelling mood, romantic cinematic tone, high-end fashion editorial poster style.

@@ -1,0 +1,9 @@
+# Korean Beauty Fashion Portrait
+
+**Author:** Sheldon056
+**Category:** portrait
+**Original Case:** 218
+
+## Prompt
+
+Create a high-quality “chibi sticker diary portrait” based on the uploaded real-life photo. Preserve the subject’s original identity, realistic facial structure, hairstyle, hair color, glasses, outfit, pose, proportions, lighting, and background. Keep the main subject photorealistic and do not transform the entire image into a full illustration.

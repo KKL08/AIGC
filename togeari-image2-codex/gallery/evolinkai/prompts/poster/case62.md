@@ -1,0 +1,9 @@
+# Avant-Garde Guitar Sculpture Fashion Advertisement
+
+**Author:** QamarRiaz1
+**Category:** poster
+**Original Case:** 81
+
+## Prompt
+
+Avant-garde fashion advertisement, oversized guitar positioned like sculpture, a guitarist in jeans casually seated on the a button as if furniture, giant word "Plism Art" behind in bold white typography, powder pastel studio background, reflective floor, luxury eyewear campaign aesthetic, ultra-clean layout, editorial magazine styling, Bold quote " What are you listening"   Tag : Create Own Change

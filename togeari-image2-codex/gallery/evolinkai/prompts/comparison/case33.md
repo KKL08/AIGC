@@ -1,0 +1,9 @@
+# Historical Yang Guifei Realistic Portrait
+
+**Author:** Zhaoge01
+**Category:** comparison
+**Original Case:** 61
+
+## Prompt
+
+根据真实历史对杨玉环的形象描述，生成一张杨贵妃真实照片，画质为iPhone 15 pro

@@ -1,0 +1,9 @@
+# AI Self-Perception Portrait
+
+**Author:** 80vul
+**Category:** portrait
+**Original Case:** 18
+
+## Prompt
+
+根据你对我的认知 给我生成一个“你认识的我”的 图片

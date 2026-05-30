@@ -1,0 +1,9 @@
+# Multi-Panel Image Board Template
+
+**Author:** aimikoda
+**Category:** ui
+**Original Case:** 105
+
+## Prompt
+
+Create a {argument name="grid layout" default="4x3"} borderless grid where each panel is an independent image of the {argument name="subject" default="a young woman"}. Maintain strong subject consistency across all panels, with consistent color and lighting. Depict {argument name="theme" default="childhood memories"} with a {argument name="mood" default="warm, nostalgic"} mood in {argument name="style" default="nostalgic cinematic realism"} style. No text. No gap.

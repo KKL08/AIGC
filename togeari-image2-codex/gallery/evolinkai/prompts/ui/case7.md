@@ -1,0 +1,9 @@
+# King Taejo Yi Seong-gye's X Page
+
+**Author:** SKA_Neotype
+**Category:** ui
+**Original Case:** 8
+
+## Prompt
+
+태조 이성계의 X  페이지(위화도 회군을 벌이기 직전- 최영 장군과 서로 디스하는 내용이 담긴 게시글들)을 만들어 주세요.

@@ -1,0 +1,9 @@
+# Travel Food Advertisement Poster
+
+**Author:** Naiknelofar788
+**Category:** poster
+**Original Case:** 299
+
+## Prompt
+
+Ultra-detailed premium travel-food advertisement poster for [CITY/COUNTRY], vertical composition, inspired by luxury Lay’s-style chips advertising. A realistic chips packet placed at the bottom center as the main hero object, matching the exact premium commercial layout of a floating chips campaign.

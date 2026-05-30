@@ -1,0 +1,11 @@
+# 360 Equirectangular Panorama Image
+
+**Author:** rs_elwood
+**Category:** poster
+**Original Case:** 60
+
+## Prompt
+
+360度 equirectangular （正距円筒図法）画像を2:1で生成
+
+Online 360° Panorama Viewer VR

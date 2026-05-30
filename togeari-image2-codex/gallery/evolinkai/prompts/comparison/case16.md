@@ -1,0 +1,9 @@
+# Based on the video content and this current frame, use GPT to generate a YouT...
+
+**Author:** chatcutapp
+**Category:** comparison
+**Original Case:** 40
+
+## Prompt
+
+Based on the video content and this current frame, use GPT to generate a YouTube thumbnail that fits the video. You can reference the style of the image I gave you, but replace the logo on the right side of AE with theChatCut logo. I'll attach the logo for you.

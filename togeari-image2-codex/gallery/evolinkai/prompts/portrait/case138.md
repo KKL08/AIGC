@@ -1,0 +1,9 @@
+# Cinematic Volleyball Sports Portrait
+
+**Author:** meng_dagg695
+**Category:** portrait
+**Original Case:** 189
+
+## Prompt
+
+Ultra-realistic cinematic sports portrait of a young athletic woman playing volleyball outdoors on a sunny tropical day, captured mid-action while gently tossing/spinning a colorful volleyball upward with one hand. She is standing on an outdoor sports court surrounded by green mesh fencing, lush tropical plants, palm leaves, and soft natural greenery in the background.

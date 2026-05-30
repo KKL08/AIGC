@@ -1,0 +1,9 @@
+# Avant-Garde Basketball Sculpture Sports Fashion Ad
+
+**Author:** AIwithkhan
+**Category:** poster
+**Original Case:** 73
+
+## Prompt
+
+Avant-garde sports fashion advertisement, oversized basketball posed like a monumental sculpture, female athlete reclining across the ball’s curved surface as if modern furniture, giant word “ELEVATE” in bold typography behind, burnt orange studio backdrop, glossy reflective floor, luxury athletic editorial aesthetic, cinematic lighting, ultra-clean composition, 1:1

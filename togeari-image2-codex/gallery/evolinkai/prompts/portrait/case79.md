@@ -1,0 +1,9 @@
+# M
+
+**Author:** unknown
+**Category:** portrait
+**Original Case:** 129
+
+## Prompt
+
+A young boy sitting on a stool, wearing a beige hoodie and black pants, calm confident expression, surrounded by multiple cute mini cartoon versions of himself in different poses (sitting, climbing rope, taking photos, waving using phone), warm yellow-orange gradient background, modern motivational poster style, soft cinematic lighting, highly detailed face, 3D cartoon characters, depth of field, aesthetic composition, books stacked beside him (self-improvement theme), notebook on floor,

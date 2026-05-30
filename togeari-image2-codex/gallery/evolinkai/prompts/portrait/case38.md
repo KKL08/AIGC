@@ -1,0 +1,9 @@
+# Young Woman in Sequin Dress on Stairs
+
+**Author:** XSydneyFan
+**Category:** portrait
+**Original Case:** 88
+
+## Prompt
+
+Vertical 2:3 format. {argument name="subject" default="Young woman"} hair in messy updo sits on modern wooden staircase. wears {argument name="dress" default="shimmering Silver halter dress sequin dress"}. matching with silver high-heeled sandals. legs crossed. Silver heart earrings. One fuchsia bracelet on each ankle. Sultry expression, with slightly parted lips. Blurred background vertical wooden slats and black metal railings. Don't change face

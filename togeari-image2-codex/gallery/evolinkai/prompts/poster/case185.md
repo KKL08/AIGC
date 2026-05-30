@@ -1,0 +1,9 @@
+# Playlist Mood Album Cover
+
+**Author:** getimg_ai
+**Category:** poster
+**Original Case:** 261
+
+## Prompt
+
+Create an album cover inspired by this playlist: [playlist], translating its mood into colors, textures, objects, and cinematic composition, with no artist names. https://t.co/t1efbQ9sgP

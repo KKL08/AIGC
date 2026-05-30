@@ -1,0 +1,9 @@
+# Fashion Collage Multi-Style Portrait
+
+**Author:** Mind_Boticni
+**Category:** portrait
+**Original Case:** 187
+
+## Prompt
+
+Create a premium 1:1 ultra-stylish fashion collage advertisement featuring the same young handsome bearded male model across multiple cinematic portrait styles inside one single high-end composition. The model should have sharp jawline, textured beard, messy stylish hair, attractive confident expression, modern masculine aura, and luxury Gen-Z street fashion styling. Entire mood should feel bold, dark, mysterious, and visually addictive — designed for viral social media aesthetics. Theme: midnig

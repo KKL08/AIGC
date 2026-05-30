@@ -1,0 +1,9 @@
+# Cloud shape doodle generation
+
+**Author:** Gorden_Sun
+**Category:** ui
+**Original Case:** 112
+
+## Prompt
+
+Based on the shape of the {argument name="subject" default="clouds"} in the image, identify what object, animal, or person they most resemble. Do not change the original image; instead, draw that object, animal, or person over the original image in a {argument name="art style" default="doodle"} style.

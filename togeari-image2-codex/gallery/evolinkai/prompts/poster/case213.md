@@ -1,0 +1,12 @@
+# Pixar 3D Character Design Sheet
+
+**Author:** TechieBySA
+**Category:** poster
+**Original Case:** 289
+
+## Prompt
+
+“Create a Pixar 3D style character design sheet. Clean white background. Two characters side by side with a clean dividing line. Bold brushstroke-style title at the top: CHAD VS THE GYM MIRROR. Subtitle beneath: One way mirror. One audience. Zero awareness.
+LEFT SIDE — CHAD
+Large name in bold black. Underneath: “Just needed a quick pump check.”
+Hero portrait — Chad isolated on clean white. No background. Pixar 3D man, late 20s, natural athletic build — genuinely fit but not cartoonishly huge. Ne

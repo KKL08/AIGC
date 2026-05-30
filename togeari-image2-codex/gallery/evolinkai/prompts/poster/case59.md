@@ -1,0 +1,9 @@
+# Surrealist Rolex Luxury Watch Fashion Poster
+
+**Author:** Sheldon056
+**Category:** poster
+**Original Case:** 78
+
+## Prompt
+
+A high-fashion surrealist poster for Rolex. A deep emerald green minimalist studio with a polished reflective floor. A massive Rolex watch stands upright like a monument. A male model in a tailored dark green suit leans casually against the watch face, wearing a matching Rolex.

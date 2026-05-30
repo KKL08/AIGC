@@ -1,0 +1,15 @@
+# Rainy Bus Stop Portrait
+
+**Author:** harboriis
+**Category:** portrait
+**Original Case:** 103
+
+## Prompt
+
+A cinematic nighttime photo of [your photo as reference] sitting alone at a wet bus
+
+stop bench, eating a burger. Rain-soaked street with orange bokeh city lights
+
+reflecting on the ground. Neon tube lights overhead. Red jacket, tan corduroy
+
+pants. Moody, dark, atmospheric street photography.

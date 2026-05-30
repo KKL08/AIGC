@@ -1,0 +1,12 @@
+# Intermediate gallery data (not needed at runtime)
+gallery/evolinkai/ingested_tweets.json
+gallery/evolinkai/*.md
+!gallery/evolinkai/index.yaml
+
+# Temp files
+*.pyc
+__pycache__/
+.DS_Store
+
+# Clone artifacts
+tmp/

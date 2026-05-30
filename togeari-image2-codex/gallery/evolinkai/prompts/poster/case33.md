@@ -1,0 +1,9 @@
+# 6-Block Fashion Campaign Prompt Formula
+
+**Author:** anacoding
+**Category:** poster
+**Original Case:** 52
+
+## Prompt
+
+Old money Hamptons editorial, tall blonde woman late 20s, serene elegant expression, wearing cream cashmere cable sweater, pleated beige tennis skirt, pearl earrings, Hermès silk scarf, leather flats, Slim Aarons photography style, medium format film photography, sitting on a white wooden porch of a Cape Cod house, golden hour light, ocean in the background

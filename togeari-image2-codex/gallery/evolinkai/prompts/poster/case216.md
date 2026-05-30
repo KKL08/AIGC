@@ -1,0 +1,10 @@
+# 9-Frame Cinematic Storyboard Grid
+
+**Author:** guicastellanos1
+**Category:** poster
+**Original Case:** 292
+
+## Prompt
+
+for GPT-2:
+Create a single image storyboard with 9 cinematic frames arranged in a  3×3 grid. Each frame is a widescreen 16:9 panel with a film aspect ratio  letterbox. Style: ultra-cinematic sci-fi blockbuster mixed with premium  airline commercial. Think Blade Runner 2049 color grading meets a UEFA  Champions League broadcast opener meets a luxury brand TVC.

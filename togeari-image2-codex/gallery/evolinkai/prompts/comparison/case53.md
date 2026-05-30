@@ -1,0 +1,9 @@
+# Apartment Drama Animation Storyboard Sheet
+
+**Author:** CurieuxExplorer
+**Category:** comparison
+**Original Case:** 81
+
+## Prompt
+
+Create a new animation sheet, but this time it's a storyboard between an Indian man and an Indian woman in a dramatic scene inside an apartment. Ensure the elements of the apartment are in the scene, and include dialogue boxes, this is for 15 seconds so be careful of the cadence (sentences not too long), when a character speaks they should be the only one in frame.

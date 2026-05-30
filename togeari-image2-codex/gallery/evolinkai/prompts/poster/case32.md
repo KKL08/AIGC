@@ -1,0 +1,9 @@
+# Pilates Studio Ad Poster
+
+**Author:** ck_igarashi
+**Category:** poster
+**Original Case:** 51
+
+## Prompt
+
+ピラティス教室の広告画像を作成したい テキストはよりユーザーが登録をするのに惹かれるような文言にし、画像内には女性がピラティスを実際に行っている様子を映して

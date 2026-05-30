@@ -1,0 +1,9 @@
+# One-Prompt UI Design Generation
+
+**Author:** austinit
+**Category:** ui
+**Original Case:** 1
+
+## Prompt
+
+用这种风格帮我生成一套UI设计系统，包含网页、移动端、卡片、控件、按钮 以及其它

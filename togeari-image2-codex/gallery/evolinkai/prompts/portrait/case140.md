@@ -1,0 +1,10 @@
+# Dark Silhouette Rim-Light Portrait
+
+**Author:** XSydneyFan
+**Category:** portrait
+**Original Case:** 191
+
+## Prompt
+
+.Ultra realistic dark silhouette portrait of a stylish young woman in side profile pose, deep black background, dramatic rim lighting highlighting hair and jawline edges, wearing stylish trendy sunglasses, DSLR photography style, ultra HD 8K, realistic facial outline, premium fashion edition
+2:3ar

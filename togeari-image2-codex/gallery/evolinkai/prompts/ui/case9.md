@@ -1,0 +1,9 @@
+# Momotaro Explainer Slide
+
+**Author:** yammamon
+**Category:** ui
+**Original Case:** 10
+
+## Prompt
+
+「いらすとや」のほのぼのとした雰囲気と、「霞ヶ関スライド」の圧倒的な情報密度を融合させた、桃太郎の解説スライド（ポンチ絵）を作成して

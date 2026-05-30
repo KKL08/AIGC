@@ -1,0 +1,9 @@
+# Miyazaki-style short film pipeline
+
+**Author:** happycapyai
+**Category:** comparison
+**Original Case:** 76
+
+## Prompt
+
+Given a story concept, generate a complete Miyazaki-style animated short film: write a 30-shot script → generate watercolor storyboard images (gpt-image-1) → plan SOFT/HARD transitions → produce video clips with Seedance 2.0 using first/last-frame binding → synthesize the original ambient piano score → stitch everything into a final MP4 with music.

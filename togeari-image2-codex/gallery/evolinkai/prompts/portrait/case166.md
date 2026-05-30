@@ -1,0 +1,9 @@
+# NBA Legend Mid-Air Action Poster
+
+**Author:** Taaruk_
+**Category:** portrait
+**Original Case:** 217
+
+## Prompt
+
+Dynamic NBA legend poster design, iconic basketball superstar in mid-air action pose performing dunk, jumpshot, or intense celebration, cinematic sports illustration style, highly detailed muscular anatomy, dramatic motion, realistic face with painterly polygon brush texture, explosive paint splashes behind character matching team colors, bold typography with player name in huge vertical letters, motivational quote text layout, sports stats and achievements infographic, clean minimal cream background, modern editorial composition.

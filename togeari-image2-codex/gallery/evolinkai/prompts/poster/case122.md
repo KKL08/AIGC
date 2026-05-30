@@ -1,0 +1,9 @@
+# C
+
+**Author:** unknown
+**Category:** poster
+**Original Case:** 197
+
+## Prompt
+
+Recreate the scene as a cozy claymation-style world made from soft modeling clay. Every object should have handmade textures, rounded shapes, fingerprints, and soft lighting like a stop-motion movie. Use warm pastel colors and a cute cinematic atmosphere.

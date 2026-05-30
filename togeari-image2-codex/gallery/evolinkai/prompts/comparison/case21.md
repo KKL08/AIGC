@@ -1,0 +1,9 @@
+# Douyin Livestream Sales Screenshot
+
+**Author:** laogeai
+**Category:** comparison
+**Original Case:** 49
+
+## Prompt
+
+生成一个抖音直播的截图 里面是一个美女在直播，在卖丝袜和内衣，她的在线人数是99996，热度是18+，有个叫小互的大哥，给她刷了一个飞机礼物

@@ -1,0 +1,11 @@
+# Journey to the West Daughter Kingdom Poster
+
+**Author:** cj858cjsoul
+**Category:** poster
+**Original Case:** 66
+
+## Prompt
+
+西游记女儿国诱惑海报，六位艳丽的女儿国大臣在后宫温泉中，迷雾朦胧妖冶，生成图片
+
+4.23早上测试成功

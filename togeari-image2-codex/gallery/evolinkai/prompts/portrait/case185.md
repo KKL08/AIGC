@@ -1,0 +1,9 @@
+# Pixar 3D Character Design Sheet
+
+**Author:** TechieBySA
+**Category:** portrait
+**Original Case:** 236
+
+## Prompt
+
+“Create a Pixar 3D style character design sheet. Clean white background. Two characters side by side with a clean dividing line. Bold brushstroke-style title at the top: STEVE VS THE PLANK. Subtitle beneath: 60 seconds. Feels like a week.

@@ -1,0 +1,9 @@
+# Royal Tramp Character Poster
+
+**Author:** caiziboshi
+**Category:** poster
+**Original Case:** 67
+
+## Prompt
+
+生成鹿鼎记海报，展现韦小宝跟老婆XXX，忠于原著的描述，夸大特点，强调女性的美艳和男性的气质

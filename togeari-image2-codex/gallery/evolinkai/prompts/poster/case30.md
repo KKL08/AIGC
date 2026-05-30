@@ -1,0 +1,9 @@
+# Japanese Supermarket Sale Flyer
+
+**Author:** weel_corp
+**Category:** poster
+**Original Case:** 49
+
+## Prompt
+
+『賑やかで魅力的なスーパーマーケットの折り込みチラシの画像。上部には「特売」の大きな文字と今週の日付。カラフルな商品写真(野菜・果物・牛肉・鮮魚)、赤枠の価格タグ、「超目玉商品」「家計応援」のキャッチ...』
