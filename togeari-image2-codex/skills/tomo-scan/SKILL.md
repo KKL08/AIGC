@@ -15,7 +15,7 @@ Your job is to search the local prompt gallery and return the most relevant crea
 
 All data lives under `gallery/evolinkai/`:
 
-- **Domain creativity maps** (`gallery/evolinkai/domains/*.md`) — 7 files, one per category (portrait, poster, ui, comparison, ad-creative, ecommerce, character). Each lists distinct creative directions with visual features, key techniques, and representative prompts. Use these for direction-level guidance.
+- **Domain field guides** (`gallery/evolinkai/domains/*.md`) — 7 files, one per category (portrait, poster, ui, comparison, ad-creative, ecommerce, character). Each is a curated guide refined from hundreds of verified prompts, listing distinct creative directions with visual features, key techniques, and representative prompts. Use these for direction-level guidance.
 - **Prompt index** (`gallery/evolinkai/index.yaml`) — 649 entries with id, category, style_tags, summary, file path. Use for finding specific matching prompts.
 - **Full prompt files** (`gallery/evolinkai/prompts/{category}/caseN.md`) — complete prompt text for each entry. Read these when you need the actual verified prompt.
 
@@ -32,8 +32,9 @@ The producer calls tomo-scan twice in a typical flow, with different goals:
 **Process:**
 1. Identify which category(ies) match the intent (portrait? poster? ecommerce? etc.)
 2. Read the matching domain map(s) from `gallery/evolinkai/domains/{category}.md`
-3. Extract the 2-4 most relevant creative directions for the user's idea
-4. Return the direction names, visual features, and key techniques
+3. If the input mentions batch/series intent, prioritize domain directions that have multi-image, storyboard, or series potential (check style_tags for `storyboard`, `collage` and look for multi-panel patterns in the domain creativity maps).
+4. Extract the 2-4 most relevant creative directions for the user's idea
+5. Return the direction names, visual features, and key techniques
 
 **Output:**
 - Confidence: high / medium / low

@@ -50,7 +50,7 @@ All skills (especially rupa-craft) should read this before composing prompts.
 - **No transparent backgrounds.** This is a regression from gpt-image-1.
 - No deterministic seed or reproducibility guarantee.
 - Complex text layouts (multiple blocks, specific positions) may still not render exactly as specified.
-- Brand logos, specific character designs, real landmarks cannot be accurately generated from text alone — reference images are essential.
+- Brand logos, specific character designs, real landmarks are more accurate with reference images. Without references, use detailed visual descriptions (colors, shapes, distinctive features) alongside entity names to maximize accuracy.
 - Character/brand consistency across multiple generations is unreliable.
 - Precise layout/composition control is a weak point — the model has difficulty placing elements exactly.
 - Latency: complex prompts can take up to 2 minutes.

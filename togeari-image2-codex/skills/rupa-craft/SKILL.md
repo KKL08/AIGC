@@ -49,12 +49,25 @@ Before returning, verify:
 
 ## Output
 
-Return ONLY the final prompt text. No explanations, no commentary, no formatting — just the prompt string that will be passed directly to image_gen.
+**Single image:** Return ONLY the final prompt text. No explanations, no commentary, no formatting — just the prompt string that will be passed directly to image_gen.
+
+**Batch mode:** Return N prompts, clearly separated and numbered. Each prompt is complete and independent — can be passed directly to image_gen without referencing other prompts.
+
+Format:
+```
+[1/N]
+{complete prompt for image 1}
+
+[2/N]
+{complete prompt for image 2}
+
+...
+```
 
 ## Rules
 
 - Use gallery reference prompts as structural inspiration, not as templates to fill in. Blend techniques with the user's unique creative direction.
-- If the brief mentions real entities (brands, characters, landmarks), the prompt should describe visual features rather than relying on names. Example: instead of "Nike swoosh logo," describe "a curved checkmark-shaped logo in the brand's signature style."
+- If the brief mentions real entities (brands, characters, landmarks), enrich the prompt with concrete visual descriptions IN ADDITION to the name. Example: "Nina Iseri from GIRLS BAND CRY, a girl with short pink hair, fierce expression, wearing a leather jacket" — use the name AND describe the visual features for best accuracy. This is a prompt technique for better results, not a constraint on what the user can reference.
 - For text-in-image: always specify the EXACT text content, even repeating it, to improve rendering accuracy. For difficult words, spell out letter-by-letter. Example: "the text 'NIGHT BREW' in bold uppercase sans-serif, the text reading exactly 'N-I-G-H-T B-R-E-W'"
 - For ads/marketing briefs: write the prompt as a **creative brief** (brand positioning, audience, concept, exact copy), not a list of technical parameters. Let the model make taste decisions within boundaries.
 - For UI mockups: describe the product "as if it already exists" — shipped-app look, not concept art language.
@@ -64,6 +77,20 @@ Return ONLY the final prompt text. No explanations, no commentary, no formatting
 - Never add elements not in the user brief. Do not "improve" the brief by adding features the user didn't ask for.
 - If gallery techniques were not provided (low confidence match), use the general best practices from openai-image-guide.md instead.
 - Write the prompt in English for best Image2 results, even if the user brief was in Chinese. Exception: if the brief requires Chinese text in the image, include the Chinese characters in the text specification part of the prompt.
+
+### Batch Rules (when receiving a batch brief)
+
+- **Identify locked descriptions** — portions that must appear verbatim in every prompt: style, rendering technique, quality parameters, negative constraints, and any elements the user marked as "fixed."
+- **Identify varied descriptions** — portions that differ per image: subject content, scene, color accent, camera angle, or whatever the user's "change dimension" specifies.
+- **Every prompt is self-contained.** Never write "same as above" or "refer to prompt 1." Repeat locked descriptions in full in every prompt — omitting them causes inter-image drift.
+- **Maintain the same prompt structure** across all N prompts (same layer order, similar length) so the set feels visually cohesive even as content varies.
+
+### Anchor Variant Mode (when expanding from an existing image)
+
+When the producer passes an anchor prompt (from a previous successful generation):
+- Use the anchor prompt as the template — copy its structure and locked descriptions exactly.
+- Only modify the dimensions the user specified for variation.
+- Do not rephrase or "improve" the locked portions — reuse them verbatim to maximize visual consistency with the anchor image.
 
 ## Execution Mode
 

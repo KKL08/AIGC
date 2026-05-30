@@ -12,7 +12,7 @@
 - id: ecommerce_case2
   category: ecommerce
   author: "Strength04_X"
-  style_tags: []
+  style_tags: [photography, minimalist]
   summary: "E-commerce Main Image - Skincare Product Studio Shot"
   file: prompts/ecommerce/case2.md
 
@@ -54,7 +54,7 @@
 - id: ecommerce_case8
   category: ecommerce
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [illustration, oil painting]
   summary: "E-commerce Main Image - Traditional Chinese Art and Porcelain Vases"
   file: prompts/ecommerce/case8.md
 
@@ -89,7 +89,7 @@
 - id: ecommerce_case13
   category: ecommerce
   author: "Adam38363368936"
-  style_tags: []
+  style_tags: [photography, minimalist]
   summary: "E-commerce Main Image - Elegant Cosmetic Poster Prompt"
   file: prompts/ecommerce/case13.md
 
@@ -124,7 +124,7 @@
 - id: ecommerce_case18
   category: ecommerce
   author: "PrometheanAIX"
-  style_tags: []
+  style_tags: [photography, minimalist, cinematic]
   summary: "Premium product studio shot template"
   file: prompts/ecommerce/case18.md
 
@@ -194,35 +194,35 @@
 - id: portrait_case8
   category: portrait
   author: "Zoulinshen"
-  style_tags: []
+  style_tags: [photography, anime]
   summary: "9:16 Cosplayer Portrait Screenshot"
   file: prompts/portrait/case8.md
 
 - id: portrait_case9
   category: portrait
   author: "Tz_2022"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Urban Turn-Back Street Portrait"
   file: prompts/portrait/case9.md
 
 - id: portrait_case10
   category: portrait
   author: "Malek1173989"
-  style_tags: []
+  style_tags: [photography]
   summary: "Sam Altman Skatepark Snapshot"
   file: prompts/portrait/case10.md
 
 - id: portrait_case11
   category: portrait
   author: "BubbleBrain"
-  style_tags: []
+  style_tags: [photography]
   summary: "Korean Idol 3x3 Grid Portrait"
   file: prompts/portrait/case11.md
 
 - id: portrait_case12
   category: portrait
   author: "BubbleBrain"
-  style_tags: []
+  style_tags: [photography, retro]
   summary: "CCD Camera Flash Korean Idol"
   file: prompts/portrait/case12.md
 
@@ -264,7 +264,7 @@
 - id: portrait_case18
   category: portrait
   author: "80vul"
-  style_tags: []
+  style_tags: [photography]
   summary: "AI Self-Perception Portrait"
   file: prompts/portrait/case18.md
 
@@ -278,14 +278,14 @@
 - id: portrait_case20
   category: portrait
   author: "andis13"
-  style_tags: []
+  style_tags: [editorial, photography]
   summary: "Magazine Travel Guide Feature Article"
   file: prompts/portrait/case20.md
 
 - id: portrait_case21
   category: portrait
   author: "pavellaslov"
-  style_tags: []
+  style_tags: [photography]
   summary: "analyze this photo and give me a detailed JSON prompt that recreates it. brea..."
   file: prompts/portrait/case21.md
 
@@ -369,7 +369,7 @@
 - id: portrait_case33
   category: portrait
   author: "gdb"
-  style_tags: []
+  style_tags: [photography, retro, vintage]
   summary: "Damaged Vintage Mother and Child Photo"
   file: prompts/portrait/case33.md
 
@@ -404,7 +404,7 @@
 - id: portrait_case38
   category: portrait
   author: "XSydneyFan"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Young Woman in Sequin Dress on Stairs"
   file: prompts/portrait/case38.md
 
@@ -474,7 +474,7 @@
 - id: portrait_case48
   category: portrait
   author: "megane_onesan"
-  style_tags: []
+  style_tags: [photography]
   summary: "Portrait of a Gentle Woman with Glasses"
   file: prompts/portrait/case48.md
 
@@ -523,7 +523,7 @@
 - id: portrait_case55
   category: portrait
   author: "harboriis"
-  style_tags: []
+  style_tags: [photography, cinematic, editorial]
   summary: "Black-and-red streetwear campaign portrait"
   file: prompts/portrait/case55.md
 
@@ -649,7 +649,7 @@
 - id: portrait_case73
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [cinematic, photography]
   summary: "中"
   file: prompts/portrait/case73.md
 
@@ -677,14 +677,14 @@
 - id: portrait_case77
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [illustration, hand-drawn]
   summary: "韩"
   file: prompts/portrait/case77.md
 
 - id: portrait_case78
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [illustration, chibi]
   summary: "照"
   file: prompts/portrait/case78.md
 
@@ -719,7 +719,7 @@
 - id: portrait_case83
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "K"
   file: prompts/portrait/case83.md
 
@@ -740,7 +740,7 @@
 - id: portrait_case86
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [3d render, cinematic]
   summary: "R"
   file: prompts/portrait/case86.md
 
@@ -782,7 +782,7 @@
 - id: portrait_case92
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [cinematic, illustration]
   summary: "G"
   file: prompts/portrait/case92.md
 
@@ -887,7 +887,7 @@
 - id: portrait_case107
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "S"
   file: prompts/portrait/case107.md
 
@@ -908,14 +908,14 @@
 - id: portrait_case110
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [anime, illustration]
   summary: "P"
   file: prompts/portrait/case110.md
 
 - id: portrait_case111
   category: portrait
   author: "unknown"
-  style_tags: []
+  style_tags: [illustration, fashion design]
   summary: "B"
   file: prompts/portrait/case111.md
 
@@ -1076,7 +1076,7 @@
 - id: portrait_case134
   category: portrait
   author: "kingofdairyque"
-  style_tags: []
+  style_tags: [photography, editorial]
   summary: "Y2K Street-Art Editorial Poster"
   file: prompts/portrait/case134.md
 
@@ -1111,7 +1111,7 @@
 - id: portrait_case139
   category: portrait
   author: "iamsofiaijaz"
-  style_tags: []
+  style_tags: [illustration, hand-drawn]
   summary: "3D Designer-Toy Portrait"
   file: prompts/portrait/case139.md
 
@@ -1146,7 +1146,7 @@
 - id: portrait_case144
   category: portrait
   author: "Shinning1010"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Summer Campus Tesla Lifestyle Poster"
   file: prompts/portrait/case144.md
 
@@ -1160,7 +1160,7 @@
 - id: portrait_case146
   category: portrait
   author: "chatgptpaglu"
-  style_tags: []
+  style_tags: [photography]
   summary: "Night Outdoor Portrait"
   file: prompts/portrait/case146.md
 
@@ -1174,7 +1174,7 @@
 - id: portrait_case148
   category: portrait
   author: "rovvmut_"
-  style_tags: []
+  style_tags: [photography]
   summary: "Joyful Street Portrait with Drink"
   file: prompts/portrait/case148.md
 
@@ -1244,7 +1244,7 @@
 - id: portrait_case158
   category: portrait
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [photography]
   summary: "写实感人物竖版照片"
   file: prompts/portrait/case158.md
 
@@ -1321,7 +1321,7 @@
 - id: portrait_case169
   category: portrait
   author: "Sairah_0"
-  style_tags: []
+  style_tags: [watercolor]
   summary: "Switzerland Watercolor Travel Poster"
   file: prompts/portrait/case169.md
 
@@ -1335,7 +1335,7 @@
 - id: portrait_case171
   category: portrait
   author: "Strength04_X"
-  style_tags: []
+  style_tags: [storyboard, cinematic]
   summary: "Luxury Cycling Storyboard Poster"
   file: prompts/portrait/case171.md
 
@@ -1356,21 +1356,21 @@
 - id: portrait_case174
   category: portrait
   author: "harboriis"
-  style_tags: []
+  style_tags: [photography, editorial, retro]
   summary: "Streetwear Magazine Cover Portrait"
   file: prompts/portrait/case174.md
 
 - id: portrait_case175
   category: portrait
   author: "ChillaiKalan__"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Cat-Eye Glasses Fashion Portrait"
   file: prompts/portrait/case175.md
 
 - id: portrait_case176
   category: portrait
   author: "harboriis"
-  style_tags: []
+  style_tags: [photography, editorial]
   summary: "Bold Monochrome Identity Portrait"
   file: prompts/portrait/case176.md
 
@@ -1433,14 +1433,14 @@
 - id: portrait_case185
   category: portrait
   author: "TechieBySA"
-  style_tags: []
+  style_tags: [3d render, chibi]
   summary: "Pixar 3D Character Design Sheet"
   file: prompts/portrait/case185.md
 
 - id: portrait_case186
   category: portrait
   author: "Gdgtify"
-  style_tags: []
+  style_tags: [3d render, cinematic]
   summary: "Automotive Design Deconstruction Poster"
   file: prompts/portrait/case186.md
 
@@ -1461,21 +1461,21 @@
 - id: portrait_case189
   category: portrait
   author: "Shorelyn_"
-  style_tags: []
+  style_tags: [photography]
   summary: "Outdoor Lifestyle Open Sky Portrait"
   file: prompts/portrait/case189.md
 
 - id: portrait_case190
   category: portrait
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "高级男性魅力人像"
   file: prompts/portrait/case190.md
 
 - id: portrait_case191
   category: portrait
   author: "Adam38363368936"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "沙滩场景丰腴人物写真"
   file: prompts/portrait/case191.md
 
@@ -1517,7 +1517,7 @@
 - id: poster_case1
   category: poster
   author: "BubbleBrain"
-  style_tags: []
+  style_tags: [illustration, minimalist, cinematic]
   summary: "Boston Spring 2026 City Poster"
   file: prompts/poster/case1.md
 
@@ -1531,182 +1531,182 @@
 - id: poster_case3
   category: poster
   author: "Panda20230902"
-  style_tags: []
+  style_tags: [watercolor, illustration, hand-drawn]
   summary: "Chengdu Food Map Illustration"
   file: prompts/poster/case3.md
 
 - id: poster_case4
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, minimalist, ink]
   summary: "Chinese Minimalist S-Shaped Poster"
   file: prompts/poster/case4.md
 
 - id: poster_case5
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, cinematic, ink]
   summary: "2026 Spring Guangzhou City Poster"
   file: prompts/poster/case5.md
 
 - id: poster_case6
   category: poster
   author: "blanplan"
-  style_tags: []
+  style_tags: [sketch, hand-drawn]
   summary: "Doodle Sketch AI Builder"
   file: prompts/poster/case6.md
 
 - id: poster_case7
   category: poster
   author: "4WEB1"
-  style_tags: []
+  style_tags: [illustration, cyberpunk, 3d render]
   summary: "Futuristic Mandala Illustration"
   file: prompts/poster/case7.md
 
 - id: poster_case8
   category: poster
   author: "lilimliliychan"
-  style_tags: []
+  style_tags: [retro, pixel art, anime]
   summary: "Super Famicom Poster Style"
   file: prompts/poster/case8.md
 
 - id: poster_case9
   category: poster
   author: "llllegend0620"
-  style_tags: []
+  style_tags: [flat design, minimalist]
   summary: "Browser Game Ad Creative Poster"
   file: prompts/poster/case9.md
 
 - id: poster_case10
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, cinematic, surreal]
   summary: "Surreal Koi Nebula Illustration"
   file: prompts/poster/case10.md
 
 - id: poster_case11
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [ink, illustration, cinematic]
   summary: "Ink-Curve Guangzhou Aesthetics Poster"
   file: prompts/poster/case11.md
 
 - id: poster_case12
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, cinematic, flat design]
   summary: "Guangdong Super League Invitation Poster"
   file: prompts/poster/case12.md
 
 - id: poster_case13
   category: poster
   author: "grok"
-  style_tags: []
+  style_tags: [illustration, cinematic, ink]
   summary: "Spring 2026 Guangzhou Promo Poster"
   file: prompts/poster/case13.md
 
 - id: poster_case14
   category: poster
   author: "Ghhhh3owi"
-  style_tags: []
+  style_tags: [cinematic, watercolor, illustration]
   summary: "Epic Silhouette World Poster"
   file: prompts/poster/case14.md
 
 - id: poster_case15
   category: poster
   author: "alanlovelq"
-  style_tags: []
+  style_tags: [illustration, cinematic, ink]
   summary: "Spring Guangzhou City Poster"
   file: prompts/poster/case15.md
 
 - id: poster_case16
   category: poster
   author: "pfanis"
-  style_tags: []
+  style_tags: [infographic, flat design]
   summary: "Science Encyclopedia Vertical Poster"
   file: prompts/poster/case16.md
 
 - id: poster_case17
   category: poster
   author: "overseas58"
-  style_tags: []
+  style_tags: [ink, illustration, retro]
   summary: "Journey to the West Chinese Comic"
   file: prompts/poster/case17.md
 
 - id: poster_case18
   category: poster
   author: "MrLarus"
-  style_tags: []
+  style_tags: [infographic, flat design, minimalist]
   summary: "Character Relationship Map Poster"
   file: prompts/poster/case18.md
 
 - id: poster_case19
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [ink, watercolor, minimalist]
   summary: "New Chinese Ink Landscape Poster"
   file: prompts/poster/case19.md
 
 - id: poster_case20
   category: poster
   author: "opc_8838"
-  style_tags: []
+  style_tags: [sketch, hand-drawn]
   summary: "AI Builder Doodle Sketch"
   file: prompts/poster/case20.md
 
 - id: poster_case21
   category: poster
   author: "tebasaki3D"
-  style_tags: []
+  style_tags: [cinematic, anime, illustration]
   summary: "Character Visual Vertical Poster"
   file: prompts/poster/case21.md
 
 - id: poster_case22
   category: poster
   author: "MrLarus"
-  style_tags: []
+  style_tags: [infographic, flat design, minimalist]
   summary: "Science Encyclopedia Infographic"
   file: prompts/poster/case22.md
 
 - id: poster_case23
   category: poster
   author: "seiiiiiiiiiiru"
-  style_tags: []
+  style_tags: [anime, cinematic]
   summary: "Fictional Anime Movie Poster"
   file: prompts/poster/case23.md
 
 - id: poster_case24
   category: poster
   author: "genel_ai"
-  style_tags: []
+  style_tags: [photography, editorial]
   summary: "Product Ad Redesign"
   file: prompts/poster/case24.md
 
 - id: poster_case25
   category: poster
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, cinematic, fantasy]
   summary: "Dark-Fantasy Guangzhou City Poster"
   file: prompts/poster/case25.md
 
 - id: poster_case26
   category: poster
   author: "underwoodxie96"
-  style_tags: []
+  style_tags: [cinematic, 3d render]
   summary: "Science Fiction Movie Poster"
   file: prompts/poster/case26.md
 
 - id: poster_case27
   category: poster
   author: "genel_ai"
-  style_tags: []
+  style_tags: [photography, minimalist, editorial]
   summary: "Refreshing Summer Udon Ad"
   file: prompts/poster/case27.md
 
 - id: poster_case28
   category: poster
   author: "MrLarus"
-  style_tags: []
+  style_tags: [hand-drawn, sketch]
   summary: "Handwritten Medical Prescription Sheet"
   file: prompts/poster/case28.md
 
@@ -1720,7 +1720,7 @@
 - id: poster_case30
   category: poster
   author: "weel_corp"
-  style_tags: []
+  style_tags: [retro, flat design, photography]
   summary: "Japanese Supermarket Sale Flyer"
   file: prompts/poster/case30.md
 
@@ -1734,7 +1734,7 @@
 - id: poster_case32
   category: poster
   author: "ck_igarashi"
-  style_tags: []
+  style_tags: [photography, minimalist, editorial]
   summary: "Pilates Studio Ad Poster"
   file: prompts/poster/case32.md
 
@@ -1748,42 +1748,42 @@
 - id: poster_case34
   category: poster
   author: "iaPulse_"
-  style_tags: []
+  style_tags: [infographic, 3d render, realistic]
   summary: "Sony A7 Exploded View Breakdown Prompt"
   file: prompts/poster/case34.md
 
 - id: poster_case35
   category: poster
   author: "ai_gezgini"
-  style_tags: []
+  style_tags: [photography, retro, panorama]
   summary: "1900 Istiklal Street Panorama Prompt"
   file: prompts/poster/case35.md
 
 - id: poster_case36
   category: poster
   author: "alanlovelq"
-  style_tags: []
+  style_tags: [infographic, flat design, minimalist]
   summary: "Theme Science Encyclopedia Card"
   file: prompts/poster/case36.md
 
 - id: poster_case37
   category: poster
   author: "Kurt_Rousey466"
-  style_tags: []
+  style_tags: [infographic, photography, flat design]
   summary: "Chili Pork Cooking Flowchart"
   file: prompts/poster/case37.md
 
 - id: poster_case38
   category: poster
   author: "A9Quant"
-  style_tags: []
+  style_tags: [3d render, cinematic, realistic]
   summary: "Cinematic Infographic Concept Poster"
   file: prompts/poster/case38.md
 
 - id: poster_case39
   category: poster
   author: "AIwithSarah_"
-  style_tags: []
+  style_tags: [photography, cinematic, editorial]
   summary: "A full-body outdoor shot captures a young Caucasian woman, possibly in her la..."
   file: prompts/poster/case39.md
 
@@ -1797,7 +1797,7 @@
 - id: poster_case41
   category: poster
   author: "rs_elwood"
-  style_tags: []
+  style_tags: [photography, panorama]
   summary: "360 Equirectangular Panorama Image"
   file: prompts/poster/case41.md
 
@@ -1818,49 +1818,49 @@
 - id: poster_case44
   category: poster
   author: "BNBOKBt5"
-  style_tags: []
+  style_tags: [illustration, flat design]
   summary: "Hangzhou West Lake Travel Poster"
   file: prompts/poster/case44.md
 
 - id: poster_case45
   category: poster
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [cinematic, illustration, ink]
   summary: "Dongfang Bubai Wuxia Character Poster"
   file: prompts/poster/case45.md
 
 - id: poster_case46
   category: poster
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [cinematic, retro, photography]
   summary: "A Chinese Odyssey 90s Hong Kong Poster"
   file: prompts/poster/case46.md
 
 - id: poster_case47
   category: poster
   author: "cj858cjsoul"
-  style_tags: []
+  style_tags: [cinematic, illustration, fantasy]
   summary: "Journey to the West Daughter Kingdom Poster"
   file: prompts/poster/case47.md
 
 - id: poster_case48
   category: poster
   author: "caiziboshi"
-  style_tags: []
+  style_tags: [cinematic, illustration]
   summary: "Royal Tramp Character Poster"
   file: prompts/poster/case48.md
 
 - id: poster_case49
   category: poster
   author: "verysmallwoods"
-  style_tags: []
+  style_tags: [cinematic, 3d render, realistic]
   summary: "generate an image of a racing car poster with its spec and pricing"
   file: prompts/poster/case49.md
 
 - id: poster_case50
   category: poster
   author: "chenenpei"
-  style_tags: []
+  style_tags: [minimalist, retro, illustration]
   summary: "Charlie Chaplin Product Poster Redesign"
   file: prompts/poster/case50.md
 
@@ -1944,7 +1944,7 @@
 - id: poster_case62
   category: poster
   author: "QamarRiaz1"
-  style_tags: []
+  style_tags: [photography, editorial, minimalist]
   summary: "Avant-Garde Guitar Sculpture Fashion Advertisement"
   file: prompts/poster/case62.md
 
@@ -2210,14 +2210,14 @@
 - id: poster_case100
   category: poster
   author: "cellinlab"
-  style_tags: []
+  style_tags: [infographic, cinematic, editorial]
   summary: "Blue Tears cocktail tutorial infographic poster"
   file: prompts/poster/case100.md
 
 - id: poster_case101
   category: poster
   author: "mapasbr"
-  style_tags: []
+  style_tags: [pixel art, minimalist, retro]
   summary: "ASCII dengue infographic"
   file: prompts/poster/case101.md
 
@@ -2245,7 +2245,7 @@
 - id: poster_case105
   category: poster
   author: "harboriis"
-  style_tags: []
+  style_tags: [photography, cinematic, editorial]
   summary: "Emerald Street Fashion Poster"
   file: prompts/poster/case105.md
 
@@ -2455,7 +2455,7 @@
 - id: poster_case135
   category: poster
   author: "unknown"
-  style_tags: []
+  style_tags: [photography, collage, editorial]
   summary: "U"
   file: prompts/poster/case135.md
 
@@ -2511,14 +2511,14 @@
 - id: poster_case143
   category: poster
   author: "unknown"
-  style_tags: []
+  style_tags: [cinematic, illustration, anime]
   summary: "S"
   file: prompts/poster/case143.md
 
 - id: poster_case144
   category: poster
   author: "unknown"
-  style_tags: []
+  style_tags: [cinematic, illustration, anime]
   summary: "T"
   file: prompts/poster/case144.md
 
@@ -2532,7 +2532,7 @@
 - id: poster_case146
   category: poster
   author: "unknown"
-  style_tags: []
+  style_tags: [3d render, cinematic, surreal]
   summary: "S"
   file: prompts/poster/case146.md
 
@@ -2595,7 +2595,7 @@
 - id: poster_case155
   category: poster
   author: "unknown"
-  style_tags: []
+  style_tags: [photography, collage, editorial]
   summary: "U"
   file: prompts/poster/case155.md
 
@@ -2749,7 +2749,7 @@
 - id: poster_case177
   category: poster
   author: "you1873118"
-  style_tags: []
+  style_tags: [cinematic, realistic, illustration]
   summary: "Dark Western Outlaw Poster"
   file: prompts/poster/case177.md
 
@@ -2868,7 +2868,7 @@
 - id: poster_case194
   category: poster
   author: "Adam38363368936"
-  style_tags: []
+  style_tags: [photography, editorial, minimalist]
   summary: "泳装时尚杂志四宫格"
   file: prompts/poster/case194.md
 
@@ -2945,14 +2945,14 @@
 - id: poster_case205
   category: poster
   author: "you1873118"
-  style_tags: []
+  style_tags: [watercolor, illustration, hand-drawn]
   summary: "Watercolor 2026 Calendar Poster"
   file: prompts/poster/case205.md
 
 - id: poster_case206
   category: poster
   author: "zhongying14"
-  style_tags: []
+  style_tags: [cinematic, illustration, surreal]
   summary: "High-Concept Personal Portrait"
   file: prompts/poster/case206.md
 
@@ -2966,7 +2966,7 @@
 - id: poster_case208
   category: poster
   author: "MrGafish"
-  style_tags: []
+  style_tags: [illustration, ink, anime]
   summary: "Coffee Girl By the River"
   file: prompts/poster/case208.md
 
@@ -3001,21 +3001,21 @@
 - id: poster_case213
   category: poster
   author: "TechieBySA"
-  style_tags: []
+  style_tags: [3d render, chibi, illustration]
   summary: "Pixar 3D Character Design Sheet"
   file: prompts/poster/case213.md
 
 - id: poster_case214
   category: poster
   author: "sdhilip"
-  style_tags: []
+  style_tags: [collage, vintage, retro]
   summary: "Vintage Travel Collage Poster"
   file: prompts/poster/case214.md
 
 - id: poster_case215
   category: poster
   author: "Ankit_patel211"
-  style_tags: []
+  style_tags: [infographic, minimalist, editorial]
   summary: "Premium Travel Infographic Poster"
   file: prompts/poster/case215.md
 
@@ -3113,21 +3113,21 @@
 - id: poster_case229
   category: poster
   author: "Hope_Ai01"
-  style_tags: []
+  style_tags: [photography, editorial, infographic]
   summary: "High Fashion Editorial Infographic Poster"
   file: prompts/poster/case229.md
 
 - id: poster_case230
   category: poster
   author: "abs_uiux"
-  style_tags: []
+  style_tags: [cinematic, photography, 3d render]
   summary: "Basketball Poster Design"
   file: prompts/poster/case230.md
 
 - id: poster_case231
   category: poster
   author: "rionaifantasy"
-  style_tags: []
+  style_tags: [anime, illustration, flat design]
   summary: "角色卡三视图生成"
   file: prompts/poster/case231.md
 
@@ -3148,21 +3148,21 @@
 - id: character_case2
   category: character
   author: "iamrednightS"
-  style_tags: []
+  style_tags: [illustration, anime]
   summary: "Persona5 Character Reference Card"
   file: prompts/character/case2.md
 
 - id: character_case3
   category: character
   author: "09lyco"
-  style_tags: []
+  style_tags: [anime, illustration]
   summary: "Gal Game Character Introduction Page"
   file: prompts/character/case3.md
 
 - id: character_case4
   category: character
   author: "Toshi_nyaruo_AI"
-  style_tags: []
+  style_tags: [illustration, anime]
   summary: "Official Character Sheet (JP"
   file: prompts/character/case4.md
 
@@ -3176,14 +3176,14 @@
 - id: character_case6
   category: character
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [anime, illustration]
   summary: "Saint Seiya Gold Saints Card Grid"
   file: prompts/character/case6.md
 
 - id: character_case7
   category: character
   author: "loglogrog"
-  style_tags: []
+  style_tags: [ink, sketch]
   summary: "Chaos Notes Hidden Face Character Art"
   file: prompts/character/case7.md
 
@@ -3197,21 +3197,21 @@
 - id: character_case9
   category: character
   author: "ismajc"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "GTA 6 in Bangalore Flower Market"
   file: prompts/character/case9.md
 
 - id: character_case10
   category: character
   author: "ismajc"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "GTA 6 Shinjuku Bar Scene"
   file: prompts/character/case10.md
 
 - id: character_case11
   category: character
   author: "yume00112211"
-  style_tags: []
+  style_tags: [anime]
   summary: "Eleanor from White Cat Project"
   file: prompts/character/case11.md
 
@@ -3225,119 +3225,119 @@
 - id: character_case13
   category: character
   author: "sciencedegens"
-  style_tags: []
+  style_tags: [pixel art]
   summary: "Pixel game concept board from TV drama theme"
   file: prompts/character/case13.md
 
 - id: character_case14
   category: character
   author: "THX-night"
-  style_tags: []
+  style_tags: [anime]
   summary: "Anime wallpaper for foldable phone — colorful aesthetic"
   file: prompts/character/case14.md
 
 - id: character_case15
   category: character
   author: "THX-night"
-  style_tags: []
+  style_tags: [anime, cyberpunk]
   summary: "Anime wallpaper for foldable phone — dark cool style"
   file: prompts/character/case15.md
 
 - id: ui_case1
   category: ui
   author: "austinit"
-  style_tags: []
+  style_tags: [flat design, minimalist]
   summary: "One-Prompt UI Design Generation"
   file: prompts/ui/case1.md
 
 - id: ui_case2
   category: ui
   author: "patrickassale"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Amateur iPhone Keynote Snapshot"
   file: prompts/ui/case2.md
 
 - id: ui_case3
   category: ui
   author: "patrickassale"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Handwritten Notebook Photo"
   file: prompts/ui/case3.md
 
 - id: ui_case4
   category: ui
   author: "Panda20230902"
-  style_tags: []
+  style_tags: [illustration, retro, flat design]
   summary: "Song Dynasty Social Media Feed"
   file: prompts/ui/case4.md
 
 - id: ui_case5
   category: ui
   author: "MrLarus"
-  style_tags: []
+  style_tags: [flat design, realistic]
   summary: "Multi-Platform Content Screenshots"
   file: prompts/ui/case5.md
 
 - id: ui_case6
   category: ui
   author: "alanblogsooo"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Liu Yifei Douyin Livestream Screenshot"
   file: prompts/ui/case6.md
 
 - id: ui_case7
   category: ui
   author: "SKA_Neotype"
-  style_tags: []
+  style_tags: [flat design, realistic]
   summary: "King Taejo Yi Seong-gye's X Page"
   file: prompts/ui/case7.md
 
 - id: ui_case8
   category: ui
   author: "stark_nico99"
-  style_tags: []
+  style_tags: [flat design, realistic]
   summary: "Style-to-UI Design System"
   file: prompts/ui/case8.md
 
 - id: ui_case9
   category: ui
   author: "yammamon"
-  style_tags: []
+  style_tags: [flat design, minimalist]
   summary: "Momotaro Explainer Slide"
   file: prompts/ui/case9.md
 
 - id: ui_case10
   category: ui
   author: "MrLarus"
-  style_tags: []
+  style_tags: [illustration, flat design, infographic]
   summary: "Museum-Style Hanfu Breakdown Infographic"
   file: prompts/ui/case10.md
 
 - id: ui_case11
   category: ui
   author: "agi_aibusi"
-  style_tags: []
+  style_tags: [infographic, realistic]
   summary: "Palm Reading Diagnosis Report"
   file: prompts/ui/case11.md
 
 - id: ui_case12
   category: ui
   author: "MrLarus"
-  style_tags: []
+  style_tags: [minimalist, ink]
   summary: "Calligraphy Copybook Sheet"
   file: prompts/ui/case12.md
 
 - id: ui_case13
   category: ui
   author: "loglogrog"
-  style_tags: []
+  style_tags: [pop art, illustration]
   summary: "Don Quijote Promo Pop Poster"
   file: prompts/ui/case13.md
 
 - id: ui_case14
   category: ui
   author: "the_wheel_2024"
-  style_tags: []
+  style_tags: [illustration, anime]
   summary: "Japanese Gacha Game Screen"
   file: prompts/ui/case14.md
 
@@ -3351,49 +3351,49 @@
 - id: ui_case16
   category: ui
   author: "kylegeeks"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Liu Yifei Douyin Livestream Screenshot"
   file: prompts/ui/case16.md
 
 - id: ui_case17
   category: ui
   author: "AZLnfvp"
-  style_tags: []
+  style_tags: [cyberpunk, flat design, minimalist]
   summary: "Cyberpunk Neon UI Design System"
   file: prompts/ui/case17.md
 
 - id: ui_case18
   category: ui
   author: "alanlovelq"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Trump and Kim Livestream PK Screenshot"
   file: prompts/ui/case18.md
 
 - id: ui_case19
   category: ui
   author: "ailovedirector"
-  style_tags: []
+  style_tags: [flat design, infographic]
   summary: "Japanese AI Game Dev Overview Slide Prompt"
   file: prompts/ui/case19.md
 
 - id: ui_case20
   category: ui
   author: "khaiinit"
-  style_tags: []
+  style_tags: [illustration, flat design]
   summary: "based on the generated character help me generate a screenshot of screenshot ..."
   file: prompts/ui/case20.md
 
 - id: ui_case21
   category: ui
   author: "D_studioproject"
-  style_tags: []
+  style_tags: [flat design, minimalist]
   summary: "Create a landing page using this image as a reference for style and color gra..."
   file: prompts/ui/case21.md
 
 - id: ui_case22
   category: ui
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Li Jiaqi Lipstick Livestream Background"
   file: prompts/ui/case22.md
 
@@ -3407,7 +3407,7 @@
 - id: ui_case24
   category: ui
   author: "rovvmut_"
-  style_tags: []
+  style_tags: [flat design, minimalist, infographic]
   summary: "Apple Pods Pro 3 Earbuds E-Commerce Infographic"
   file: prompts/ui/case24.md
 
@@ -3421,7 +3421,7 @@
 - id: ui_case26
   category: ui
   author: "ChiefMonkeyMike"
-  style_tags: []
+  style_tags: [3d render, realistic]
   summary: "AAA Video Game Screenshot Concept Design"
   file: prompts/ui/case26.md
 
@@ -3456,7 +3456,7 @@
 - id: ui_case31
   category: ui
   author: "SelenaGmzIN"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Celebrity Livestream Concept"
   file: prompts/ui/case31.md
 
@@ -3512,7 +3512,7 @@
 - id: ui_case39
   category: ui
   author: "erikmackinnon"
-  style_tags: []
+  style_tags: [pixel art, illustration]
   summary: "Tropical Parrot Pixel Mosaic"
   file: prompts/ui/case39.md
 
@@ -3575,7 +3575,7 @@
 - id: ui_case48
   category: ui
   author: "Gorden_Sun"
-  style_tags: []
+  style_tags: [illustration, sketch]
   summary: "Cloud shape doodle generation"
   file: prompts/ui/case48.md
 
@@ -3645,21 +3645,21 @@
 - id: ui_case58
   category: ui
   author: "alantech_"
-  style_tags: []
+  style_tags: [infographic, minimalist]
   summary: "前后端数据库 SaaS 信息图"
   file: prompts/ui/case58.md
 
 - id: ui_case59
   category: ui
   author: "you1873118"
-  style_tags: []
+  style_tags: [infographic, realistic]
   summary: "个人形象分析图卡"
   file: prompts/ui/case59.md
 
 - id: ui_case60
   category: ui
   author: "bmx_ai13"
-  style_tags: []
+  style_tags: [illustration, storyboard, 3d render]
   summary: "12-Panel Storyboard Poster"
   file: prompts/ui/case60.md
 
@@ -3680,14 +3680,14 @@
 - id: ui_case63
   category: ui
   author: "aiistudiocom"
-  style_tags: []
+  style_tags: [infographic, minimalist, photography]
   summary: "Recipe Infographic Layout"
   file: prompts/ui/case63.md
 
 - id: ui_case64
   category: ui
   author: "ZaraIrahh"
-  style_tags: []
+  style_tags: [infographic, realistic]
   summary: "Personal Color Analysis Graphic Board"
   file: prompts/ui/case64.md
 
@@ -3715,7 +3715,7 @@
 - id: ui_case68
   category: ui
   author: "unknown"
-  style_tags: []
+  style_tags: [flat design, minimalist]
   summary: "全"
   file: prompts/ui/case68.md
 
@@ -3736,7 +3736,7 @@
 - id: ui_case71
   category: ui
   author: "unknown"
-  style_tags: []
+  style_tags: [minimalist, infographic, 3d render]
   summary: "F"
   file: prompts/ui/case71.md
 
@@ -3750,21 +3750,21 @@
 - id: ui_case73
   category: ui
   author: "unknown"
-  style_tags: []
+  style_tags: [3d render, cinematic, realistic]
   summary: "E"
   file: prompts/ui/case73.md
 
 - id: ui_case74
   category: ui
   author: "unknown"
-  style_tags: []
+  style_tags: [3d render, cinematic]
   summary: "X"
   file: prompts/ui/case74.md
 
 - id: ui_case75
   category: ui
   author: "unknown"
-  style_tags: []
+  style_tags: [cinematic, 3d render]
   summary: "S"
   file: prompts/ui/case75.md
 
@@ -3799,7 +3799,7 @@
 - id: ui_case80
   category: ui
   author: "SaasJunctionHQ"
-  style_tags: []
+  style_tags: [flat design, minimalist]
   summary: "Brand Identity Moodboard System"
   file: prompts/ui/case80.md
 
@@ -3855,7 +3855,7 @@
 - id: ui_case88
   category: ui
   author: "CharaspowerAI"
-  style_tags: []
+  style_tags: [3d render, realistic]
   summary: "Exploded Vehicle View"
   file: prompts/ui/case88.md
 
@@ -3883,7 +3883,7 @@
 - id: ui_case92
   category: ui
   author: "DilshadAI1"
-  style_tags: []
+  style_tags: [infographic, minimalist]
   summary: "Desk Setup Audit Infographic"
   file: prompts/ui/case92.md
 
@@ -3981,7 +3981,7 @@
 - id: ad-creative_case11
   category: ad-creative
   author: "_LaurentB"
-  style_tags: []
+  style_tags: [photography, editorial, minimalist]
   summary: "Editorial Osaka Six Sweatshirt Ad"
   file: prompts/ad-creative/case11.md
 
@@ -4023,7 +4023,7 @@
 - id: ad-creative_case17
   category: ad-creative
   author: "nijisora_yuma"
-  style_tags: []
+  style_tags: [cinematic, 3d render]
   summary: "Luxury poster for fictional AI ad printer"
   file: prompts/ad-creative/case17.md
 
@@ -4114,7 +4114,7 @@
 - id: ad-creative_case30
   category: ad-creative
   author: "oggii_0"
-  style_tags: []
+  style_tags: [collage, photography]
   summary: "Sticker Reality Product Collage"
   file: prompts/ad-creative/case30.md
 
@@ -4128,203 +4128,203 @@
 - id: comparison_case1
   category: comparison
   author: "chetaslua"
-  style_tags: []
+  style_tags: [realistic, minimalist]
   summary: "Wooden Bookshelf Prompt Test"
   file: prompts/comparison/case1.md
 
 - id: comparison_case2
   category: comparison
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [realistic, cinematic]
   summary: "GPT-Image-2 Detail Showcase"
   file: prompts/comparison/case2.md
 
 - id: comparison_case3
   category: comparison
   author: "saskr_13"
-  style_tags: []
+  style_tags: [illustration, anime]
   summary: "A/B Test Signed Output"
   file: prompts/comparison/case3.md
 
 - id: comparison_case4
   category: comparison
   author: "MrLarus"
-  style_tags: []
+  style_tags: [cinematic, illustration]
   summary: "Silhouette Universe Narrative Poster"
   file: prompts/comparison/case4.md
 
 - id: comparison_case5
   category: comparison
   author: "MANISH1027512"
-  style_tags: []
+  style_tags: [pixel art, illustration]
   summary: "Lion Camel Ridge Dark Myth Scene"
   file: prompts/comparison/case5.md
 
 - id: comparison_case6
   category: comparison
   author: "yssrski"
-  style_tags: []
+  style_tags: [pixel art, realistic]
   summary: "Counter-Strike x Terraria Screenshot Mashup"
   file: prompts/comparison/case6.md
 
 - id: comparison_case7
   category: comparison
   author: "RitaStar1128"
-  style_tags: []
+  style_tags: [realistic, oil painting]
   summary: "Pre-war Japan Lab Minecraft Screenshot"
   file: prompts/comparison/case7.md
 
 - id: comparison_case8
   category: comparison
   author: "MrLarus"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "Forged Masterpiece Prompt Test"
   file: prompts/comparison/case8.md
 
 - id: comparison_case9
   category: comparison
   author: "joshesye"
-  style_tags: []
+  style_tags: [realistic, cinematic]
   summary: "Multi-Concept Battle Poster Set"
   file: prompts/comparison/case9.md
 
 - id: comparison_case10
   category: comparison
   author: "FixlationAI"
-  style_tags: []
+  style_tags: [realistic, photography]
   summary: "Rust In-Game Screenshot"
   file: prompts/comparison/case10.md
 
 - id: comparison_case11
   category: comparison
   author: "JustinGorya"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Sam Altman Bear Selfie"
   file: prompts/comparison/case11.md
 
 - id: comparison_case12
   category: comparison
   author: "ReYYYYoking"
-  style_tags: []
+  style_tags: [illustration, retro]
   summary: "Among Us Realistic Screenshot"
   file: prompts/comparison/case12.md
 
 - id: comparison_case13
   category: comparison
   author: "XiaohuiAI666"
-  style_tags: []
+  style_tags: [cinematic, illustration]
   summary: "Retro Programming Museum Cartoon"
   file: prompts/comparison/case13.md
 
 - id: comparison_case14
   category: comparison
   author: "workingclassbud"
-  style_tags: []
+  style_tags: [cinematic, realistic]
   summary: "14th-Dimension Projection Scene"
   file: prompts/comparison/case14.md
 
 - id: comparison_case15
   category: comparison
   author: "16kthir0GRXgNqn"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Sam Altman Baseball Broadcast"
   file: prompts/comparison/case15.md
 
 - id: comparison_case16
   category: comparison
   author: "chatcutapp"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Based on the video content and this current frame, use GPT to generate a YouT..."
   file: prompts/comparison/case16.md
 
 - id: comparison_case17
   category: comparison
   author: "Rufus87078959"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "Generate an image of the most significant event of 2020"
   file: prompts/comparison/case17.md
 
 - id: comparison_case18
   category: comparison
   author: "elliscrosby"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Edit this image so that total amount changes to 244.5 baht. You can change th..."
   file: prompts/comparison/case18.md
 
 - id: comparison_case19
   category: comparison
   author: "Rufus87078959"
-  style_tags: []
+  style_tags: [infographic, minimalist]
   summary: "Generate an image of the most significant event of 2001"
   file: prompts/comparison/case19.md
 
 - id: comparison_case20
   category: comparison
   author: "WillSpagnoli"
-  style_tags: []
+  style_tags: [flat design, realistic]
   summary: "Research LIME Drug Design and make a detailed infographic about it"
   file: prompts/comparison/case20.md
 
 - id: comparison_case21
   category: comparison
   author: "laogeai"
-  style_tags: []
+  style_tags: [flat design, realistic]
   summary: "Douyin Livestream Sales Screenshot"
   file: prompts/comparison/case21.md
 
 - id: comparison_case22
   category: comparison
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "Social App Match Success Screen"
   file: prompts/comparison/case22.md
 
 - id: comparison_case23
   category: comparison
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "Lu Bu Boss Design Sheet"
   file: prompts/comparison/case23.md
 
 - id: comparison_case24
   category: comparison
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [cinematic, illustration]
   summary: "Nezha Dark Fantasy Novel Cover"
   file: prompts/comparison/case24.md
 
 - id: comparison_case25
   category: comparison
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, minimalist]
   summary: "New Chinese Minimalist Floral Illustration"
   file: prompts/comparison/case25.md
 
 - id: comparison_case26
   category: comparison
   author: "nidiedeba"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Su Daji Ancient-Style Glamour Portrait"
   file: prompts/comparison/case26.md
 
 - id: comparison_case27
   category: comparison
   author: "Aurora_62340"
-  style_tags: []
+  style_tags: [illustration]
   summary: "Lu Xun Morning Flowers Illustration"
   file: prompts/comparison/case27.md
 
 - id: comparison_case28
   category: comparison
   author: "AntCaveClub"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Subway Candid Phone Snapshot"
   file: prompts/comparison/case28.md
 
 - id: comparison_case29
   category: comparison
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [illustration, retro, ink]
   summary: "China Aerospace Commemorative Stamp Sheet"
   file: prompts/comparison/case29.md
 
@@ -4338,84 +4338,84 @@
 - id: comparison_case31
   category: comparison
   author: "Zhaoge01"
-  style_tags: []
+  style_tags: [realistic, photography]
   summary: "Realistic Guanyin Portrait from Buddhist Texts"
   file: prompts/comparison/case31.md
 
 - id: comparison_case32
   category: comparison
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [realistic, cinematic]
   summary: "Tang Dynasty Chang'an Lantern Festival Panorama"
   file: prompts/comparison/case32.md
 
 - id: comparison_case33
   category: comparison
   author: "Zhaoge01"
-  style_tags: []
+  style_tags: [cinematic, illustration]
   summary: "Historical Yang Guifei Realistic Portrait"
   file: prompts/comparison/case33.md
 
 - id: comparison_case34
   category: comparison
   author: "Tresmort"
-  style_tags: []
+  style_tags: [realistic, cinematic]
   summary: "Surreal Japanese Futuristic City Illustration"
   file: prompts/comparison/case34.md
 
 - id: comparison_case35
   category: comparison
   author: "sdjn_wgc"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "Tushan Yaya Fantasy Glamour Portrait"
   file: prompts/comparison/case35.md
 
 - id: comparison_case36
   category: comparison
   author: "LVWANGJI_0327"
-  style_tags: []
+  style_tags: [flat design, realistic]
   summary: "Douyin Livestream Sales Screenshot"
   file: prompts/comparison/case36.md
 
 - id: comparison_case37
   category: comparison
   author: "liyue_ai"
-  style_tags: []
+  style_tags: [illustration, cinematic]
   summary: "Eastern Fantasy Female Half-Portrait"
   file: prompts/comparison/case37.md
 
 - id: comparison_case38
   category: comparison
   author: "zhiyangzhu22222"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Vertical Artistic Portrait of a Young Eastern Woman"
   file: prompts/comparison/case38.md
 
 - id: comparison_case39
   category: comparison
   author: "songguoxiansen"
-  style_tags: []
+  style_tags: [3d render, cinematic]
   summary: "Autobots Assembled at Lunar Base"
   file: prompts/comparison/case39.md
 
 - id: comparison_case40
   category: comparison
   author: "GeekCatX"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Naturalist-Style Food Specimen Cross-Section"
   file: prompts/comparison/case40.md
 
 - id: comparison_case41
   category: comparison
   author: "MajaDesignJP"
-  style_tags: []
+  style_tags: [photography, realistic]
   summary: "Polaroid Frame Breakout Scene"
   file: prompts/comparison/case41.md
 
 - id: comparison_case42
   category: comparison
   author: "chesnyfcb"
-  style_tags: []
+  style_tags: [photography, cinematic]
   summary: "Restaurant POV Change Comparison"
   file: prompts/comparison/case42.md
 
@@ -4485,28 +4485,28 @@
 - id: comparison_case52
   category: comparison
   author: "X7649158034321"
-  style_tags: []
+  style_tags: [infographic, flat design]
   summary: "视觉品牌拆解图"
   file: prompts/comparison/case52.md
 
 - id: comparison_case53
   category: comparison
   author: "CurieuxExplorer"
-  style_tags: []
+  style_tags: [storyboard, illustration]
   summary: "Apartment Drama Animation Storyboard Sheet"
   file: prompts/comparison/case53.md
 
 - id: comparison_case54
   category: comparison
   author: "oggii_0"
-  style_tags: []
+  style_tags: [illustration, flat design, hand-drawn]
   summary: "Whimsical Folk Doodle Transformation"
   file: prompts/comparison/case54.md
 
 - id: comparison_case55
   category: comparison
   author: "GeekCatX"
-  style_tags: []
+  style_tags: [flat design, realistic, minimalist]
   summary: "Interior Design Mood Board Generator"
   file: prompts/comparison/case55.md
 
@@ -4520,7 +4520,7 @@
 - id: comparison_case57
   category: comparison
   author: "TechieBySA"
-  style_tags: []
+  style_tags: [3d render, illustration, storyboard]
   summary: "Sourdough Baker Storyboard"
   file: prompts/comparison/case57.md
 
