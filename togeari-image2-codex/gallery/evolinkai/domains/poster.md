@@ -1,6 +1,6 @@
-# Poster — 创意方向地图
+# Poster — Creativity Map | 领域指南
 
-基于 232 条 EvoLinkAI 验证 prompt 蒸馏。
+基于 232 条 EvoLinkAI 高质量 prompt 提炼而来的 Poster 领域指南。
 
 ---
 

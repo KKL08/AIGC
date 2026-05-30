@@ -15,7 +15,7 @@ scripts/install-skill-from-github.py --url https://github.com/yk/togeari-image2-
 
 安装完成后重启 Codex 桌面端即可使用。
 
-Gallery 数据（649 条验证 prompt + 7 个领域蒸馏地图 + 索引）已包含在仓库中，无需额外安装步骤。
+Gallery 数据（649 条验证 prompt + 7 个领域指南 + 索引）已包含在仓库中，无需额外安装步骤。
 
 ## 方式二：本地开发模式
 
@@ -49,7 +49,7 @@ togeari-image2-codex/
 ├── gallery/
 │   └── evolinkai/
 │       ├── index.yaml                 ← 649 条索引
-│       ├── domains/*.md               ← 7 个领域蒸馏地图
+│       ├── domains/*.md               ← 7 个领域指南（基于高质量 prompt 提炼）
 │       └── prompts/**/*.md            ← 649 个完整 prompt
 └── scripts/
     ├── install-gallery.sh             ← 重建 gallery 用（正常安装不需要）

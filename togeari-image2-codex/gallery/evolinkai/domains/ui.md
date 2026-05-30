@@ -1,6 +1,6 @@
-# UI — 创意方向地图
+# UI — Creativity Map | 领域指南
 
-基于 95 条 EvoLinkAI 验证 prompt 蒸馏。
+基于 95 条 EvoLinkAI 高质量 prompt 提炼而来的 UI 领域指南。
 
 ## 方向 1: 直播间/社交平台截图仿真 (约 10 条)
 

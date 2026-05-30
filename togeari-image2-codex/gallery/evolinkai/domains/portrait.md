@@ -1,6 +1,6 @@
-# Portrait — 创意方向地图
+# Portrait — Creativity Map | 领域指南
 
-基于 196 条 EvoLinkAI 验证 prompt 蒸馏。
+基于 196 条 EvoLinkAI 高质量 prompt 提炼而来的 Portrait 领域指南。
 
 ---
 

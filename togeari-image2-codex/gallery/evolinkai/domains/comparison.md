@@ -1,6 +1,6 @@
-# Comparison — 创意方向地图
+# Comparison — Creativity Map | 领域指南
 
-基于 60 条 EvoLinkAI 验证 prompt 蒸馏。
+基于 60 条 EvoLinkAI 高质量 prompt 提炼而来的 Comparison 领域指南。
 
 ## 方向 1: 游戏截图仿真 (约 8 条)
 

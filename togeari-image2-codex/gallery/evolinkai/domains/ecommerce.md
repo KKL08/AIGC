@@ -1,6 +1,6 @@
-# Ecommerce — 创意方向地图
+# Ecommerce — Creativity Map | 领域指南
 
-基于 20 条 EvoLinkAI 验证 prompt 蒸馏。
+基于 20 条 EvoLinkAI 高质量 prompt 提炼而来的 Ecommerce 领域指南。
 
 ## 方向 1: 奢华产品棚拍广告 (约 7 条)
 
