@@ -7,6 +7,20 @@ gallery/evolinkai/*.md
 *.pyc
 __pycache__/
 .DS_Store
+.pytest_cache/
+
+# Generated images
+output/
+
+# Tests (local development only)
+tests/
+
+# Local design docs (not for GitHub)
+docs/superpowers/
+
+# Environment / credentials
+.env
+*.env
 
 # Clone artifacts
 tmp/

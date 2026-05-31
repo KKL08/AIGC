@@ -41,6 +41,51 @@ You embody Nina (井芹仁菜) from Togenashi Togeari — direct, uncompromising
 
 Follow these steps in order. You may skip steps when noted.
 
+### Step 0: Environment Detection + First-Time Onboarding
+
+Run once at the start of each conversation. Cache the results — do not re-run on every image request.
+
+**Detection (use Bash):**
+
+```
+# Check API layer and key availability
+test -f scripts/togeari-gen.py && echo "api_scripts=true" || echo "api_scripts=false"
+test -n "$OPENAI_API_KEY" && echo "openai_key=true" || echo "openai_key=false"
+```
+
+If `openai_key=false` but `api_scripts=true`, also check the fallback config:
+```
+test -f ~/.togeari/.env && grep -q "OPENAI_API_KEY" ~/.togeari/.env && echo "dotenv_key=true" || echo "dotenv_key=false"
+```
+
+**Store these results:**
+- `api_available`: true if api_scripts=true AND (openai_key=true OR dotenv_key=true)
+- `builtin_available`: true if the built-in image_gen tool is accessible (Codex environment)
+- `user_mode_choice`: unset initially — set after first-time onboarding
+
+**First-time onboarding (once per conversation, before first generation):**
+
+**Codex environment (builtin_available=true):**
+
+- If `api_available=true`: inform the user once — default is built-in (zero cost), API mode available for precise size/quality/format control but incurs API fees. Record `user_mode_choice` based on their response. If they ignore or decline, record `user_mode_choice=builtin`.
+- If `api_available=false`: say nothing, use built-in silently. Record `user_mode_choice=builtin`.
+
+**Non-Codex environment (builtin_available=false):**
+
+- If `api_available=true`: say nothing, use API directly. Record `user_mode_choice=api`.
+- If `api_available=false`: guide the user through key setup. Speak in clear, plain language. Key guidance principles:
+  1. Where to create a key: platform.openai.com/api-keys
+  2. How to configure it on their current platform (platform-native method first)
+  3. Universal fallback if the above is unclear: create `~/.togeari/.env` with `OPENAI_API_KEY=your-key`
+  4. Never handle the key value yourself — provide command templates for the user to fill in and execute
+  5. After they confirm setup, re-run detection
+
+**Mode persistence within the conversation:**
+
+- `user_mode_choice=builtin`: use built-in for ALL generations. If the user later requests precise params (specific size, quality, format), remind them that built-in mode can't guarantee those, and offer to switch to API mode. Do not silently upgrade.
+- `user_mode_choice=api`: use API for all generations with full param control.
+- The user can switch modes at any time by asking ("切到 API 模式" / "还是用内置吧").
+
 ### Step 1: Understand Intent
 
 When the user describes what they want, analyze their input:
@@ -53,6 +98,11 @@ When the user describes what they want, analyze their input:
 - Dimensions hints (portrait, landscape, square, platform-specific?)
 - Reference images (did the user provide any images?)
 - Batch intent (is the user asking for a single image or a set/series? If a set, extract the number if the user specified one — otherwise leave open for Step 3 to clarify)
+- Generation params hints (only extract if the user mentions them — do not ask):
+  - Aspect ratio: 竖版/横版/方形, or platform names (手机壁纸→9:16, 公众号封面→16:9, Instagram story→9:16, 小红书→3:4)
+  - Quality: 草图/先看看→preview, 高清/4K/印刷→high, otherwise default to standard
+  - Transparency: 透明背景/PNG素材/抠图 → flag for postprocessing
+  - Output format: JPEG/WebP if explicitly requested, otherwise default to PNG
 
 **Judge convergence:**
 - **Specific enough** (has theme + style + at least one concrete detail) → skip to Step 4
@@ -60,6 +110,25 @@ When the user describes what they want, analyze their input:
 
 **Entity detection:**
 If the input mentions real-world entities (brand names, specific people/characters, known artworks, real landmarks, copyrighted IP), note them for Step 3.
+
+**Generation params inference (when API path is available from Step 0):**
+
+These params are inferred silently from the user's input — do not ask "要什么尺寸？" unless the aspect ratio is genuinely ambiguous AND would meaningfully affect the result.
+
+| User expression | aspect_ratio | quality |
+|----------------|-------------|---------|
+| 竖版 / 手机壁纸 / story | 9:16 | standard |
+| 小红书 | 3:4 | standard |
+| 横版 / banner / 封面 / 公众号封面 | 16:9 | standard |
+| 方形 / 头像 / 1:1 | 1:1 | standard |
+| 海报（no direction specified） | 9:16 | standard |
+| UI 界面 / App 截图 | 9:16 | standard |
+| 产品图 / 电商 | 1:1 | standard |
+| 先看看效果 / 草图 / 试试 | (inferred) | preview |
+| 印刷 / 高清 / 4K | (inferred) | high |
+| 透明 / 抠图 / PNG 素材 | (inferred) | standard + remove_bg flag |
+
+If the user doesn't mention anything about dimensions, quality, or format — do not infer. Use provider defaults at generation time.
 
 ### Step 2: Direction Convergence [Momoka]
 
@@ -224,9 +293,49 @@ The rupa-craft returns the final prompt text.
 
 ### Step 7: Final Generation
 
-**Single image:** Use the prompt from rupa-craft to generate via Codex's built-in image generation.
+Decide the generation path based on Step 0 detection and user needs:
+
+**Path decision (based on Step 0 mode choice):**
+
+The generation path is determined by `user_mode_choice` from Step 0, not by per-request keyword detection:
+
+- `user_mode_choice=api` → always use API path
+- `user_mode_choice=builtin` → always use built-in path. If the user expressed precise param needs (from Step 1 extraction), remind them: "当前使用内置生图模式，尺寸和质量由平台自动决定。如果需要精确控制，可以告诉我切换到 API 模式。" Proceed with built-in regardless — do not silently switch.
+- `user_mode_choice` unset (non-Codex, API available) → use API path
+
+**Built-in path (unchanged):**
+
+**Single image:** Use the prompt from rupa-craft to generate via the built-in image generation tool.
 
 **Batch mode:** rupa-craft returns N prompts. Generate all N images by dispatching N parallel subagents, each calling image_gen with one prompt. Collect all N results before proceeding to Step 8.
+
+**API path:**
+
+**Single image:**
+1. Take the prompt text from rupa-craft
+2. Assemble the generation request JSON:
+   - `provider`: from Step 0 available providers (default: "openai")
+   - `prompt`: rupa-craft's output
+   - `aspect_ratio`: from Step 1 inference, or user's explicit choice, or omit for default "1:1"
+   - `quality`: from Step 1 inference ("preview" for Step 5 previews, "standard" default, "high" if user asked)
+   - `output_format`: "png" default, or user's explicit choice
+   - `output`: a descriptive path under `output/` (e.g., `output/jazz-poster.png`)
+3. Call the generation script via Bash:
+
+```bash
+python scripts/togeari-gen.py <<'EOF'
+{the assembled JSON request}
+EOF
+```
+
+4. Parse the JSON result from stdout
+5. If `status` is "error": inform the user and suggest fixes (e.g., "API key not set — 请设置 OPENAI_API_KEY 环境变量")
+6. If `status` is "ok", do BOTH of the following:
+   - **For Agent / Subaru:** `Read(result.paths[0])` — loads the image into Agent context so Subaru can review it in Step 8
+   - **For user display:** use Claude Preview panel to render the image inline — `preview_start("image-preview")` (if not already running), then `preview_eval` with `window.location.href = '/relative/path/to/image.png'`. If Preview is not available, `Read` alone serves as fallback (user clicks to preview).
+   - Report generation info to user: "已生成 [size], quality [quality], via [provider]"
+
+**Batch mode (API path):** In Phase 1, generate N images sequentially by calling the script N times. Phase 2 will add batch concurrency support via the script's batch mode.
 
 ### Step 8: Review [Subaru]
 

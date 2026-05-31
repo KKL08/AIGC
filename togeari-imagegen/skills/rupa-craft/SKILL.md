@@ -76,6 +76,7 @@ Format:
 - Resolution: keep both edges as multiples of 16, max ratio 3:1, sweet spot ≤2560×1440.
 - Never add elements not in the user brief. Do not "improve" the brief by adding features the user didn't ask for.
 - If gallery techniques were not provided (low confidence match), use the general best practices from openai-image-guide.md instead.
+- Do not embed resolution or pixel dimensions in the prompt text (e.g., "1920x1080" or "4K resolution"). Image dimensions are controlled separately by the Producer via generation parameters. The prompt can include composition hints ("vertical layout", "wide panoramic composition", "square format") as guidance for how to organize the visual elements.
 - Write the prompt in English for best Image2 results, even if the user brief was in Chinese. Exception: if the brief requires Chinese text in the image, include the Chinese characters in the text specification part of the prompt.
 
 ### Batch Rules (when receiving a batch brief)

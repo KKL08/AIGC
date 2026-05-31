@@ -1,4 +1,4 @@
-# togeari-image2-codex — 安装指南
+# togeari-imagegen — 安装指南
 
 ## 安装
 
@@ -6,15 +6,15 @@
 
 在 Codex 对话中说：
 
-> 帮我安装 GitHub 上的 skill：github.com/KKL08/AIGC/togeari-image2-codex
+> 帮我安装 GitHub 上的 skill：github.com/KKL08/AIGC/togeari-imagegen
 
 或者手动克隆到 Codex 的 skill 目录：
 
 ```bash
 git clone https://github.com/KKL08/AIGC.git /tmp/aigc
-mkdir -p ~/.codex/skills/togeari-image2-codex
-cp -r /tmp/aigc/togeari-image2-codex/{SKILL.md,skills,references,gallery} \
-      ~/.codex/skills/togeari-image2-codex/
+mkdir -p ~/.codex/skills/togeari-imagegen
+cp -r /tmp/aigc/togeari-imagegen/{SKILL.md,skills,references,gallery} \
+      ~/.codex/skills/togeari-imagegen/
 rm -rf /tmp/aigc
 ```
 
@@ -41,7 +41,7 @@ Skill 会自动引导你从灵感到最终出图 — 意图理解、方向收敛
 ## 目录结构
 
 ```
-togeari-image2-codex/
+togeari-imagegen/
 ├── SKILL.md                           ← 主入口（togeari-producer）
 ├── skills/                            ← 子 skills
 │   ├── tomo-map/SKILL.md              ← Gallery 方向发现 [Tomo]
@@ -60,5 +60,5 @@ togeari-image2-codex/
 ## 卸载
 
 ```bash
-rm -rf ~/.codex/skills/togeari-image2-codex
+rm -rf ~/.codex/skills/togeari-imagegen
 ```

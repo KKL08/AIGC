@@ -69,6 +69,8 @@ TEXT ACCURACY: [if applicable — exact text match check]
 
 COMPOSITION NOTES: [1-2 sentences, factual observations only]
 
+GENERATION INFO: [if API path was used — one line: size, quality preset, provider. Example: "2048x1152 standard via openai". Omit this line entirely if built-in path was used.]
+
 SUGGESTIONS: [1-3 concrete, actionable suggestions for the next iteration if the user wants to refine]
 ```
 
@@ -85,6 +87,8 @@ SET REVIEW:
 - CONSISTENCY: [Are the fixed dimensions actually consistent across all images? Same style? Same palette? Same character appearance?]
 - VARIATION: [Are the varied dimensions actually different? Or did N images come out nearly identical?]
 - COMPLETENESS: [Did the set cover all requested variations? e.g., if "four seasons" was requested, are spring/summer/autumn/winter all present?]
+
+GENERATION INFO: [size, quality preset, provider — same for all images in the set]
 
 OVERALL: [One sentence — is this set ready to deliver, or what needs fixing?]
 ```

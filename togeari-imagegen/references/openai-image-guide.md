@@ -26,7 +26,7 @@ All skills (especially rupa-craft) should read this before composing prompts.
 
 | Parameter | Values | Default |
 |-----------|--------|---------|
-| `size` | **Any `WIDTHxHEIGHT`** where both are multiples of 16, ratio between 1:3 and 3:1, max 3840×2160. Common: `1024x1024`, `1536x1024`, `1024x1536` | `auto` |
+| `size` | **Any `WIDTHxHEIGHT`** where both are multiples of 16, ratio between 1:3 and 3:1, max edge 3840px on either side. Common: `1024x1024`, `1536x1024`, `1024x1536` | `auto` |
 | `quality` | `low`, `medium`, `high`, `auto` | `auto` |
 | `n` | 1–10 | 1 |
 | `output_format` | `png`, `jpeg`, `webp` | `png` |
@@ -39,7 +39,7 @@ All skills (especially rupa-craft) should read this before composing prompts.
 
 - **Text rendering**: Significantly better than gpt-image-1, especially for multilingual text. Still imperfect for precise placement.
 - **Multi-image input**: Accepts up to 16 reference images for style/content guidance. Always processed at high fidelity (no `input_fidelity` parameter — it's always high).
-- **Arbitrary resolutions**: Any WxH where both edges are multiples of 16, up to 3840×2160. Sweet spot ≤2560×1440.
+- **Arbitrary resolutions**: Any WxH where both edges are multiples of 16, max edge 3840px on either side. Sweet spot ≤2560×1440.
 - **Inpainting**: Supply mask (transparent PNG) to regenerate specific regions. Masks are approximate guidance, not pixel-perfect.
 - **Full restyle**: Submit source image + new prompt without mask to transform entire image.
 - **Stronger instruction-following**: Better at layouts, diagrams, structured compositions, and editing compared to gpt-image-1.
@@ -120,7 +120,7 @@ Use action-oriented language: prefer "draw," "edit," "create" over vague "combin
 
 ### Resolution Tips
 
-- gpt-image-2 supports arbitrary resolutions (multiples of 16, max 3:1 ratio, max 3840×2160).
+- gpt-image-2 supports arbitrary resolutions (multiples of 16, max 3:1 ratio, max edge 3840px on either side).
 - Sweet spot: ≤2560×1440 for reliability. Above that is experimental.
 - Square (1024×1024) generates fastest. Start with `quality: "low"` for iteration, escalate for final.
 
@@ -129,3 +129,37 @@ Use action-oriented language: prefer "draw," "edit," "create" over vague "combin
 - Start clean, then make single-change follow-ups.
 - Use context references ("same style as before") but re-specify critical details if drift occurs.
 - Start with lower quality/resolution for rapid iteration, then increase for final output.
+
+---
+
+## API Layer Parameters
+
+When the API generation path is active (via `scripts/togeari-gen.py`), the following parameters control generation. These are set by the Producer based on user intent — Rupa does not need to consider them when composing prompts.
+
+### Aspect Ratios
+
+Supported: `1:1`, `16:9`, `9:16`, `4:3`, `3:4`, `3:2`, `2:3`
+
+### Quality Presets
+
+| Preset | OpenAI quality | Pixel class | Use case |
+|--------|---------------|-------------|----------|
+| `preview` | low | 1024px | Quick previews, iteration, Step 5 |
+| `standard` | medium | 1536-2048px | Daily output, most use cases |
+| `high` | high | 2048-3840px | Print, 4K, final delivery |
+
+### Output Formats
+
+`png` (default), `jpeg`, `webp`
+
+### Common Platform Sizes
+
+| Platform | Recommended | aspect_ratio | quality |
+|----------|------------|-------------|---------|
+| 手机壁纸 | 1080×1920 equiv | 9:16 | standard |
+| 公众号封面 | 2048×1024 equiv | 16:9 | standard |
+| 小红书 | 1080×1440 equiv | 3:4 | standard |
+| Instagram Story | 1080×1920 equiv | 9:16 | standard |
+| Instagram Post | 1080×1080 equiv | 1:1 | standard |
+| 海报竖版 | 1152×2048 equiv | 9:16 | standard |
+| Banner 横版 | 2048×1152 equiv | 16:9 | standard |
