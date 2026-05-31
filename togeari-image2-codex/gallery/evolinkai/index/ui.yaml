@@ -1,0 +1,477 @@
+# ui prompt index (95 entries)
+
+- id: ui_case1
+  style_tags: [flat design, minimalist]
+  summary: "One-Prompt UI Design Generation"
+  file: prompts/ui/case1.md
+
+- id: ui_case2
+  style_tags: [photography, cinematic]
+  summary: "Amateur iPhone Keynote Snapshot"
+  file: prompts/ui/case2.md
+
+- id: ui_case3
+  style_tags: [photography, realistic]
+  summary: "Handwritten Notebook Photo"
+  file: prompts/ui/case3.md
+
+- id: ui_case4
+  style_tags: [illustration, retro, flat design]
+  summary: "Song Dynasty Social Media Feed"
+  file: prompts/ui/case4.md
+
+- id: ui_case5
+  style_tags: [flat design, realistic]
+  summary: "Multi-Platform Content Screenshots"
+  file: prompts/ui/case5.md
+
+- id: ui_case6
+  style_tags: [photography, realistic]
+  summary: "Liu Yifei Douyin Livestream Screenshot"
+  file: prompts/ui/case6.md
+
+- id: ui_case7
+  style_tags: [flat design, realistic]
+  summary: "King Taejo Yi Seong-gye's X Page"
+  file: prompts/ui/case7.md
+
+- id: ui_case8
+  style_tags: [flat design, realistic]
+  summary: "Style-to-UI Design System"
+  file: prompts/ui/case8.md
+
+- id: ui_case9
+  style_tags: [flat design, minimalist]
+  summary: "Momotaro Explainer Slide"
+  file: prompts/ui/case9.md
+
+- id: ui_case10
+  style_tags: [illustration, flat design, infographic]
+  summary: "Museum-Style Hanfu Breakdown Infographic"
+  file: prompts/ui/case10.md
+
+- id: ui_case11
+  style_tags: [infographic, realistic]
+  summary: "Palm Reading Diagnosis Report"
+  file: prompts/ui/case11.md
+
+- id: ui_case12
+  style_tags: [minimalist, ink]
+  summary: "Calligraphy Copybook Sheet"
+  file: prompts/ui/case12.md
+
+- id: ui_case13
+  style_tags: [pop art, illustration]
+  summary: "Don Quijote Promo Pop Poster"
+  file: prompts/ui/case13.md
+
+- id: ui_case14
+  style_tags: [illustration, anime]
+  summary: "Japanese Gacha Game Screen"
+  file: prompts/ui/case14.md
+
+- id: ui_case15
+  style_tags: [photography, illustration, cinematic, realistic]
+  summary: "Elon Musk Douyin Livestream Screenshot"
+  file: prompts/ui/case15.md
+
+- id: ui_case16
+  style_tags: [photography, realistic]
+  summary: "Liu Yifei Douyin Livestream Screenshot"
+  file: prompts/ui/case16.md
+
+- id: ui_case17
+  style_tags: [cyberpunk, flat design, minimalist]
+  summary: "Cyberpunk Neon UI Design System"
+  file: prompts/ui/case17.md
+
+- id: ui_case18
+  style_tags: [photography, realistic]
+  summary: "Trump and Kim Livestream PK Screenshot"
+  file: prompts/ui/case18.md
+
+- id: ui_case19
+  style_tags: [flat design, infographic]
+  summary: "Japanese AI Game Dev Overview Slide Prompt"
+  file: prompts/ui/case19.md
+
+- id: ui_case20
+  style_tags: [illustration, flat design]
+  summary: "based on the generated character help me generate a screenshot of screenshot ..."
+  file: prompts/ui/case20.md
+
+- id: ui_case21
+  style_tags: [flat design, minimalist]
+  summary: "Create a landing page using this image as a reference for style and color gra..."
+  file: prompts/ui/case21.md
+
+- id: ui_case22
+  style_tags: [photography, realistic]
+  summary: "Li Jiaqi Lipstick Livestream Background"
+  file: prompts/ui/case22.md
+
+- id: ui_case23
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "Apple Pods Pro 3 Headphone E-Commerce Infographic"
+  file: prompts/ui/case23.md
+
+- id: ui_case24
+  style_tags: [flat design, minimalist, infographic]
+  summary: "Apple Pods Pro 3 Earbuds E-Commerce Infographic"
+  file: prompts/ui/case24.md
+
+- id: ui_case25
+  style_tags: [ink]
+  summary: "Beauty Product Commercial Marketing Photograph"
+  file: prompts/ui/case25.md
+
+- id: ui_case26
+  style_tags: [3d render, realistic]
+  summary: "AAA Video Game Screenshot Concept Design"
+  file: prompts/ui/case26.md
+
+- id: ui_case27
+  style_tags: [photography, ink]
+  summary: "Spanish GRWM Morning Beauty Thumbnail"
+  file: prompts/ui/case27.md
+
+- id: ui_case28
+  style_tags: [cinematic, realistic]
+  summary: "Cinematic City Explosion Chase"
+  file: prompts/ui/case28.md
+
+- id: ui_case29
+  style_tags: [anime, ink]
+  summary: "Anime VTuber Minecraft Stream Thumbnail"
+  file: prompts/ui/case29.md
+
+- id: ui_case30
+  style_tags: [illustration, anime, ink]
+  summary: "Cozy Anime ASMR Ear Massage Girl"
+  file: prompts/ui/case30.md
+
+- id: ui_case31
+  style_tags: [photography, realistic]
+  summary: "Celebrity Livestream Concept"
+  file: prompts/ui/case31.md
+
+- id: ui_case32
+  style_tags: [illustration, anime, cinematic]
+  summary: "Monika Anime Banner Illustration"
+  file: prompts/ui/case32.md
+
+- id: ui_case33
+  style_tags: [illustration, anime, cinematic, ink]
+  summary: "Purple Anime Yuri Banner"
+  file: prompts/ui/case33.md
+
+- id: ui_case34
+  style_tags: [illustration, anime, cinematic, sketch, ink]
+  summary: "Pink Anime Natsuki Banner"
+  file: prompts/ui/case34.md
+
+- id: ui_case35
+  style_tags: [illustration, anime, sketch, ink]
+  summary: "Dreamy Anime Sayori Banner"
+  file: prompts/ui/case35.md
+
+- id: ui_case36
+  style_tags: [illustration, anime, cinematic, cyberpunk]
+  summary: "Cyberpunk 404 Witch Summoning"
+  file: prompts/ui/case36.md
+
+- id: ui_case37
+  style_tags: [anime, cinematic]
+  summary: "Anime Fantasy Travel Movie Poster"
+  file: prompts/ui/case37.md
+
+- id: ui_case38
+  style_tags: [illustration, anime, cinematic]
+  summary: "Anime Music Bootcamp Promo Poster"
+  file: prompts/ui/case38.md
+
+- id: ui_case39
+  style_tags: [pixel art, illustration]
+  summary: "Tropical Parrot Pixel Mosaic"
+  file: prompts/ui/case39.md
+
+- id: ui_case40
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "Golden Cocktail in Greenhouse Bar"
+  file: prompts/ui/case40.md
+
+- id: ui_case41
+  style_tags: [cinematic]
+  summary: "Multi-Panel Image Board Template"
+  file: prompts/ui/case41.md
+
+- id: ui_case42
+  style_tags: [ink, realistic]
+  summary: "Handwritten Realistic Letter"
+  file: prompts/ui/case42.md
+
+- id: ui_case43
+  style_tags: [illustration, anime, cinematic]
+  summary: "Anime Band Finale at Budokan"
+  file: prompts/ui/case43.md
+
+- id: ui_case44
+  style_tags: [photography, anime, cinematic, realistic]
+  summary: "Anime Girl and Man Date Photo Collage"
+  file: prompts/ui/case44.md
+
+- id: ui_case45
+  style_tags: [cinematic, ink, realistic]
+  summary: "Luxury Lifestyle Mustang Shot"
+  file: prompts/ui/case45.md
+
+- id: ui_case46
+  style_tags: [illustration, anime]
+  summary: "Anime Friends Eating Soba"
+  file: prompts/ui/case46.md
+
+- id: ui_case47
+  style_tags: [illustration, anime, cinematic]
+  summary: "Gothic Android Warrior Cathedral Key Art"
+  file: prompts/ui/case47.md
+
+- id: ui_case48
+  style_tags: [illustration, sketch]
+  summary: "Cloud shape doodle generation"
+  file: prompts/ui/case48.md
+
+- id: ui_case49
+  style_tags: [illustration, anime, cinematic, realistic]
+  summary: "Rural Station Schoolgirl Scene"
+  file: prompts/ui/case49.md
+
+- id: ui_case50
+  style_tags: [anime, realistic]
+  summary: "Anime Characters in Real Izakaya Photo"
+  file: prompts/ui/case50.md
+
+- id: ui_case51
+  style_tags: [illustration, anime, realistic]
+  summary: "Anime Campers in a Winter Tent"
+  file: prompts/ui/case51.md
+
+- id: ui_case52
+  style_tags: [realistic]
+  summary: "BMW Performance Social Poster"
+  file: prompts/ui/case52.md
+
+- id: ui_case53
+  style_tags: [photography, cinematic, realistic]
+  summary: "Cinematic Chicken Momos Ad Poster"
+  file: prompts/ui/case53.md
+
+- id: ui_case54
+  style_tags: [photography, realistic]
+  summary: "Nostalgic 16-Photo Couple Grid"
+  file: prompts/ui/case54.md
+
+- id: ui_case55
+  style_tags: [anime, ink]
+  summary: "Anime BL Promo Thumbnail"
+  file: prompts/ui/case55.md
+
+- id: ui_case56
+  style_tags: [illustration, anime, cinematic, sketch]
+  summary: "Artist and Ethereal Muse at Night"
+  file: prompts/ui/case56.md
+
+- id: ui_case57
+  style_tags: [illustration, sketch, ink, realistic]
+  summary: "Hand-Drawn Storyboard Sheet"
+  file: prompts/ui/case57.md
+
+- id: ui_case58
+  style_tags: [infographic, minimalist]
+  summary: "前后端数据库 SaaS 信息图"
+  file: prompts/ui/case58.md
+
+- id: ui_case59
+  style_tags: [infographic, realistic]
+  summary: "个人形象分析图卡"
+  file: prompts/ui/case59.md
+
+- id: ui_case60
+  style_tags: [illustration, storyboard, 3d render]
+  summary: "12-Panel Storyboard Poster"
+  file: prompts/ui/case60.md
+
+- id: ui_case61
+  style_tags: [photography, ink]
+  summary: "Brand Collage Social Template"
+  file: prompts/ui/case61.md
+
+- id: ui_case62
+  style_tags: [3d render, anime, ink, realistic]
+  summary: "Outfit Breakdown Chart"
+  file: prompts/ui/case62.md
+
+- id: ui_case63
+  style_tags: [infographic, minimalist, photography]
+  summary: "Recipe Infographic Layout"
+  file: prompts/ui/case63.md
+
+- id: ui_case64
+  style_tags: [infographic, realistic]
+  summary: "Personal Color Analysis Graphic Board"
+  file: prompts/ui/case64.md
+
+- id: ui_case65
+  style_tags: [cinematic]
+  summary: "Futuristic Hall Fashion Shot Sequence"
+  file: prompts/ui/case65.md
+
+- id: ui_case66
+  style_tags: [sketch, ink]
+  summary: "Annotated Coffee Table Mood Board"
+  file: prompts/ui/case66.md
+
+- id: ui_case67
+  style_tags: [photography, minimalist, cinematic, ink, realistic]
+  summary: "High-Fashion Beverage Campaign Board"
+  file: prompts/ui/case67.md
+
+- id: ui_case68
+  style_tags: [flat design, minimalist]
+  summary: "全"
+  file: prompts/ui/case68.md
+
+- id: ui_case69
+  style_tags: [photography, cinematic, sketch, realistic]
+  summary: "C"
+  file: prompts/ui/case69.md
+
+- id: ui_case70
+  style_tags: [sketch, ink, realistic]
+  summary: "C"
+  file: prompts/ui/case70.md
+
+- id: ui_case71
+  style_tags: [minimalist, infographic, 3d render]
+  summary: "F"
+  file: prompts/ui/case71.md
+
+- id: ui_case72
+  style_tags: [3d render, cinematic, chibi, realistic]
+  summary: "F"
+  file: prompts/ui/case72.md
+
+- id: ui_case73
+  style_tags: [3d render, cinematic, realistic]
+  summary: "E"
+  file: prompts/ui/case73.md
+
+- id: ui_case74
+  style_tags: [3d render, cinematic]
+  summary: "X"
+  file: prompts/ui/case74.md
+
+- id: ui_case75
+  style_tags: [cinematic, 3d render]
+  summary: "S"
+  file: prompts/ui/case75.md
+
+- id: ui_case76
+  style_tags: [illustration, sketch]
+  summary: "W"
+  file: prompts/ui/case76.md
+
+- id: ui_case77
+  style_tags: [realistic]
+  summary: "V"
+  file: prompts/ui/case77.md
+
+- id: ui_case78
+  style_tags: [realistic]
+  summary: "L"
+  file: prompts/ui/case78.md
+
+- id: ui_case79
+  style_tags: [illustration, ink, realistic]
+  summary: "Handwritten Study Infographic Poster"
+  file: prompts/ui/case79.md
+
+- id: ui_case80
+  style_tags: [flat design, minimalist]
+  summary: "Brand Identity Moodboard System"
+  file: prompts/ui/case80.md
+
+- id: ui_case81
+  style_tags: [cinematic, realistic]
+  summary: "Landscape Architecture Board"
+  file: prompts/ui/case81.md
+
+- id: ui_case82
+  style_tags: [minimalist, realistic]
+  summary: "Graphic Design Portfolio Mockup"
+  file: prompts/ui/case82.md
+
+- id: ui_case83
+  style_tags: [cinematic, cyberpunk, realistic]
+  summary: "Neo-Noir Character Design Board"
+  file: prompts/ui/case83.md
+
+- id: ui_case84
+  style_tags: [realistic]
+  summary: "Heliotropic Architecture Board"
+  file: prompts/ui/case84.md
+
+- id: ui_case85
+  style_tags: [realistic]
+  summary: "Brand Identity Guideline Board"
+  file: prompts/ui/case85.md
+
+- id: ui_case86
+  style_tags: [illustration, sketch, ink]
+  summary: "Illustrated 2027 Desktop Calendar"
+  file: prompts/ui/case86.md
+
+- id: ui_case87
+  style_tags: [illustration, cinematic, realistic]
+  summary: "Monoluxe Automotive Poster Grid"
+  file: prompts/ui/case87.md
+
+- id: ui_case88
+  style_tags: [3d render, realistic]
+  summary: "Exploded Vehicle View"
+  file: prompts/ui/case88.md
+
+- id: ui_case89
+  style_tags: [cinematic, realistic]
+  summary: "Male Glow-Up Analysis Poster"
+  file: prompts/ui/case89.md
+
+- id: ui_case90
+  style_tags: [anime, cinematic, ink, realistic]
+  summary: "Tokyo Pink Fashion Collage"
+  file: prompts/ui/case90.md
+
+- id: ui_case91
+  style_tags: [photography, cinematic, cyberpunk, realistic]
+  summary: "Sony Camera Reference Infographic"
+  file: prompts/ui/case91.md
+
+- id: ui_case92
+  style_tags: [infographic, minimalist]
+  summary: "Desk Setup Audit Infographic"
+  file: prompts/ui/case92.md
+
+- id: ui_case93
+  style_tags: [photography, minimalist, cinematic, ink, realistic]
+  summary: "Country Sports Infographic"
+  file: prompts/ui/case93.md
+
+- id: ui_case94
+  style_tags: [illustration, cinematic, realistic]
+  summary: "Die-Cut Sticker Illustration"
+  file: prompts/ui/case94.md
+
+- id: ui_case95
+  style_tags: [ink]
+  summary: "Rider-Waite Tarot Card"
+  file: prompts/ui/case95.md
+

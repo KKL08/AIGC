@@ -1,0 +1,102 @@
+# ecommerce prompt index (20 entries)
+
+- id: ecommerce_case1
+  style_tags: [photography, cinematic, realistic]
+  summary: "E-commerce Main Image - Luxury Amber Perfume Ad"
+  file: prompts/ecommerce/case1.md
+
+- id: ecommerce_case2
+  style_tags: [photography, minimalist]
+  summary: "E-commerce Main Image - Skincare Product Studio Shot"
+  file: prompts/ecommerce/case2.md
+
+- id: ecommerce_case3
+  style_tags: [realistic]
+  summary: "E-commerce Main Image - Tropical Citrus Soda Ad Poster"
+  file: prompts/ecommerce/case3.md
+
+- id: ecommerce_case4
+  style_tags: [photography, minimalist, realistic]
+  summary: "E-commerce Main Image - Industrial Design Presentation Sheet"
+  file: prompts/ecommerce/case4.md
+
+- id: ecommerce_case5
+  style_tags: [minimalist, realistic]
+  summary: "E-commerce Main Image - Luxury Fur-Lined Loafer Lifestyle Photo"
+  file: prompts/ecommerce/case5.md
+
+- id: ecommerce_case6
+  style_tags: [photography, cinematic, realistic]
+  summary: "E-commerce Main Image - Luxury Perfume Ad on Marble Vanity"
+  file: prompts/ecommerce/case6.md
+
+- id: ecommerce_case7
+  style_tags: [photography, realistic]
+  summary: "E-commerce Main Image - Miniature Diorama Skincare Advertisement"
+  file: prompts/ecommerce/case7.md
+
+- id: ecommerce_case8
+  style_tags: [illustration, oil painting]
+  summary: "E-commerce Main Image - Traditional Chinese Art and Porcelain Vases"
+  file: prompts/ecommerce/case8.md
+
+- id: ecommerce_case9
+  style_tags: [photography, ink, realistic]
+  summary: "E-commerce Main Image - Premium Gaming Motherboard Studio Shot"
+  file: prompts/ecommerce/case9.md
+
+- id: ecommerce_case10
+  style_tags: [photography, ink]
+  summary: "E-commerce Main Image - Premium Grain Powder Ad Board"
+  file: prompts/ecommerce/case10.md
+
+- id: ecommerce_case11
+  style_tags: [photography, realistic]
+  summary: "E-commerce Main Image - Earbuds E-commerce Infographic"
+  file: prompts/ecommerce/case11.md
+
+- id: ecommerce_case12
+  style_tags: [minimalist, realistic]
+  summary: "E-commerce Main Image - Sustainable T-Shirt Plantable Tag Ad"
+  file: prompts/ecommerce/case12.md
+
+- id: ecommerce_case13
+  style_tags: [photography, minimalist]
+  summary: "E-commerce Main Image - Elegant Cosmetic Poster Prompt"
+  file: prompts/ecommerce/case13.md
+
+- id: ecommerce_case14
+  style_tags: [minimalist]
+  summary: "E-commerce Main Image - Minimalist Product Ad: PURE CRUNCH"
+  file: prompts/ecommerce/case14.md
+
+- id: ecommerce_case15
+  style_tags: [minimalist]
+  summary: "E-commerce Main Image - Pastel Blue Crocs Fashion Ad"
+  file: prompts/ecommerce/case15.md
+
+- id: ecommerce_case16
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "E-commerce Main Image - 9-Panel Product TVC Storyboard"
+  file: prompts/ecommerce/case16.md
+
+- id: ecommerce_case17
+  style_tags: [ink]
+  summary: "E-commerce Live Stream UI Mockup"
+  file: prompts/ecommerce/case17.md
+
+- id: ecommerce_case18
+  style_tags: [photography, minimalist, cinematic]
+  summary: "Premium product studio shot template"
+  file: prompts/ecommerce/case18.md
+
+- id: ecommerce_case19
+  style_tags: [photography, cinematic, realistic]
+  summary: "Premium food photography template"
+  file: prompts/ecommerce/case19.md
+
+- id: ecommerce_case20
+  style_tags: [cinematic, realistic]
+  summary: "Burger hero image plus 9-cell ad storyboard"
+  file: prompts/ecommerce/case20.md
+

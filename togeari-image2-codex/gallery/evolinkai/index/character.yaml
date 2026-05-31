@@ -1,0 +1,77 @@
+# character prompt index (15 entries)
+
+- id: character_case1
+  style_tags: [anime]
+  summary: "Anime Snapshot Conversion"
+  file: prompts/character/case1.md
+
+- id: character_case2
+  style_tags: [illustration, anime]
+  summary: "Persona5 Character Reference Card"
+  file: prompts/character/case2.md
+
+- id: character_case3
+  style_tags: [anime, illustration]
+  summary: "Gal Game Character Introduction Page"
+  file: prompts/character/case3.md
+
+- id: character_case4
+  style_tags: [illustration, anime]
+  summary: "Official Character Sheet (JP"
+  file: prompts/character/case4.md
+
+- id: character_case5
+  style_tags: [illustration, anime, cinematic, ink]
+  summary: "Mecha Girl Sea-City Key Visual"
+  file: prompts/character/case5.md
+
+- id: character_case6
+  style_tags: [anime, illustration]
+  summary: "Saint Seiya Gold Saints Card Grid"
+  file: prompts/character/case6.md
+
+- id: character_case7
+  style_tags: [ink, sketch]
+  summary: "Chaos Notes Hidden Face Character Art"
+  file: prompts/character/case7.md
+
+- id: character_case8
+  style_tags: [illustration, anime]
+  summary: "Anime Martial Arts Battle Illustration"
+  file: prompts/character/case8.md
+
+- id: character_case9
+  style_tags: [illustration, cinematic]
+  summary: "GTA 6 in Bangalore Flower Market"
+  file: prompts/character/case9.md
+
+- id: character_case10
+  style_tags: [illustration, cinematic]
+  summary: "GTA 6 Shinjuku Bar Scene"
+  file: prompts/character/case10.md
+
+- id: character_case11
+  style_tags: [anime]
+  summary: "Eleanor from White Cat Project"
+  file: prompts/character/case11.md
+
+- id: character_case12
+  style_tags: [ink]
+  summary: "Character key visual poster with silhouette collage"
+  file: prompts/character/case12.md
+
+- id: character_case13
+  style_tags: [pixel art]
+  summary: "Pixel game concept board from TV drama theme"
+  file: prompts/character/case13.md
+
+- id: character_case14
+  style_tags: [anime]
+  summary: "Anime wallpaper for foldable phone — colorful aesthetic"
+  file: prompts/character/case14.md
+
+- id: character_case15
+  style_tags: [anime, cyberpunk]
+  summary: "Anime wallpaper for foldable phone — dark cool style"
+  file: prompts/character/case15.md
+

@@ -1,0 +1,982 @@
+# portrait prompt index (196 entries)
+
+- id: portrait_case1
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "Convenience Store Neon Portrait"
+  file: prompts/portrait/case1.md
+
+- id: portrait_case2
+  style_tags: [cinematic]
+  summary: "Cinematic Minimal Portrait"
+  file: prompts/portrait/case2.md
+
+- id: portrait_case3
+  style_tags: [photography, ink, realistic]
+  summary: "Japanese Onsen Ryokan Portrait"
+  file: prompts/portrait/case3.md
+
+- id: portrait_case4
+  style_tags: [photography, ink, realistic]
+  summary: "35mm Flash Editorial Portrait"
+  file: prompts/portrait/case4.md
+
+- id: portrait_case5
+  style_tags: [anime, cinematic, realistic]
+  summary: "Mirror Selfie Bedroom Portrait"
+  file: prompts/portrait/case5.md
+
+- id: portrait_case6
+  style_tags: [photography, realistic]
+  summary: "Soft Airy 35mm Portrait"
+  file: prompts/portrait/case6.md
+
+- id: portrait_case7
+  style_tags: [photography, cinematic]
+  summary: "Luxury Glam Beauty Portrait"
+  file: prompts/portrait/case7.md
+
+- id: portrait_case8
+  style_tags: [photography, anime]
+  summary: "9:16 Cosplayer Portrait Screenshot"
+  file: prompts/portrait/case8.md
+
+- id: portrait_case9
+  style_tags: [photography, cinematic]
+  summary: "Urban Turn-Back Street Portrait"
+  file: prompts/portrait/case9.md
+
+- id: portrait_case10
+  style_tags: [photography]
+  summary: "Sam Altman Skatepark Snapshot"
+  file: prompts/portrait/case10.md
+
+- id: portrait_case11
+  style_tags: [photography]
+  summary: "Korean Idol 3x3 Grid Portrait"
+  file: prompts/portrait/case11.md
+
+- id: portrait_case12
+  style_tags: [photography, retro]
+  summary: "CCD Camera Flash Korean Idol"
+  file: prompts/portrait/case12.md
+
+- id: portrait_case13
+  style_tags: [photography, realistic]
+  summary: "Korean Idol 3x3 Collage Portrait"
+  file: prompts/portrait/case13.md
+
+- id: portrait_case14
+  style_tags: [realistic]
+  summary: "Soft Black Mist Editorial Portrait"
+  file: prompts/portrait/case14.md
+
+- id: portrait_case15
+  style_tags: [realistic]
+  summary: "Fujifilm Strawberry School Portrait"
+  file: prompts/portrait/case15.md
+
+- id: portrait_case16
+  style_tags: [photography, realistic]
+  summary: "Soft Black Mist Idol Portrait"
+  file: prompts/portrait/case16.md
+
+- id: portrait_case17
+  style_tags: [realistic]
+  summary: "Fujifilm Couple Portrait"
+  file: prompts/portrait/case17.md
+
+- id: portrait_case18
+  style_tags: [photography]
+  summary: "AI Self-Perception Portrait"
+  file: prompts/portrait/case18.md
+
+- id: portrait_case19
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "Create the most realistic front page design of a vintage newspaper featuring ..."
+  file: prompts/portrait/case19.md
+
+- id: portrait_case20
+  style_tags: [editorial, photography]
+  summary: "Magazine Travel Guide Feature Article"
+  file: prompts/portrait/case20.md
+
+- id: portrait_case21
+  style_tags: [photography]
+  summary: "analyze this photo and give me a detailed JSON prompt that recreates it. brea..."
+  file: prompts/portrait/case21.md
+
+- id: portrait_case22
+  style_tags: [realistic]
+  summary: "CALMING GREEN TEA Film Kit displayed frontally, the open box shows soft sage-..."
+  file: prompts/portrait/case22.md
+
+- id: portrait_case23
+  style_tags: [photography, ink, realistic]
+  summary: "Ultra-realistic product photography of a rich strawberry soft-serve ice cream..."
+  file: prompts/portrait/case23.md
+
+- id: portrait_case24
+  style_tags: [photography, realistic]
+  summary: "A hyper-realistic UI/UX mockup displayed on a slim modern laptop placed on a ..."
+  file: prompts/portrait/case24.md
+
+- id: portrait_case25
+  style_tags: [cinematic, ink, realistic]
+  summary: "Ultra-realistic cinematic DSLR photograph of an 18-year-old handsome young ma..."
+  file: prompts/portrait/case25.md
+
+- id: portrait_case26
+  style_tags: [ink, realistic]
+  summary: "Candid Bedroom Selfie Photorealistic Portrait"
+  file: prompts/portrait/case26.md
+
+- id: portrait_case27
+  style_tags: [photography, cinematic, realistic]
+  summary: "Musician Leaving Bodega Night Cinematic Portrait"
+  file: prompts/portrait/case27.md
+
+- id: portrait_case28
+  style_tags: [realistic]
+  summary: "Old Delhi Sweet Shop Storefront Documentary Photo"
+  file: prompts/portrait/case28.md
+
+- id: portrait_case29
+  style_tags: [cinematic, cyberpunk]
+  summary: "Cyberpunk Sci-Fi Side Profile Portrait"
+  file: prompts/portrait/case29.md
+
+- id: portrait_case30
+  style_tags: [cinematic, realistic]
+  summary: "Realistic Candid Bedroom Recording Portrait"
+  file: prompts/portrait/case30.md
+
+- id: portrait_case31
+  style_tags: [realistic]
+  summary: "Toddler Crayon Scribble Art Style Portrait"
+  file: prompts/portrait/case31.md
+
+- id: portrait_case32
+  style_tags: [realistic]
+  summary: "Restored Vintage Mother and Child Portrait"
+  file: prompts/portrait/case32.md
+
+- id: portrait_case33
+  style_tags: [photography, retro, vintage]
+  summary: "Damaged Vintage Mother and Child Photo"
+  file: prompts/portrait/case33.md
+
+- id: portrait_case34
+  style_tags: [illustration, ink, realistic]
+  summary: "Ink-Etched Family Portrait"
+  file: prompts/portrait/case34.md
+
+- id: portrait_case35
+  style_tags: [illustration, ink]
+  summary: "Vintage Engraved Hoodie Portrait"
+  file: prompts/portrait/case35.md
+
+- id: portrait_case36
+  style_tags: [cinematic]
+  summary: "Dreamy Backlit Editorial Portrait"
+  file: prompts/portrait/case36.md
+
+- id: portrait_case37
+  style_tags: [minimalist]
+  summary: "3D Cartoon Character Render"
+  file: prompts/portrait/case37.md
+
+- id: portrait_case38
+  style_tags: [photography, cinematic]
+  summary: "Young Woman in Sequin Dress on Stairs"
+  file: prompts/portrait/case38.md
+
+- id: portrait_case39
+  style_tags: [photography, cinematic]
+  summary: "Luxury Studio Outfit Transformation"
+  file: prompts/portrait/case39.md
+
+- id: portrait_case40
+  style_tags: [illustration, anime]
+  summary: "Blonde Maid in Warm Cafe"
+  file: prompts/portrait/case40.md
+
+- id: portrait_case41
+  style_tags: [photography]
+  summary: "Dreamy Oriental female portrait prompt"
+  file: prompts/portrait/case41.md
+
+- id: portrait_case42
+  style_tags: [anime, minimalist, ink]
+  summary: "Monochrome Hermes-Inspired Avatar"
+  file: prompts/portrait/case42.md
+
+- id: portrait_case43
+  style_tags: [illustration, anime, ink]
+  summary: "Cyber Crystal Anime Girl Portrait"
+  file: prompts/portrait/case43.md
+
+- id: portrait_case44
+  style_tags: [anime]
+  summary: "Pastel Lavender Anime Girl Portrait"
+  file: prompts/portrait/case44.md
+
+- id: portrait_case45
+  style_tags: [illustration, anime, sketch]
+  summary: "Lavender AI Girl in Memory Space"
+  file: prompts/portrait/case45.md
+
+- id: portrait_case46
+  style_tags: [anime, ink]
+  summary: "Pastel AI Assistant Anime Portrait"
+  file: prompts/portrait/case46.md
+
+- id: portrait_case47
+  style_tags: [minimalist, cinematic, ink]
+  summary: "Dark Gatorade-Style Portrait"
+  file: prompts/portrait/case47.md
+
+- id: portrait_case48
+  style_tags: [photography]
+  summary: "Portrait of a Gentle Woman with Glasses"
+  file: prompts/portrait/case48.md
+
+- id: portrait_case49
+  style_tags: [ink]
+  summary: "Dreamy Underwater Woman With Translucent Fish"
+  file: prompts/portrait/case49.md
+
+- id: portrait_case50
+  style_tags: [realistic]
+  summary: "Japanese Classroom Long Hair Snapshot"
+  file: prompts/portrait/case50.md
+
+- id: portrait_case51
+  style_tags: [anime]
+  summary: "Cozy Catgirl Pajama Night Portrait"
+  file: prompts/portrait/case51.md
+
+- id: portrait_case52
+  style_tags: [cinematic, realistic]
+  summary: "Collectible Figure Workspace Photo"
+  file: prompts/portrait/case52.md
+
+- id: portrait_case53
+  style_tags: [photography, cinematic]
+  summary: "Rainy Bus Stop Portrait"
+  file: prompts/portrait/case53.md
+
+- id: portrait_case54
+  style_tags: [ink, realistic]
+  summary: "CCD flash beauty portrait template"
+  file: prompts/portrait/case54.md
+
+- id: portrait_case55
+  style_tags: [photography, cinematic, editorial]
+  summary: "Black-and-red streetwear campaign portrait"
+  file: prompts/portrait/case55.md
+
+- id: portrait_case56
+  style_tags: [cinematic, cyberpunk, realistic]
+  summary: "Cyberpunk Fashion Portrait"
+  file: prompts/portrait/case56.md
+
+- id: portrait_case57
+  style_tags: [ink]
+  summary: "Japanese Negative Film Rooftop Portrait"
+  file: prompts/portrait/case57.md
+
+- id: portrait_case58
+  style_tags: [photography, cinematic, realistic]
+  summary: "Paris Café Lifestyle Portrait"
+  file: prompts/portrait/case58.md
+
+- id: portrait_case59
+  style_tags: [photography, realistic]
+  summary: "2x2 Editorial Portrait Grid"
+  file: prompts/portrait/case59.md
+
+- id: portrait_case60
+  style_tags: [photography, minimalist, cinematic, realistic]
+  summary: "Luxury Golf Editorial Collage"
+  file: prompts/portrait/case60.md
+
+- id: portrait_case61
+  style_tags: [photography, minimalist, cinematic]
+  summary: "Selective-Color Editorial Portrait"
+  file: prompts/portrait/case61.md
+
+- id: portrait_case62
+  style_tags: [photography, cinematic, realistic]
+  summary: "Analog Idol Portrait"
+  file: prompts/portrait/case62.md
+
+- id: portrait_case63
+  style_tags: [photography, cinematic, realistic]
+  summary: "White Suit Red Backdrop Portrait"
+  file: prompts/portrait/case63.md
+
+- id: portrait_case64
+  style_tags: [photography, minimalist, ink, cyberpunk, realistic]
+  summary: "Monochrome Glitch Profile Portrait"
+  file: prompts/portrait/case64.md
+
+- id: portrait_case65
+  style_tags: [realistic]
+  summary: "Basketball Boy Motion Sequence"
+  file: prompts/portrait/case65.md
+
+- id: portrait_case66
+  style_tags: [photography, cinematic, realistic]
+  summary: "Golden Hour Street Side-Profile Portrait"
+  file: prompts/portrait/case66.md
+
+- id: portrait_case67
+  style_tags: [cinematic, chibi, realistic]
+  summary: "Chibi 3D Mini Me Photo Effect"
+  file: prompts/portrait/case67.md
+
+- id: portrait_case68
+  style_tags: [photography, anime, cinematic, ink, realistic]
+  summary: "Cinematic Stormy Seaside Portrait"
+  file: prompts/portrait/case68.md
+
+- id: portrait_case69
+  style_tags: [cinematic, realistic]
+  summary: "中"
+  file: prompts/portrait/case69.md
+
+- id: portrait_case70
+  style_tags: [photography, ink]
+  summary: "Y"
+  file: prompts/portrait/case70.md
+
+- id: portrait_case71
+  style_tags: [cinematic, realistic]
+  summary: "J"
+  file: prompts/portrait/case71.md
+
+- id: portrait_case72
+  style_tags: [minimalist, cinematic]
+  summary: "C"
+  file: prompts/portrait/case72.md
+
+- id: portrait_case73
+  style_tags: [cinematic, photography]
+  summary: "中"
+  file: prompts/portrait/case73.md
+
+- id: portrait_case74
+  style_tags: [ink]
+  summary: "M"
+  file: prompts/portrait/case74.md
+
+- id: portrait_case75
+  style_tags: [photography, cinematic, realistic]
+  summary: "B"
+  file: prompts/portrait/case75.md
+
+- id: portrait_case76
+  style_tags: [anime]
+  summary: "镜"
+  file: prompts/portrait/case76.md
+
+- id: portrait_case77
+  style_tags: [illustration, hand-drawn]
+  summary: "韩"
+  file: prompts/portrait/case77.md
+
+- id: portrait_case78
+  style_tags: [illustration, chibi]
+  summary: "照"
+  file: prompts/portrait/case78.md
+
+- id: portrait_case79
+  style_tags: [cinematic]
+  summary: "M"
+  file: prompts/portrait/case79.md
+
+- id: portrait_case80
+  style_tags: [ink, realistic]
+  summary: "F"
+  file: prompts/portrait/case80.md
+
+- id: portrait_case81
+  style_tags: [anime, cinematic, ink, realistic]
+  summary: "F"
+  file: prompts/portrait/case81.md
+
+- id: portrait_case82
+  style_tags: [illustration, anime]
+  summary: "A"
+  file: prompts/portrait/case82.md
+
+- id: portrait_case83
+  style_tags: [photography, cinematic]
+  summary: "K"
+  file: prompts/portrait/case83.md
+
+- id: portrait_case84
+  style_tags: [photography, realistic]
+  summary: "F"
+  file: prompts/portrait/case84.md
+
+- id: portrait_case85
+  style_tags: [illustration, watercolor, anime, cinematic, ink, realistic]
+  summary: "D"
+  file: prompts/portrait/case85.md
+
+- id: portrait_case86
+  style_tags: [3d render, cinematic]
+  summary: "R"
+  file: prompts/portrait/case86.md
+
+- id: portrait_case87
+  style_tags: [photography, cinematic]
+  summary: "C"
+  file: prompts/portrait/case87.md
+
+- id: portrait_case88
+  style_tags: [photography, anime, cinematic, retro, realistic]
+  summary: "J"
+  file: prompts/portrait/case88.md
+
+- id: portrait_case89
+  style_tags: [illustration, cinematic, sketch, ink]
+  summary: "I"
+  file: prompts/portrait/case89.md
+
+- id: portrait_case90
+  style_tags: [sketch]
+  summary: "L"
+  file: prompts/portrait/case90.md
+
+- id: portrait_case91
+  style_tags: [cinematic, realistic]
+  summary: "D"
+  file: prompts/portrait/case91.md
+
+- id: portrait_case92
+  style_tags: [cinematic, illustration]
+  summary: "G"
+  file: prompts/portrait/case92.md
+
+- id: portrait_case93
+  style_tags: [cyberpunk]
+  summary: "M"
+  file: prompts/portrait/case93.md
+
+- id: portrait_case94
+  style_tags: [photography, cinematic, realistic]
+  summary: "R"
+  file: prompts/portrait/case94.md
+
+- id: portrait_case95
+  style_tags: [ink]
+  summary: "B"
+  file: prompts/portrait/case95.md
+
+- id: portrait_case96
+  style_tags: [anime, ink, retro]
+  summary: "M"
+  file: prompts/portrait/case96.md
+
+- id: portrait_case97
+  style_tags: [illustration, anime, cinematic, ink, realistic]
+  summary: "R"
+  file: prompts/portrait/case97.md
+
+- id: portrait_case98
+  style_tags: [cinematic]
+  summary: "B"
+  file: prompts/portrait/case98.md
+
+- id: portrait_case99
+  style_tags: [cinematic, ink, realistic]
+  summary: "C"
+  file: prompts/portrait/case99.md
+
+- id: portrait_case100
+  style_tags: [ink]
+  summary: "P"
+  file: prompts/portrait/case100.md
+
+- id: portrait_case101
+  style_tags: [photography, ink, realistic]
+  summary: "U"
+  file: prompts/portrait/case101.md
+
+- id: portrait_case102
+  style_tags: [cinematic, ink, realistic]
+  summary: "Y"
+  file: prompts/portrait/case102.md
+
+- id: portrait_case103
+  style_tags: [realistic]
+  summary: "M"
+  file: prompts/portrait/case103.md
+
+- id: portrait_case104
+  style_tags: [photography, cinematic, realistic]
+  summary: "C"
+  file: prompts/portrait/case104.md
+
+- id: portrait_case105
+  style_tags: [cinematic, ink]
+  summary: "G"
+  file: prompts/portrait/case105.md
+
+- id: portrait_case106
+  style_tags: [minimalist, cinematic]
+  summary: "S"
+  file: prompts/portrait/case106.md
+
+- id: portrait_case107
+  style_tags: [photography, cinematic]
+  summary: "S"
+  file: prompts/portrait/case107.md
+
+- id: portrait_case108
+  style_tags: [photography, cinematic, ink, retro, realistic]
+  summary: "D"
+  file: prompts/portrait/case108.md
+
+- id: portrait_case109
+  style_tags: [minimalist, cinematic]
+  summary: "F"
+  file: prompts/portrait/case109.md
+
+- id: portrait_case110
+  style_tags: [anime, illustration]
+  summary: "P"
+  file: prompts/portrait/case110.md
+
+- id: portrait_case111
+  style_tags: [illustration, fashion design]
+  summary: "B"
+  file: prompts/portrait/case111.md
+
+- id: portrait_case112
+  style_tags: [illustration, ink]
+  summary: "P"
+  file: prompts/portrait/case112.md
+
+- id: portrait_case113
+  style_tags: [cinematic, ink]
+  summary: "L"
+  file: prompts/portrait/case113.md
+
+- id: portrait_case114
+  style_tags: [photography, anime, cinematic, realistic]
+  summary: "W"
+  file: prompts/portrait/case114.md
+
+- id: portrait_case115
+  style_tags: [cinematic]
+  summary: "V"
+  file: prompts/portrait/case115.md
+
+- id: portrait_case116
+  style_tags: [realistic]
+  summary: "P"
+  file: prompts/portrait/case116.md
+
+- id: portrait_case117
+  style_tags: [anime, ink, realistic]
+  summary: "K"
+  file: prompts/portrait/case117.md
+
+- id: portrait_case118
+  style_tags: [photography, minimalist, cinematic, ink]
+  summary: "B"
+  file: prompts/portrait/case118.md
+
+- id: portrait_case119
+  style_tags: [realistic]
+  summary: "Wimbledon Broadcast Crowd Shot"
+  file: prompts/portrait/case119.md
+
+- id: portrait_case120
+  style_tags: [photography, cinematic, realistic]
+  summary: "Rainy Street Golden Portrait"
+  file: prompts/portrait/case120.md
+
+- id: portrait_case121
+  style_tags: [photography, cinematic, sketch, ink, realistic]
+  summary: "Cozy Cafe Editorial Portrait"
+  file: prompts/portrait/case121.md
+
+- id: portrait_case122
+  style_tags: [illustration, watercolor, minimalist, sketch, ink, realistic]
+  summary: "Watercolor Fashion Sketch"
+  file: prompts/portrait/case122.md
+
+- id: portrait_case123
+  style_tags: [cinematic, retro, realistic]
+  summary: "Retro Newsstand Fashion Scene"
+  file: prompts/portrait/case123.md
+
+- id: portrait_case124
+  style_tags: [anime, retro, realistic]
+  summary: "Early 1990s Flash Portrait"
+  file: prompts/portrait/case124.md
+
+- id: portrait_case125
+  style_tags: [cinematic, realistic]
+  summary: "Origami Portrait Illustration"
+  file: prompts/portrait/case125.md
+
+- id: portrait_case126
+  style_tags: [photography, cinematic, realistic]
+  summary: "Luxury Portrait With Tiny Alter Ego"
+  file: prompts/portrait/case126.md
+
+- id: portrait_case127
+  style_tags: [illustration, sketch, ink]
+  summary: "Ink Glyph Portrait"
+  file: prompts/portrait/case127.md
+
+- id: portrait_case128
+  style_tags: [photography, cinematic]
+  summary: "Y2K Cyber-Pop Editorial Shot"
+  file: prompts/portrait/case128.md
+
+- id: portrait_case129
+  style_tags: [photography, cinematic, realistic]
+  summary: "Cozy Doodle Lifestyle Photo"
+  file: prompts/portrait/case129.md
+
+- id: portrait_case130
+  style_tags: [photography, 3d render, anime, realistic]
+  summary: "Convex Mirror Rainy Selfie"
+  file: prompts/portrait/case130.md
+
+- id: portrait_case131
+  style_tags: [photography, minimalist, cinematic]
+  summary: "Monochrome Streetwear Editorial"
+  file: prompts/portrait/case131.md
+
+- id: portrait_case132
+  style_tags: [photography, illustration, 3d render, anime, cinematic, ink, realistic]
+  summary: "Y2K Streetwear Sticker Poster"
+  file: prompts/portrait/case132.md
+
+- id: portrait_case133
+  style_tags: [realistic]
+  summary: "Digicam LCD Nostalgia Shot"
+  file: prompts/portrait/case133.md
+
+- id: portrait_case134
+  style_tags: [photography, editorial]
+  summary: "Y2K Street-Art Editorial Poster"
+  file: prompts/portrait/case134.md
+
+- id: portrait_case135
+  style_tags: [illustration]
+  summary: "LEGO Miniature City Editorial"
+  file: prompts/portrait/case135.md
+
+- id: portrait_case136
+  style_tags: [cinematic]
+  summary: "Fashion Collage Multi-Style Portrait"
+  file: prompts/portrait/case136.md
+
+- id: portrait_case137
+  style_tags: [illustration, watercolor, cinematic, ink, retro]
+  summary: "Busan Travel Journal Illustration"
+  file: prompts/portrait/case137.md
+
+- id: portrait_case138
+  style_tags: [cinematic, realistic]
+  summary: "Cinematic Volleyball Sports Portrait"
+  file: prompts/portrait/case138.md
+
+- id: portrait_case139
+  style_tags: [illustration, hand-drawn]
+  summary: "3D Designer-Toy Portrait"
+  file: prompts/portrait/case139.md
+
+- id: portrait_case140
+  style_tags: [photography, realistic]
+  summary: "Dark Silhouette Rim-Light Portrait"
+  file: prompts/portrait/case140.md
+
+- id: portrait_case141
+  style_tags: [realistic]
+  summary: "Cozy Bedroom Korean Girl Portrait"
+  file: prompts/portrait/case141.md
+
+- id: portrait_case142
+  style_tags: [photography, anime, realistic]
+  summary: "Anime Brand Campaign Portrait"
+  file: prompts/portrait/case142.md
+
+- id: portrait_case143
+  style_tags: [ink, realistic]
+  summary: "Woman in Crystal Perfume Bottle"
+  file: prompts/portrait/case143.md
+
+- id: portrait_case144
+  style_tags: [photography, cinematic]
+  summary: "Summer Campus Tesla Lifestyle Poster"
+  file: prompts/portrait/case144.md
+
+- id: portrait_case145
+  style_tags: [ink, realistic]
+  summary: "Bubble-Tea Shop Action Portrait"
+  file: prompts/portrait/case145.md
+
+- id: portrait_case146
+  style_tags: [photography]
+  summary: "Night Outdoor Portrait"
+  file: prompts/portrait/case146.md
+
+- id: portrait_case147
+  style_tags: [photography, cinematic]
+  summary: "Fashion Blueprint Editorial Sheet"
+  file: prompts/portrait/case147.md
+
+- id: portrait_case148
+  style_tags: [photography]
+  summary: "Joyful Street Portrait with Drink"
+  file: prompts/portrait/case148.md
+
+- id: portrait_case149
+  style_tags: [ink]
+  summary: "Portrait Collage Film Strip Poster"
+  file: prompts/portrait/case149.md
+
+- id: portrait_case150
+  style_tags: [photography, minimalist, cinematic, realistic]
+  summary: "Reference-Based Portrait Consistency"
+  file: prompts/portrait/case150.md
+
+- id: portrait_case151
+  style_tags: [cinematic, realistic]
+  summary: "London Fashion Street Portrait"
+  file: prompts/portrait/case151.md
+
+- id: portrait_case152
+  style_tags: [photography, realistic]
+  summary: "Travel Selfie Portrait Reference"
+  file: prompts/portrait/case152.md
+
+- id: portrait_case153
+  style_tags: [cinematic, realistic]
+  summary: "Ultra-Realistic Phone-Style Portrait"
+  file: prompts/portrait/case153.md
+
+- id: portrait_case154
+  style_tags: [photography, illustration, 3d render, watercolor, anime, sketch, ink, realistic]
+  summary: "Woodcut Engraving Portrait Style"
+  file: prompts/portrait/case154.md
+
+- id: portrait_case155
+  style_tags: [cinematic]
+  summary: "Pixar 3D Character Design Sheet"
+  file: prompts/portrait/case155.md
+
+- id: portrait_case156
+  style_tags: [photography, cinematic, realistic]
+  summary: "Matcha Goddess Beauty Portrait"
+  file: prompts/portrait/case156.md
+
+- id: portrait_case157
+  style_tags: [realistic]
+  summary: "Vintage Camera LCD Screen Shot"
+  file: prompts/portrait/case157.md
+
+- id: portrait_case158
+  style_tags: [photography]
+  summary: "写实感人物竖版照片"
+  file: prompts/portrait/case158.md
+
+- id: portrait_case159
+  style_tags: [ink]
+  summary: "Y2K Japanese Street Editorial Poster"
+  file: prompts/portrait/case159.md
+
+- id: portrait_case160
+  style_tags: [photography, cinematic, realistic]
+  summary: "Editorial Male Portrait"
+  file: prompts/portrait/case160.md
+
+- id: portrait_case161
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "Avant-Garde Tokyo Fashion Zine Poster"
+  file: prompts/portrait/case161.md
+
+- id: portrait_case162
+  style_tags: [illustration, watercolor, minimalist, ink]
+  summary: "Miki Style Line Art Portrait"
+  file: prompts/portrait/case162.md
+
+- id: portrait_case163
+  style_tags: [anime, realistic]
+  summary: "Korean Beauty Ultra-Realistic Portrait"
+  file: prompts/portrait/case163.md
+
+- id: portrait_case164
+  style_tags: [cinematic, realistic]
+  summary: "Cinematic B&W Portrait"
+  file: prompts/portrait/case164.md
+
+- id: portrait_case165
+  style_tags: [illustration, watercolor, cinematic, sketch, ink, realistic]
+  summary: "Artistic Sketch Portrait Young Man"
+  file: prompts/portrait/case165.md
+
+- id: portrait_case166
+  style_tags: [illustration, cinematic, realistic]
+  summary: "NBA Legend Mid-Air Action Poster"
+  file: prompts/portrait/case166.md
+
+- id: portrait_case167
+  style_tags: [illustration, chibi, realistic]
+  summary: "Korean Beauty Fashion Portrait"
+  file: prompts/portrait/case167.md
+
+- id: portrait_case168
+  style_tags: [photography, cinematic, realistic]
+  summary: "Cinematic Football Portrait Poster"
+  file: prompts/portrait/case168.md
+
+- id: portrait_case169
+  style_tags: [watercolor]
+  summary: "Switzerland Watercolor Travel Poster"
+  file: prompts/portrait/case169.md
+
+- id: portrait_case170
+  style_tags: [photography, illustration, cinematic, ink, realistic]
+  summary: "Cinematic Lifestyle Outdoor Portrait"
+  file: prompts/portrait/case170.md
+
+- id: portrait_case171
+  style_tags: [storyboard, cinematic]
+  summary: "Luxury Cycling Storyboard Poster"
+  file: prompts/portrait/case171.md
+
+- id: portrait_case172
+  style_tags: [ink]
+  summary: "Y2K Japanese Street Collage Poster"
+  file: prompts/portrait/case172.md
+
+- id: portrait_case173
+  style_tags: [cinematic, realistic]
+  summary: "Cosmic Garden Fantasy Portrait"
+  file: prompts/portrait/case173.md
+
+- id: portrait_case174
+  style_tags: [photography, editorial, retro]
+  summary: "Streetwear Magazine Cover Portrait"
+  file: prompts/portrait/case174.md
+
+- id: portrait_case175
+  style_tags: [photography, cinematic]
+  summary: "Cat-Eye Glasses Fashion Portrait"
+  file: prompts/portrait/case175.md
+
+- id: portrait_case176
+  style_tags: [photography, editorial]
+  summary: "Bold Monochrome Identity Portrait"
+  file: prompts/portrait/case176.md
+
+- id: portrait_case177
+  style_tags: [minimalist]
+  summary: "Clean Tech Advertisement Poster"
+  file: prompts/portrait/case177.md
+
+- id: portrait_case178
+  style_tags: [illustration]
+  summary: "Flat Vector Editorial Pattern Illustration"
+  file: prompts/portrait/case178.md
+
+- id: portrait_case179
+  style_tags: [photography, anime, cinematic, realistic]
+  summary: "Korean Beauty Identity Portrait"
+  file: prompts/portrait/case179.md
+
+- id: portrait_case180
+  style_tags: [anime, cinematic, realistic]
+  summary: "Hollywood Luxury Anime Fashion Portrait"
+  file: prompts/portrait/case180.md
+
+- id: portrait_case181
+  style_tags: [anime]
+  summary: "Identity Reference Beauty Portrait"
+  file: prompts/portrait/case181.md
+
+- id: portrait_case182
+  style_tags: [illustration]
+  summary: "Pixel Art Character Portrait"
+  file: prompts/portrait/case182.md
+
+- id: portrait_case183
+  style_tags: [anime, realistic]
+  summary: "Negative Prompt Portrait Template"
+  file: prompts/portrait/case183.md
+
+- id: portrait_case184
+  style_tags: [photography, anime, cinematic, ink, realistic]
+  summary: "Identity Reference Fashion Portrait"
+  file: prompts/portrait/case184.md
+
+- id: portrait_case185
+  style_tags: [3d render, chibi]
+  summary: "Pixar 3D Character Design Sheet"
+  file: prompts/portrait/case185.md
+
+- id: portrait_case186
+  style_tags: [3d render, cinematic]
+  summary: "Automotive Design Deconstruction Poster"
+  file: prompts/portrait/case186.md
+
+- id: portrait_case187
+  style_tags: [cinematic, realistic]
+  summary: "Japanese Graffiti Portrait Poster"
+  file: prompts/portrait/case187.md
+
+- id: portrait_case188
+  style_tags: [photography, cinematic, realistic]
+  summary: "Brand Identity Portrait"
+  file: prompts/portrait/case188.md
+
+- id: portrait_case189
+  style_tags: [photography]
+  summary: "Outdoor Lifestyle Open Sky Portrait"
+  file: prompts/portrait/case189.md
+
+- id: portrait_case190
+  style_tags: [photography, cinematic]
+  summary: "高级男性魅力人像"
+  file: prompts/portrait/case190.md
+
+- id: portrait_case191
+  style_tags: [photography, cinematic]
+  summary: "沙滩场景丰腴人物写真"
+  file: prompts/portrait/case191.md
+
+- id: portrait_case192
+  style_tags: [photography, minimalist, cinematic, realistic]
+  summary: "Photorealistic Editorial Seated Portrait"
+  file: prompts/portrait/case192.md
+
+- id: portrait_case193
+  style_tags: [minimalist, cinematic, realistic]
+  summary: "Soft Aesthetic Fashion Magazine Cover"
+  file: prompts/portrait/case193.md
+
+- id: portrait_case194
+  style_tags: [cinematic, realistic]
+  summary: "Pakistan Miniature World Map Poster"
+  file: prompts/portrait/case194.md
+
+- id: portrait_case195
+  style_tags: [realistic]
+  summary: "Japanese Film Aesthetic Airport Portrait"
+  file: prompts/portrait/case195.md
+
+- id: portrait_case196
+  style_tags: [oil painting, vintage, collage]
+  summary: "French Vintage Oil-Painting Portrait Collage"
+  file: prompts/portrait/case196.md
+

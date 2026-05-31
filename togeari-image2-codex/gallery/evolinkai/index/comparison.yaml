@@ -1,0 +1,302 @@
+# comparison prompt index (60 entries)
+
+- id: comparison_case1
+  style_tags: [realistic, minimalist]
+  summary: "Wooden Bookshelf Prompt Test"
+  file: prompts/comparison/case1.md
+
+- id: comparison_case2
+  style_tags: [realistic, cinematic]
+  summary: "GPT-Image-2 Detail Showcase"
+  file: prompts/comparison/case2.md
+
+- id: comparison_case3
+  style_tags: [illustration, anime]
+  summary: "A/B Test Signed Output"
+  file: prompts/comparison/case3.md
+
+- id: comparison_case4
+  style_tags: [cinematic, illustration]
+  summary: "Silhouette Universe Narrative Poster"
+  file: prompts/comparison/case4.md
+
+- id: comparison_case5
+  style_tags: [pixel art, illustration]
+  summary: "Lion Camel Ridge Dark Myth Scene"
+  file: prompts/comparison/case5.md
+
+- id: comparison_case6
+  style_tags: [pixel art, realistic]
+  summary: "Counter-Strike x Terraria Screenshot Mashup"
+  file: prompts/comparison/case6.md
+
+- id: comparison_case7
+  style_tags: [realistic, oil painting]
+  summary: "Pre-war Japan Lab Minecraft Screenshot"
+  file: prompts/comparison/case7.md
+
+- id: comparison_case8
+  style_tags: [illustration, cinematic]
+  summary: "Forged Masterpiece Prompt Test"
+  file: prompts/comparison/case8.md
+
+- id: comparison_case9
+  style_tags: [realistic, cinematic]
+  summary: "Multi-Concept Battle Poster Set"
+  file: prompts/comparison/case9.md
+
+- id: comparison_case10
+  style_tags: [realistic, photography]
+  summary: "Rust In-Game Screenshot"
+  file: prompts/comparison/case10.md
+
+- id: comparison_case11
+  style_tags: [photography, cinematic]
+  summary: "Sam Altman Bear Selfie"
+  file: prompts/comparison/case11.md
+
+- id: comparison_case12
+  style_tags: [illustration, retro]
+  summary: "Among Us Realistic Screenshot"
+  file: prompts/comparison/case12.md
+
+- id: comparison_case13
+  style_tags: [cinematic, illustration]
+  summary: "Retro Programming Museum Cartoon"
+  file: prompts/comparison/case13.md
+
+- id: comparison_case14
+  style_tags: [cinematic, realistic]
+  summary: "14th-Dimension Projection Scene"
+  file: prompts/comparison/case14.md
+
+- id: comparison_case15
+  style_tags: [photography, realistic]
+  summary: "Sam Altman Baseball Broadcast"
+  file: prompts/comparison/case15.md
+
+- id: comparison_case16
+  style_tags: [photography, realistic]
+  summary: "Based on the video content and this current frame, use GPT to generate a YouT..."
+  file: prompts/comparison/case16.md
+
+- id: comparison_case17
+  style_tags: [illustration, cinematic]
+  summary: "Generate an image of the most significant event of 2020"
+  file: prompts/comparison/case17.md
+
+- id: comparison_case18
+  style_tags: [photography, realistic]
+  summary: "Edit this image so that total amount changes to 244.5 baht. You can change th..."
+  file: prompts/comparison/case18.md
+
+- id: comparison_case19
+  style_tags: [infographic, minimalist]
+  summary: "Generate an image of the most significant event of 2001"
+  file: prompts/comparison/case19.md
+
+- id: comparison_case20
+  style_tags: [flat design, realistic]
+  summary: "Research LIME Drug Design and make a detailed infographic about it"
+  file: prompts/comparison/case20.md
+
+- id: comparison_case21
+  style_tags: [flat design, realistic]
+  summary: "Douyin Livestream Sales Screenshot"
+  file: prompts/comparison/case21.md
+
+- id: comparison_case22
+  style_tags: [illustration, cinematic]
+  summary: "Social App Match Success Screen"
+  file: prompts/comparison/case22.md
+
+- id: comparison_case23
+  style_tags: [illustration, cinematic]
+  summary: "Lu Bu Boss Design Sheet"
+  file: prompts/comparison/case23.md
+
+- id: comparison_case24
+  style_tags: [cinematic, illustration]
+  summary: "Nezha Dark Fantasy Novel Cover"
+  file: prompts/comparison/case24.md
+
+- id: comparison_case25
+  style_tags: [illustration, minimalist]
+  summary: "New Chinese Minimalist Floral Illustration"
+  file: prompts/comparison/case25.md
+
+- id: comparison_case26
+  style_tags: [photography, cinematic]
+  summary: "Su Daji Ancient-Style Glamour Portrait"
+  file: prompts/comparison/case26.md
+
+- id: comparison_case27
+  style_tags: [illustration]
+  summary: "Lu Xun Morning Flowers Illustration"
+  file: prompts/comparison/case27.md
+
+- id: comparison_case28
+  style_tags: [photography, cinematic]
+  summary: "Subway Candid Phone Snapshot"
+  file: prompts/comparison/case28.md
+
+- id: comparison_case29
+  style_tags: [illustration, retro, ink]
+  summary: "China Aerospace Commemorative Stamp Sheet"
+  file: prompts/comparison/case29.md
+
+- id: comparison_case30
+  style_tags: [cinematic, realistic]
+  summary: "Vertical Wuxia Heroine Portrait"
+  file: prompts/comparison/case30.md
+
+- id: comparison_case31
+  style_tags: [realistic, photography]
+  summary: "Realistic Guanyin Portrait from Buddhist Texts"
+  file: prompts/comparison/case31.md
+
+- id: comparison_case32
+  style_tags: [realistic, cinematic]
+  summary: "Tang Dynasty Chang'an Lantern Festival Panorama"
+  file: prompts/comparison/case32.md
+
+- id: comparison_case33
+  style_tags: [cinematic, illustration]
+  summary: "Historical Yang Guifei Realistic Portrait"
+  file: prompts/comparison/case33.md
+
+- id: comparison_case34
+  style_tags: [realistic, cinematic]
+  summary: "Surreal Japanese Futuristic City Illustration"
+  file: prompts/comparison/case34.md
+
+- id: comparison_case35
+  style_tags: [illustration, cinematic]
+  summary: "Tushan Yaya Fantasy Glamour Portrait"
+  file: prompts/comparison/case35.md
+
+- id: comparison_case36
+  style_tags: [flat design, realistic]
+  summary: "Douyin Livestream Sales Screenshot"
+  file: prompts/comparison/case36.md
+
+- id: comparison_case37
+  style_tags: [illustration, cinematic]
+  summary: "Eastern Fantasy Female Half-Portrait"
+  file: prompts/comparison/case37.md
+
+- id: comparison_case38
+  style_tags: [photography, cinematic]
+  summary: "Vertical Artistic Portrait of a Young Eastern Woman"
+  file: prompts/comparison/case38.md
+
+- id: comparison_case39
+  style_tags: [3d render, cinematic]
+  summary: "Autobots Assembled at Lunar Base"
+  file: prompts/comparison/case39.md
+
+- id: comparison_case40
+  style_tags: [photography, cinematic]
+  summary: "Naturalist-Style Food Specimen Cross-Section"
+  file: prompts/comparison/case40.md
+
+- id: comparison_case41
+  style_tags: [photography, realistic]
+  summary: "Polaroid Frame Breakout Scene"
+  file: prompts/comparison/case41.md
+
+- id: comparison_case42
+  style_tags: [photography, cinematic]
+  summary: "Restaurant POV Change Comparison"
+  file: prompts/comparison/case42.md
+
+- id: comparison_case43
+  style_tags: [illustration, anime, cinematic]
+  summary: "Anime Crowd POV Comparison"
+  file: prompts/comparison/case43.md
+
+- id: comparison_case44
+  style_tags: [ink, cyberpunk]
+  summary: "Neon AI Thumbnail Comparison"
+  file: prompts/comparison/case44.md
+
+- id: comparison_case45
+  style_tags: [cinematic, ink, cyberpunk, isometric]
+  summary: "Cyberpunk AI Tools Comparison Poster"
+  file: prompts/comparison/case45.md
+
+- id: comparison_case46
+  style_tags: [ink]
+  summary: "Japanese AI Battle YouTube Thumbnail"
+  file: prompts/comparison/case46.md
+
+- id: comparison_case47
+  style_tags: [realistic]
+  summary: "Tokyo DisneySea Front-Row Battle UI"
+  file: prompts/comparison/case47.md
+
+- id: comparison_case48
+  style_tags: [watercolor]
+  summary: "Miyazaki-style short film pipeline"
+  file: prompts/comparison/case48.md
+
+- id: comparison_case49
+  style_tags: [ink]
+  summary: "Printable Paint by Numbers"
+  file: prompts/comparison/case49.md
+
+- id: comparison_case50
+  style_tags: [cinematic, realistic]
+  summary: "Modern Mafia Boss Portrait"
+  file: prompts/comparison/case50.md
+
+- id: comparison_case51
+  style_tags: [ink, chibi]
+  summary: "Cozy Scrapbook Mini Alter Egos"
+  file: prompts/comparison/case51.md
+
+- id: comparison_case52
+  style_tags: [infographic, flat design]
+  summary: "视觉品牌拆解图"
+  file: prompts/comparison/case52.md
+
+- id: comparison_case53
+  style_tags: [storyboard, illustration]
+  summary: "Apartment Drama Animation Storyboard Sheet"
+  file: prompts/comparison/case53.md
+
+- id: comparison_case54
+  style_tags: [illustration, flat design, hand-drawn]
+  summary: "Whimsical Folk Doodle Transformation"
+  file: prompts/comparison/case54.md
+
+- id: comparison_case55
+  style_tags: [flat design, realistic, minimalist]
+  summary: "Interior Design Mood Board Generator"
+  file: prompts/comparison/case55.md
+
+- id: comparison_case56
+  style_tags: [cinematic, ink]
+  summary: "Donut Heist Storyboard Sheet"
+  file: prompts/comparison/case56.md
+
+- id: comparison_case57
+  style_tags: [3d render, illustration, storyboard]
+  summary: "Sourdough Baker Storyboard"
+  file: prompts/comparison/case57.md
+
+- id: comparison_case58
+  style_tags: [cinematic]
+  summary: "Storyboard Grid Template"
+  file: prompts/comparison/case58.md
+
+- id: comparison_case59
+  style_tags: [ink]
+  summary: "Pancake Dad Storyboard"
+  file: prompts/comparison/case59.md
+
+- id: comparison_case60
+  style_tags: [cinematic]
+  summary: "Borussia Storyboard Intro"
+  file: prompts/comparison/case60.md
+
