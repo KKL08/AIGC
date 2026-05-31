@@ -109,7 +109,7 @@ Skill 内置了来自 EvoLinkAI 的 649 条高质量验证 prompt，覆盖 7 个
 
 ## 参考来源
 
-- Prompt Gallery 数据基于 [EvoLinkAI/Awesome-GPT-Image-Prompts](https://github.com/EvoLinkAI/Awesome-GPT-Image-Prompts) 整理
+- Prompt Gallery 数据基于 [EvoLinkAI/awesome-gpt-image-2-API-and-Prompts](https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts) 整理
 - 角色命名灵感来自《Girls Band Cry》（トゲナシトゲアリ / Togenashi Togeari）
 
 
