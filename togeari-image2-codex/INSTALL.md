@@ -12,9 +12,13 @@
 
 ```bash
 git clone https://github.com/KKL08/AIGC.git /tmp/aigc
-cp -r /tmp/aigc/togeari-image2-codex ~/.codex/skills/togeari-image2-codex
+mkdir -p ~/.codex/skills/togeari-image2-codex
+cp -r /tmp/aigc/togeari-image2-codex/{SKILL.md,skills,references,gallery} \
+      ~/.codex/skills/togeari-image2-codex/
 rm -rf /tmp/aigc
 ```
+
+> `docs/`、`README.md`、`INSTALL.md` 是 GitHub 展示用的，Skill 运行不需要，不用安装。
 
 安装完成后重启 Codex 桌面端即可使用。
 
