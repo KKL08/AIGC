@@ -1,0 +1,177 @@
+# ecommerce prompt index (35 entries)
+
+- id: ecommerce_case1
+  style_tags: [photography, cinematic, realistic]
+  summary: "E-commerce Main Image - Luxury Amber Perfume Ad"
+  file: prompts/ecommerce/case1.md
+
+- id: ecommerce_case2
+  style_tags: [photography, minimalist]
+  summary: "E-commerce Main Image - Skincare Product Studio Shot"
+  file: prompts/ecommerce/case2.md
+
+- id: ecommerce_case3
+  style_tags: [realistic]
+  summary: "E-commerce Main Image - Tropical Citrus Soda Ad Poster"
+  file: prompts/ecommerce/case3.md
+
+- id: ecommerce_case4
+  style_tags: [photography, minimalist, realistic]
+  summary: "E-commerce Main Image - Industrial Design Presentation Sheet"
+  file: prompts/ecommerce/case4.md
+
+- id: ecommerce_case5
+  style_tags: [minimalist, realistic]
+  summary: "E-commerce Main Image - Luxury Fur-Lined Loafer Lifestyle Photo"
+  file: prompts/ecommerce/case5.md
+
+- id: ecommerce_case6
+  style_tags: [photography, cinematic, realistic]
+  summary: "E-commerce Main Image - Luxury Perfume Ad on Marble Vanity"
+  file: prompts/ecommerce/case6.md
+
+- id: ecommerce_case7
+  style_tags: [photography, realistic]
+  summary: "E-commerce Main Image - Miniature Diorama Skincare Advertisement"
+  file: prompts/ecommerce/case7.md
+
+- id: ecommerce_case8
+  style_tags: [illustration, oil painting]
+  summary: "E-commerce Main Image - Traditional Chinese Art and Porcelain Vases"
+  file: prompts/ecommerce/case8.md
+
+- id: ecommerce_case9
+  style_tags: [photography, ink, realistic]
+  summary: "E-commerce Main Image - Premium Gaming Motherboard Studio Shot"
+  file: prompts/ecommerce/case9.md
+
+- id: ecommerce_case10
+  style_tags: [photography, ink]
+  summary: "E-commerce Main Image - Premium Grain Powder Ad Board"
+  file: prompts/ecommerce/case10.md
+
+- id: ecommerce_case11
+  style_tags: [photography, realistic]
+  summary: "E-commerce Main Image - Earbuds E-commerce Infographic"
+  file: prompts/ecommerce/case11.md
+
+- id: ecommerce_case12
+  style_tags: [minimalist, realistic]
+  summary: "E-commerce Main Image - Sustainable T-Shirt Plantable Tag Ad"
+  file: prompts/ecommerce/case12.md
+
+- id: ecommerce_case13
+  style_tags: [photography, minimalist]
+  summary: "E-commerce Main Image - Elegant Cosmetic Poster Prompt"
+  file: prompts/ecommerce/case13.md
+
+- id: ecommerce_case14
+  style_tags: [minimalist]
+  summary: "E-commerce Main Image - Minimalist Product Ad: PURE CRUNCH"
+  file: prompts/ecommerce/case14.md
+
+- id: ecommerce_case15
+  style_tags: [minimalist]
+  summary: "E-commerce Main Image - Pastel Blue Crocs Fashion Ad"
+  file: prompts/ecommerce/case15.md
+
+- id: ecommerce_case16
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "E-commerce Main Image - 9-Panel Product TVC Storyboard"
+  file: prompts/ecommerce/case16.md
+
+- id: ecommerce_case17
+  style_tags: [ink]
+  summary: "E-commerce Live Stream UI Mockup"
+  file: prompts/ecommerce/case17.md
+
+- id: ecommerce_case18
+  style_tags: [photography, minimalist, cinematic]
+  summary: "Premium product studio shot template"
+  file: prompts/ecommerce/case18.md
+
+- id: ecommerce_case19
+  style_tags: [photography, cinematic, realistic]
+  summary: "Premium food photography template"
+  file: prompts/ecommerce/case19.md
+
+- id: ecommerce_case20
+  style_tags: [cinematic, realistic]
+  summary: "Burger hero image plus 9-cell ad storyboard"
+  file: prompts/ecommerce/case20.md
+
+- id: ecommerce_case21
+  style_tags: [photography, food, commercial]
+  summary: "Food Explosion Dynamic Photography - Hamburger Cross-Section Hero Shot"
+  file: prompts/ecommerce/case21.md
+
+- id: ecommerce_case22
+  style_tags: [photography, luxury, product, packaging]
+  summary: "Gaudi-Inspired Perfume Bottle 3x3 Grid Luxury Poster"
+  file: prompts/ecommerce/case22.md
+
+- id: ecommerce_case23
+  style_tags: [photography, commercial, fashion]
+  summary: "Beverage Brand Outdoor Campaign - Forced Perspective Fashion Ad"
+  file: prompts/ecommerce/case23.md
+
+- id: ecommerce_case24
+  style_tags: [photography, fashion, commercial]
+  summary: "New Chinese Style Fashion Magazine Cover - Hanfu Editorial Portrait"
+  file: prompts/ecommerce/case24.md
+
+- id: ecommerce_case25
+  style_tags: [photography, commercial, product]
+  summary: "Premium Beer Bottle Commercial Poster with Ingredient Float"
+  file: prompts/ecommerce/case25.md
+
+- id: ecommerce_case26
+  style_tags: [photography, luxury, cinematic]
+  summary: "Luxury Perfume Floating with Smoke - Cinematic Product Photography"
+  file: prompts/ecommerce/case26.md
+
+- id: ecommerce_case27
+  style_tags: [photography, flat-lay, product]
+  summary: "Skincare Product Flat Lay - Overhead Wet Ingredient Composition"
+  file: prompts/ecommerce/case27.md
+
+- id: ecommerce_case28
+  style_tags: [anime, packaging, 3d-render]
+  summary: "Layered Acrylic Catgirl Postcard Display Stand Merchandise Photo"
+  file: prompts/ecommerce/case28.md
+
+- id: ecommerce_case29
+  style_tags: [packaging, 3d-render, commercial]
+  summary: "Industrial Packaging Design Sheet - 3D Render + Technical Sketch"
+  file: prompts/ecommerce/case29.md
+
+- id: ecommerce_case30
+  style_tags: [photography, cinematic, commercial]
+  summary: "High-End Tech Product Photography - Camera Launch with Model"
+  file: prompts/ecommerce/case30.md
+
+- id: ecommerce_case31
+  style_tags: [anime, 3d-render, product]
+  summary: "Mecha Girl Figure Product Render - 1/7 Scale Collectible PVC"
+  file: prompts/ecommerce/case31.md
+
+- id: ecommerce_case32
+  style_tags: [anime, packaging, commercial]
+  summary: "Kawaii Japanese Snack Packaging Design - Anime Character IP"
+  file: prompts/ecommerce/case32.md
+
+- id: ecommerce_case33
+  style_tags: [minimalist, luxury, product]
+  summary: "Chrome Sphere Perfume Bottle - Minimalist Futurist Product Photo"
+  file: prompts/ecommerce/case33.md
+
+- id: ecommerce_case34
+  style_tags: [anime, packaging, product]
+  summary: "Anime Daily Calendar Product Photo - Kawaii Desk Calendar Merchandise"
+  file: prompts/ecommerce/case34.md
+
+- id: ecommerce_case35
+  style_tags: [anime, packaging, luxury]
+  summary: "Luxury Ocean Princess Chocolate Gift Box - Anime Art Confectionery"
+  file: prompts/ecommerce/case35.md
+

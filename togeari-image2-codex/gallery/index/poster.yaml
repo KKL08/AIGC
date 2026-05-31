@@ -1,0 +1,1187 @@
+# poster prompt index (237 entries)
+
+- id: poster_case1
+  style_tags: [illustration, minimalist, cinematic]
+  summary: "Boston Spring 2026 City Poster"
+  file: prompts/poster/case1.md
+
+- id: poster_case2
+  style_tags: [illustration, cinematic, retro]
+  summary: "Vintage Amalfi Travel Poster"
+  file: prompts/poster/case2.md
+
+- id: poster_case3
+  style_tags: [watercolor, illustration, hand-drawn]
+  summary: "Chengdu Food Map Illustration"
+  file: prompts/poster/case3.md
+
+- id: poster_case4
+  style_tags: [illustration, minimalist, ink]
+  summary: "Chinese Minimalist S-Shaped Poster"
+  file: prompts/poster/case4.md
+
+- id: poster_case5
+  style_tags: [illustration, cinematic, ink]
+  summary: "2026 Spring Guangzhou City Poster"
+  file: prompts/poster/case5.md
+
+- id: poster_case6
+  style_tags: [sketch, hand-drawn]
+  summary: "Doodle Sketch AI Builder"
+  file: prompts/poster/case6.md
+
+- id: poster_case7
+  style_tags: [illustration, cyberpunk, 3d render]
+  summary: "Futuristic Mandala Illustration"
+  file: prompts/poster/case7.md
+
+- id: poster_case8
+  style_tags: [retro, pixel art, anime]
+  summary: "Super Famicom Poster Style"
+  file: prompts/poster/case8.md
+
+- id: poster_case9
+  style_tags: [flat design, minimalist]
+  summary: "Browser Game Ad Creative Poster"
+  file: prompts/poster/case9.md
+
+- id: poster_case10
+  style_tags: [illustration, cinematic, surreal]
+  summary: "Surreal Koi Nebula Illustration"
+  file: prompts/poster/case10.md
+
+- id: poster_case11
+  style_tags: [ink, illustration, cinematic]
+  summary: "Ink-Curve Guangzhou Aesthetics Poster"
+  file: prompts/poster/case11.md
+
+- id: poster_case12
+  style_tags: [illustration, cinematic, flat design]
+  summary: "Guangdong Super League Invitation Poster"
+  file: prompts/poster/case12.md
+
+- id: poster_case13
+  style_tags: [illustration, cinematic, ink]
+  summary: "Spring 2026 Guangzhou Promo Poster"
+  file: prompts/poster/case13.md
+
+- id: poster_case14
+  style_tags: [cinematic, watercolor, illustration]
+  summary: "Epic Silhouette World Poster"
+  file: prompts/poster/case14.md
+
+- id: poster_case15
+  style_tags: [illustration, cinematic, ink]
+  summary: "Spring Guangzhou City Poster"
+  file: prompts/poster/case15.md
+
+- id: poster_case16
+  style_tags: [infographic, flat design]
+  summary: "Science Encyclopedia Vertical Poster"
+  file: prompts/poster/case16.md
+
+- id: poster_case17
+  style_tags: [ink, illustration, retro]
+  summary: "Journey to the West Chinese Comic"
+  file: prompts/poster/case17.md
+
+- id: poster_case18
+  style_tags: [infographic, flat design, minimalist]
+  summary: "Character Relationship Map Poster"
+  file: prompts/poster/case18.md
+
+- id: poster_case19
+  style_tags: [ink, watercolor, minimalist]
+  summary: "New Chinese Ink Landscape Poster"
+  file: prompts/poster/case19.md
+
+- id: poster_case20
+  style_tags: [sketch, hand-drawn]
+  summary: "AI Builder Doodle Sketch"
+  file: prompts/poster/case20.md
+
+- id: poster_case21
+  style_tags: [cinematic, anime, illustration]
+  summary: "Character Visual Vertical Poster"
+  file: prompts/poster/case21.md
+
+- id: poster_case22
+  style_tags: [infographic, flat design, minimalist]
+  summary: "Science Encyclopedia Infographic"
+  file: prompts/poster/case22.md
+
+- id: poster_case23
+  style_tags: [anime, cinematic]
+  summary: "Fictional Anime Movie Poster"
+  file: prompts/poster/case23.md
+
+- id: poster_case24
+  style_tags: [photography, editorial]
+  summary: "Product Ad Redesign"
+  file: prompts/poster/case24.md
+
+- id: poster_case25
+  style_tags: [illustration, cinematic, fantasy]
+  summary: "Dark-Fantasy Guangzhou City Poster"
+  file: prompts/poster/case25.md
+
+- id: poster_case26
+  style_tags: [cinematic, 3d render]
+  summary: "Science Fiction Movie Poster"
+  file: prompts/poster/case26.md
+
+- id: poster_case27
+  style_tags: [photography, minimalist, editorial]
+  summary: "Refreshing Summer Udon Ad"
+  file: prompts/poster/case27.md
+
+- id: poster_case28
+  style_tags: [hand-drawn, sketch]
+  summary: "Handwritten Medical Prescription Sheet"
+  file: prompts/poster/case28.md
+
+- id: poster_case29
+  style_tags: [cinematic]
+  summary: "Silicon Valley 2026 Promo Poster"
+  file: prompts/poster/case29.md
+
+- id: poster_case30
+  style_tags: [retro, flat design, photography]
+  summary: "Japanese Supermarket Sale Flyer"
+  file: prompts/poster/case30.md
+
+- id: poster_case31
+  style_tags: [cinematic]
+  summary: "Dark Epic Concept Poster"
+  file: prompts/poster/case31.md
+
+- id: poster_case32
+  style_tags: [photography, minimalist, editorial]
+  summary: "Pilates Studio Ad Poster"
+  file: prompts/poster/case32.md
+
+- id: poster_case33
+  style_tags: [photography]
+  summary: "6-Block Fashion Campaign Prompt Formula"
+  file: prompts/poster/case33.md
+
+- id: poster_case34
+  style_tags: [infographic, 3d render, realistic]
+  summary: "Sony A7 Exploded View Breakdown Prompt"
+  file: prompts/poster/case34.md
+
+- id: poster_case35
+  style_tags: [photography, retro, panorama]
+  summary: "1900 Istiklal Street Panorama Prompt"
+  file: prompts/poster/case35.md
+
+- id: poster_case36
+  style_tags: [infographic, flat design, minimalist]
+  summary: "Theme Science Encyclopedia Card"
+  file: prompts/poster/case36.md
+
+- id: poster_case37
+  style_tags: [infographic, photography, flat design]
+  summary: "Chili Pork Cooking Flowchart"
+  file: prompts/poster/case37.md
+
+- id: poster_case38
+  style_tags: [3d render, cinematic, realistic]
+  summary: "Cinematic Infographic Concept Poster"
+  file: prompts/poster/case38.md
+
+- id: poster_case39
+  style_tags: [photography, cinematic, editorial]
+  summary: "A full-body outdoor shot captures a young Caucasian woman, possibly in her la..."
+  file: prompts/poster/case39.md
+
+- id: poster_case40
+  style_tags: [photography, illustration, realistic]
+  summary: "A professional product photography shot of a cold sparkling water"
+  file: prompts/poster/case40.md
+
+- id: poster_case41
+  style_tags: [photography, panorama]
+  summary: "360 Equirectangular Panorama Image"
+  file: prompts/poster/case41.md
+
+- id: poster_case42
+  style_tags: [illustration, watercolor, anime, minimalist]
+  summary: "Soft poetic children's book illustration with watercolor and gouache textures..."
+  file: prompts/poster/case42.md
+
+- id: poster_case43
+  style_tags: [photography, cinematic, realistic]
+  summary: "Aspect Ratio: 9:16 Vertical"
+  file: prompts/poster/case43.md
+
+- id: poster_case44
+  style_tags: [illustration, flat design]
+  summary: "Hangzhou West Lake Travel Poster"
+  file: prompts/poster/case44.md
+
+- id: poster_case45
+  style_tags: [cinematic, illustration, ink]
+  summary: "Dongfang Bubai Wuxia Character Poster"
+  file: prompts/poster/case45.md
+
+- id: poster_case46
+  style_tags: [cinematic, retro, photography]
+  summary: "A Chinese Odyssey 90s Hong Kong Poster"
+  file: prompts/poster/case46.md
+
+- id: poster_case47
+  style_tags: [cinematic, illustration, fantasy]
+  summary: "Journey to the West Daughter Kingdom Poster"
+  file: prompts/poster/case47.md
+
+- id: poster_case48
+  style_tags: [cinematic, illustration]
+  summary: "Royal Tramp Character Poster"
+  file: prompts/poster/case48.md
+
+- id: poster_case49
+  style_tags: [cinematic, 3d render, realistic]
+  summary: "generate an image of a racing car poster with its spec and pricing"
+  file: prompts/poster/case49.md
+
+- id: poster_case50
+  style_tags: [minimalist, retro, illustration]
+  summary: "Charlie Chaplin Product Poster Redesign"
+  file: prompts/poster/case50.md
+
+- id: poster_case51
+  style_tags: [cinematic, realistic]
+  summary: "Luxury Sportswear Basketball Athlete Campaign Poster"
+  file: prompts/poster/case51.md
+
+- id: poster_case52
+  style_tags: [cinematic, realistic]
+  summary: "Streetwear Fashion Campaign Asian Apparel Poster"
+  file: prompts/poster/case52.md
+
+- id: poster_case53
+  style_tags: [cinematic]
+  summary: "Epic Career Moments Cinematic Poster Template"
+  file: prompts/poster/case53.md
+
+- id: poster_case54
+  style_tags: [cinematic]
+  summary: "Avant-Garde Basketball Sculpture Sports Fashion Ad"
+  file: prompts/poster/case54.md
+
+- id: poster_case55
+  style_tags: [cinematic]
+  summary: "Avant-Garde Tennis Racket Sculpture Sports Fashion Ad"
+  file: prompts/poster/case55.md
+
+- id: poster_case56
+  style_tags: [minimalist]
+  summary: "Surrealist Liquor Brand High Fashion Poster"
+  file: prompts/poster/case56.md
+
+- id: poster_case57
+  style_tags: [photography, cinematic]
+  summary: "Premium Food Recipe Poster Elegant Layout"
+  file: prompts/poster/case57.md
+
+- id: poster_case58
+  style_tags: [photography, cinematic, realistic]
+  summary: "Luxury Fashion Magazine Cover Black and White"
+  file: prompts/poster/case58.md
+
+- id: poster_case59
+  style_tags: [minimalist]
+  summary: "Surrealist Rolex Luxury Watch Fashion Poster"
+  file: prompts/poster/case59.md
+
+- id: poster_case60
+  style_tags: [illustration]
+  summary: "Peacock Botanical Vintage Symmetrical Art Print"
+  file: prompts/poster/case60.md
+
+- id: poster_case61
+  style_tags: [cinematic, realistic]
+  summary: "SPLASH Fashion Brand Hyper-Realistic Campaign Poster"
+  file: prompts/poster/case61.md
+
+- id: poster_case62
+  style_tags: [photography, editorial, minimalist]
+  summary: "Avant-Garde Guitar Sculpture Fashion Advertisement"
+  file: prompts/poster/case62.md
+
+- id: poster_case63
+  style_tags: [illustration, watercolor, ink]
+  summary: "Illustrated City Food Map"
+  file: prompts/poster/case63.md
+
+- id: poster_case64
+  style_tags: [3d render, realistic]
+  summary: "3D Stone Staircase Evolution Infographic"
+  file: prompts/poster/case64.md
+
+- id: poster_case65
+  style_tags: [cinematic, sketch, realistic]
+  summary: "Biomimetic Skyray Aircraft Poster"
+  file: prompts/poster/case65.md
+
+- id: poster_case66
+  style_tags: [illustration, ink]
+  summary: "Taoist Three Souls Seven Po Poster"
+  file: prompts/poster/case66.md
+
+- id: poster_case67
+  style_tags: [illustration, sketch, ink]
+  summary: "Vintage Claude Shannon Infographic Poster"
+  file: prompts/poster/case67.md
+
+- id: poster_case68
+  style_tags: [illustration, sketch, ink]
+  summary: "Ink-Wash Tribute Poster for Chen Uen"
+  file: prompts/poster/case68.md
+
+- id: poster_case69
+  style_tags: [illustration, anime]
+  summary: "Water Signs Zodiac Character Poster"
+  file: prompts/poster/case69.md
+
+- id: poster_case70
+  style_tags: [illustration, anime]
+  summary: "Earth Signs Zodiac Character Poster"
+  file: prompts/poster/case70.md
+
+- id: poster_case71
+  style_tags: [illustration]
+  summary: "Fire Sign Zodiac Character Poster"
+  file: prompts/poster/case71.md
+
+- id: poster_case72
+  style_tags: [photography, illustration, anime, ink]
+  summary: "Air Sign Zodiac Character Poster"
+  file: prompts/poster/case72.md
+
+- id: poster_case73
+  style_tags: [illustration, sketch]
+  summary: "Ethnographic Plate for Tibetan Ceremonial Hat"
+  file: prompts/poster/case73.md
+
+- id: poster_case74
+  style_tags: [realistic]
+  summary: "Vintage PRS Guitar Lineage Poster"
+  file: prompts/poster/case74.md
+
+- id: poster_case75
+  style_tags: [illustration]
+  summary: "Alishan One-Day Travel Poster"
+  file: prompts/poster/case75.md
+
+- id: poster_case76
+  style_tags: [illustration, 3d render]
+  summary: "Dance Movement Reference Sheet"
+  file: prompts/poster/case76.md
+
+- id: poster_case77
+  style_tags: [photography, illustration, anime, cinematic, realistic]
+  summary: "Anime Museum Background Conversion"
+  file: prompts/poster/case77.md
+
+- id: poster_case78
+  style_tags: [realistic]
+  summary: "16-Pose Dance Combat Reference Sheet"
+  file: prompts/poster/case78.md
+
+- id: poster_case79
+  style_tags: [photography]
+  summary: "16-Panel Dance Pose Reference Sheet"
+  file: prompts/poster/case79.md
+
+- id: poster_case80
+  style_tags: [realistic]
+  summary: "16-Panel Female Dance Pose Sheet"
+  file: prompts/poster/case80.md
+
+- id: poster_case81
+  style_tags: [realistic]
+  summary: "16-Pose Dance Reference Sheet"
+  file: prompts/poster/case81.md
+
+- id: poster_case82
+  style_tags: [cinematic, realistic]
+  summary: "Gas Giant Descent Storyboard"
+  file: prompts/poster/case82.md
+
+- id: poster_case83
+  style_tags: [watercolor, oil painting]
+  summary: "Surreal Baroque Painting Reality Fracture"
+  file: prompts/poster/case83.md
+
+- id: poster_case84
+  style_tags: [photography, cinematic, cyberpunk, realistic]
+  summary: "Urban Alley Mural Artist"
+  file: prompts/poster/case84.md
+
+- id: poster_case85
+  style_tags: [illustration, anime, cinematic]
+  summary: "RPG Map to Anime Event Scene"
+  file: prompts/poster/case85.md
+
+- id: poster_case86
+  style_tags: [illustration, anime, minimalist, sketch]
+  summary: "Soft Pastel Anime Girl Full Body"
+  file: prompts/poster/case86.md
+
+- id: poster_case87
+  style_tags: [illustration, anime, cinematic, ink]
+  summary: "Urban Fantasy Coexistence Crossing"
+  file: prompts/poster/case87.md
+
+- id: poster_case88
+  style_tags: [ink]
+  summary: "Parent-Child Miscommunication Infographic"
+  file: prompts/poster/case88.md
+
+- id: poster_case89
+  style_tags: [illustration, anime]
+  summary: "Good Bath Day Editorial Poster"
+  file: prompts/poster/case89.md
+
+- id: poster_case90
+  style_tags: [cinematic, retro, realistic]
+  summary: "Japanese Sci-Fi Suit-Up Process Board"
+  file: prompts/poster/case90.md
+
+- id: poster_case91
+  style_tags: [illustration, anime, ink]
+  summary: "Dreamy Shibuya Bubble Girl"
+  file: prompts/poster/case91.md
+
+- id: poster_case92
+  style_tags: [cinematic, realistic]
+  summary: "Stormy Tropical City With Rooftop Plane"
+  file: prompts/poster/case92.md
+
+- id: poster_case93
+  style_tags: [illustration, cinematic, sketch, realistic]
+  summary: "Outdoor Sportswear Grid Campaign"
+  file: prompts/poster/case93.md
+
+- id: poster_case94
+  style_tags: [realistic]
+  summary: "Topographic Letter Satellite Panels"
+  file: prompts/poster/case94.md
+
+- id: poster_case95
+  style_tags: [photography, minimalist, ink, realistic]
+  summary: "Iced Coffee Product Infographic"
+  file: prompts/poster/case95.md
+
+- id: poster_case96
+  style_tags: [minimalist]
+  summary: "Fashion Dress Collection Infographic"
+  file: prompts/poster/case96.md
+
+- id: poster_case97
+  style_tags: [cinematic, realistic]
+  summary: "Monochrome Fashion Cover"
+  file: prompts/poster/case97.md
+
+- id: poster_case98
+  style_tags: [retro]
+  summary: "Fast Food Character Poster"
+  file: prompts/poster/case98.md
+
+- id: poster_case99
+  style_tags: [cinematic, retro, realistic]
+  summary: "New York across two centuries cinematic poster"
+  file: prompts/poster/case99.md
+
+- id: poster_case100
+  style_tags: [infographic, cinematic, editorial]
+  summary: "Blue Tears cocktail tutorial infographic poster"
+  file: prompts/poster/case100.md
+
+- id: poster_case101
+  style_tags: [pixel art, minimalist, retro]
+  summary: "ASCII dengue infographic"
+  file: prompts/poster/case101.md
+
+- id: poster_case102
+  style_tags: [photography, minimalist, cinematic, realistic]
+  summary: "Lavender Smartphone Hero Ad"
+  file: prompts/poster/case102.md
+
+- id: poster_case103
+  style_tags: [photography, ink, realistic]
+  summary: "Luxury Food Poster Template"
+  file: prompts/poster/case103.md
+
+- id: poster_case104
+  style_tags: [photography, illustration, realistic]
+  summary: "Inflatable Orange Juice Poster"
+  file: prompts/poster/case104.md
+
+- id: poster_case105
+  style_tags: [photography, cinematic, editorial]
+  summary: "Emerald Street Fashion Poster"
+  file: prompts/poster/case105.md
+
+- id: poster_case106
+  style_tags: [photography, cinematic, retro]
+  summary: "Retro Roller Skating Campaign"
+  file: prompts/poster/case106.md
+
+- id: poster_case107
+  style_tags: [photography, minimalist, cinematic, ink, realistic]
+  summary: "Futuristic Sportswear Editorial Poster"
+  file: prompts/poster/case107.md
+
+- id: poster_case108
+  style_tags: [ink, realistic]
+  summary: "Streetwear Headphones Ad Poster"
+  file: prompts/poster/case108.md
+
+- id: poster_case109
+  style_tags: [photography]
+  summary: "Miniature City Knot Sculpture"
+  file: prompts/poster/case109.md
+
+- id: poster_case110
+  style_tags: [photography]
+  summary: "Taiwanese Food Blog Spread"
+  file: prompts/poster/case110.md
+
+- id: poster_case111
+  style_tags: [cinematic, ink, realistic]
+  summary: "Alien Disclosure Dossier"
+  file: prompts/poster/case111.md
+
+- id: poster_case112
+  style_tags: [photography, cinematic, realistic]
+  summary: "Empire Inferno Burger Poster"
+  file: prompts/poster/case112.md
+
+- id: poster_case113
+  style_tags: [photography, cinematic, realistic]
+  summary: "Greek Yogurt Lifestyle Ad"
+  file: prompts/poster/case113.md
+
+- id: poster_case114
+  style_tags: [photography, cinematic, realistic]
+  summary: "Fitness Boxing Campaign Collage Poster"
+  file: prompts/poster/case114.md
+
+- id: poster_case115
+  style_tags: [cinematic, sketch, realistic]
+  summary: "Samsung Galaxy S25 Infographic Poster"
+  file: prompts/poster/case115.md
+
+- id: poster_case116
+  style_tags: [photography, illustration, ink, realistic]
+  summary: "Food Photography with Doodle Characters"
+  file: prompts/poster/case116.md
+
+- id: poster_case117
+  style_tags: [cinematic, realistic]
+  summary: "Dynamic Sports Poster"
+  file: prompts/poster/case117.md
+
+- id: poster_case118
+  style_tags: [photography, cinematic, realistic]
+  summary: "Luxury Brand Ad Campaign Poster"
+  file: prompts/poster/case118.md
+
+- id: poster_case119
+  style_tags: [photography, cinematic, realistic]
+  summary: "Product Photography Juice Ad"
+  file: prompts/poster/case119.md
+
+- id: poster_case120
+  style_tags: [illustration, anime, cinematic]
+  summary: "A"
+  file: prompts/poster/case120.md
+
+- id: poster_case121
+  style_tags: [illustration, realistic]
+  summary: "E"
+  file: prompts/poster/case121.md
+
+- id: poster_case122
+  style_tags: [cinematic]
+  summary: "C"
+  file: prompts/poster/case122.md
+
+- id: poster_case123
+  style_tags: [illustration, anime, cinematic, ink]
+  summary: "A"
+  file: prompts/poster/case123.md
+
+- id: poster_case124
+  style_tags: [anime, cinematic, ink]
+  summary: "N"
+  file: prompts/poster/case124.md
+
+- id: poster_case125
+  style_tags: [photography, minimalist, cinematic, realistic]
+  summary: "L"
+  file: prompts/poster/case125.md
+
+- id: poster_case126
+  style_tags: [illustration, realistic]
+  summary: "H"
+  file: prompts/poster/case126.md
+
+- id: poster_case127
+  style_tags: [anime, cinematic, ink, chibi]
+  summary: "C"
+  file: prompts/poster/case127.md
+
+- id: poster_case128
+  style_tags: [illustration, minimalist]
+  summary: "D"
+  file: prompts/poster/case128.md
+
+- id: poster_case129
+  style_tags: [illustration]
+  summary: "E"
+  file: prompts/poster/case129.md
+
+- id: poster_case130
+  style_tags: [cinematic, realistic]
+  summary: "D"
+  file: prompts/poster/case130.md
+
+- id: poster_case131
+  style_tags: [illustration, cinematic, ink]
+  summary: "C"
+  file: prompts/poster/case131.md
+
+- id: poster_case132
+  style_tags: [cinematic]
+  summary: "W"
+  file: prompts/poster/case132.md
+
+- id: poster_case133
+  style_tags: [photography, illustration, cinematic, sketch, isometric, realistic]
+  summary: "F"
+  file: prompts/poster/case133.md
+
+- id: poster_case134
+  style_tags: [illustration, realistic]
+  summary: "S"
+  file: prompts/poster/case134.md
+
+- id: poster_case135
+  style_tags: [photography, collage, editorial]
+  summary: "U"
+  file: prompts/poster/case135.md
+
+- id: poster_case136
+  style_tags: [cinematic, realistic]
+  summary: "W"
+  file: prompts/poster/case136.md
+
+- id: poster_case137
+  style_tags: [chibi, realistic]
+  summary: "Z"
+  file: prompts/poster/case137.md
+
+- id: poster_case138
+  style_tags: [photography, cinematic, retro]
+  summary: "F"
+  file: prompts/poster/case138.md
+
+- id: poster_case139
+  style_tags: [anime, cinematic, realistic]
+  summary: "A"
+  file: prompts/poster/case139.md
+
+- id: poster_case140
+  style_tags: [anime, cinematic]
+  summary: "J"
+  file: prompts/poster/case140.md
+
+- id: poster_case141
+  style_tags: [cinematic, ink, realistic]
+  summary: "F"
+  file: prompts/poster/case141.md
+
+- id: poster_case142
+  style_tags: [cinematic, realistic]
+  summary: "D"
+  file: prompts/poster/case142.md
+
+- id: poster_case143
+  style_tags: [cinematic, illustration, anime]
+  summary: "S"
+  file: prompts/poster/case143.md
+
+- id: poster_case144
+  style_tags: [cinematic, illustration, anime]
+  summary: "T"
+  file: prompts/poster/case144.md
+
+- id: poster_case145
+  style_tags: [isometric]
+  summary: "F"
+  file: prompts/poster/case145.md
+
+- id: poster_case146
+  style_tags: [3d render, cinematic, surreal]
+  summary: "S"
+  file: prompts/poster/case146.md
+
+- id: poster_case147
+  style_tags: [illustration, anime, cinematic]
+  summary: "B"
+  file: prompts/poster/case147.md
+
+- id: poster_case148
+  style_tags: [illustration, minimalist]
+  summary: "T"
+  file: prompts/poster/case148.md
+
+- id: poster_case149
+  style_tags: [photography]
+  summary: "K"
+  file: prompts/poster/case149.md
+
+- id: poster_case150
+  style_tags: [illustration, anime, cinematic]
+  summary: "A"
+  file: prompts/poster/case150.md
+
+- id: poster_case151
+  style_tags: [photography, cinematic, ink, retro, realistic]
+  summary: "R"
+  file: prompts/poster/case151.md
+
+- id: poster_case152
+  style_tags: [sketch, ink, chibi, realistic]
+  summary: "Y"
+  file: prompts/poster/case152.md
+
+- id: poster_case153
+  style_tags: [photography, cinematic, realistic]
+  summary: "S"
+  file: prompts/poster/case153.md
+
+- id: poster_case154
+  style_tags: [ink]
+  summary: "C"
+  file: prompts/poster/case154.md
+
+- id: poster_case155
+  style_tags: [photography, collage, editorial]
+  summary: "U"
+  file: prompts/poster/case155.md
+
+- id: poster_case156
+  style_tags: [realistic]
+  summary: "K"
+  file: prompts/poster/case156.md
+
+- id: poster_case157
+  style_tags: [illustration, sketch, ink]
+  summary: "I"
+  file: prompts/poster/case157.md
+
+- id: poster_case158
+  style_tags: [illustration]
+  summary: "P"
+  file: prompts/poster/case158.md
+
+- id: poster_case159
+  style_tags: [illustration, watercolor, cinematic, sketch, ink, realistic]
+  summary: "W"
+  file: prompts/poster/case159.md
+
+- id: poster_case160
+  style_tags: [minimalist, isometric]
+  summary: "M"
+  file: prompts/poster/case160.md
+
+- id: poster_case161
+  style_tags: [cinematic, retro]
+  summary: "Y"
+  file: prompts/poster/case161.md
+
+- id: poster_case162
+  style_tags: [photography, cinematic, realistic]
+  summary: "C"
+  file: prompts/poster/case162.md
+
+- id: poster_case163
+  style_tags: [ink]
+  summary: "P"
+  file: prompts/poster/case163.md
+
+- id: poster_case164
+  style_tags: [illustration, minimalist, ink]
+  summary: "T"
+  file: prompts/poster/case164.md
+
+- id: poster_case165
+  style_tags: [illustration, minimalist, cinematic, sketch, ink, realistic]
+  summary: "M"
+  file: prompts/poster/case165.md
+
+- id: poster_case166
+  style_tags: [photography, sketch, realistic]
+  summary: "K"
+  file: prompts/poster/case166.md
+
+- id: poster_case167
+  style_tags: [illustration, anime, flat design]
+  summary: "J"
+  file: prompts/poster/case167.md
+
+- id: poster_case168
+  style_tags: [cinematic, realistic]
+  summary: "C"
+  file: prompts/poster/case168.md
+
+- id: poster_case169
+  style_tags: [realistic]
+  summary: "M"
+  file: prompts/poster/case169.md
+
+- id: poster_case170
+  style_tags: [illustration, anime, cinematic, ink, cyberpunk, realistic]
+  summary: "C"
+  file: prompts/poster/case170.md
+
+- id: poster_case171
+  style_tags: [sketch, ink, chibi, realistic]
+  summary: "Y"
+  file: prompts/poster/case171.md
+
+- id: poster_case172
+  style_tags: [cinematic, realistic]
+  summary: "J"
+  file: prompts/poster/case172.md
+
+- id: poster_case173
+  style_tags: [cinematic, cyberpunk, realistic]
+  summary: "B"
+  file: prompts/poster/case173.md
+
+- id: poster_case174
+  style_tags: [ink]
+  summary: "Hand-Torn Editorial Collage"
+  file: prompts/poster/case174.md
+
+- id: poster_case175
+  style_tags: [ink]
+  summary: "Glowing Sailboat Night Illustration"
+  file: prompts/poster/case175.md
+
+- id: poster_case176
+  style_tags: [illustration, minimalist, ink]
+  summary: "Istanbul Line-Art Travel Poster"
+  file: prompts/poster/case176.md
+
+- id: poster_case177
+  style_tags: [cinematic, realistic, illustration]
+  summary: "Dark Western Outlaw Poster"
+  file: prompts/poster/case177.md
+
+- id: poster_case178
+  style_tags: [illustration, anime]
+  summary: "Anime Streetwear Mascot Poster"
+  file: prompts/poster/case178.md
+
+- id: poster_case179
+  style_tags: [cinematic, realistic]
+  summary: "Wildlife Infographic Reference Poster"
+  file: prompts/poster/case179.md
+
+- id: poster_case180
+  style_tags: [photography, cinematic, sketch, realistic]
+  summary: "Ancient Civilization Miniature Diorama"
+  file: prompts/poster/case180.md
+
+- id: poster_case181
+  style_tags: [cinematic]
+  summary: "Japanese Fashion Collage Poster"
+  file: prompts/poster/case181.md
+
+- id: poster_case182
+  style_tags: [illustration, minimalist]
+  summary: "Bangkok Swiss Typography Poster"
+  file: prompts/poster/case182.md
+
+- id: poster_case183
+  style_tags: [photography, cinematic, realistic]
+  summary: "Miniature Travel World Poster"
+  file: prompts/poster/case183.md
+
+- id: poster_case184
+  style_tags: [cinematic, realistic]
+  summary: "Japanese Graffiti Portrait"
+  file: prompts/poster/case184.md
+
+- id: poster_case185
+  style_tags: [cinematic]
+  summary: "Playlist Mood Album Cover"
+  file: prompts/poster/case185.md
+
+- id: poster_case186
+  style_tags: [photography, illustration, cinematic]
+  summary: "Play-Doh City Editorial"
+  file: prompts/poster/case186.md
+
+- id: poster_case187
+  style_tags: [3d render, ink]
+  summary: "3D Liquid Art Poster"
+  file: prompts/poster/case187.md
+
+- id: poster_case188
+  style_tags: [minimalist, retro, isometric]
+  summary: "Isometric Travel Poster"
+  file: prompts/poster/case188.md
+
+- id: poster_case189
+  style_tags: [illustration, cinematic, ink, retro, realistic]
+  summary: "Vintage Travel Postage Stamp"
+  file: prompts/poster/case189.md
+
+- id: poster_case190
+  style_tags: [cinematic, realistic]
+  summary: "Vintage Paper Collage Set"
+  file: prompts/poster/case190.md
+
+- id: poster_case191
+  style_tags: [illustration, realistic]
+  summary: "Cubist Kawaii Vector Portrait"
+  file: prompts/poster/case191.md
+
+- id: poster_case192
+  style_tags: [minimalist, cinematic, ink]
+  summary: "Trash Polka Headphones Portrait"
+  file: prompts/poster/case192.md
+
+- id: poster_case193
+  style_tags: [cinematic, realistic]
+  summary: "3D Typography Travel Poster"
+  file: prompts/poster/case193.md
+
+- id: poster_case194
+  style_tags: [photography, editorial, minimalist]
+  summary: "泳装时尚杂志四宫格"
+  file: prompts/poster/case194.md
+
+- id: poster_case195
+  style_tags: [illustration, sketch, ink]
+  summary: "Monochrome Caricature Portrait Sheet"
+  file: prompts/poster/case195.md
+
+- id: poster_case196
+  style_tags: [illustration, cinematic]
+  summary: "星河入梦 3D CG 插画"
+  file: prompts/poster/case196.md
+
+- id: poster_case197
+  style_tags: [illustration, watercolor, cinematic, sketch, ink, chibi, realistic]
+  summary: "Character Profile Sheet"
+  file: prompts/poster/case197.md
+
+- id: poster_case198
+  style_tags: [photography, cinematic, sketch, realistic]
+  summary: "Korean Editorial Fashion Moodboard"
+  file: prompts/poster/case198.md
+
+- id: poster_case199
+  style_tags: [illustration, watercolor, anime, cinematic, sketch, ink, cyberpunk, realistic]
+  summary: "Busan Travel Journal Illustration"
+  file: prompts/poster/case199.md
+
+- id: poster_case200
+  style_tags: [cinematic, realistic]
+  summary: "Borussia War Room Interior"
+  file: prompts/poster/case200.md
+
+- id: poster_case201
+  style_tags: [photography, illustration, cinematic, ink, chibi, realistic]
+  summary: "Kawaii Muslim Cafe Scene"
+  file: prompts/poster/case201.md
+
+- id: poster_case202
+  style_tags: [watercolor, sketch]
+  summary: "Marrakech Watercolor Travel Poster"
+  file: prompts/poster/case202.md
+
+- id: poster_case203
+  style_tags: [minimalist, cinematic, retro]
+  summary: "Retro Travel Poster Collage"
+  file: prompts/poster/case203.md
+
+- id: poster_case204
+  style_tags: [illustration, watercolor, sketch, ink]
+  summary: "Serene City Travel Illustration"
+  file: prompts/poster/case204.md
+
+- id: poster_case205
+  style_tags: [watercolor, illustration, hand-drawn]
+  summary: "Watercolor 2026 Calendar Poster"
+  file: prompts/poster/case205.md
+
+- id: poster_case206
+  style_tags: [cinematic, illustration, surreal]
+  summary: "High-Concept Personal Portrait"
+  file: prompts/poster/case206.md
+
+- id: poster_case207
+  style_tags: [cinematic]
+  summary: "梦落琴弦幻想钢琴插画"
+  file: prompts/poster/case207.md
+
+- id: poster_case208
+  style_tags: [illustration, ink, anime]
+  summary: "Coffee Girl By the River"
+  file: prompts/poster/case208.md
+
+- id: poster_case209
+  style_tags: [realistic]
+  summary: "Floating Island Travel Poster"
+  file: prompts/poster/case209.md
+
+- id: poster_case210
+  style_tags: [illustration, watercolor, minimalist, sketch]
+  summary: "Vintage Monochrome City Travel Poster"
+  file: prompts/poster/case210.md
+
+- id: poster_case211
+  style_tags: [illustration]
+  summary: "Flat-Vector City Lifestyle Collage"
+  file: prompts/poster/case211.md
+
+- id: poster_case212
+  style_tags: [cinematic]
+  summary: "Sci-Fi Character Concept Sheet"
+  file: prompts/poster/case212.md
+
+- id: poster_case213
+  style_tags: [3d render, chibi, illustration]
+  summary: "Pixar 3D Character Design Sheet"
+  file: prompts/poster/case213.md
+
+- id: poster_case214
+  style_tags: [collage, vintage, retro]
+  summary: "Vintage Travel Collage Poster"
+  file: prompts/poster/case214.md
+
+- id: poster_case215
+  style_tags: [infographic, minimalist, editorial]
+  summary: "Premium Travel Infographic Poster"
+  file: prompts/poster/case215.md
+
+- id: poster_case216
+  style_tags: [cinematic, ink]
+  summary: "9-Frame Cinematic Storyboard Grid"
+  file: prompts/poster/case216.md
+
+- id: poster_case217
+  style_tags: [illustration, cinematic, retro]
+  summary: "Vintage 1960s Beer Ad Poster"
+  file: prompts/poster/case217.md
+
+- id: poster_case218
+  style_tags: [minimalist, cinematic, realistic]
+  summary: "Cinematic Director's Pitch Board"
+  file: prompts/poster/case218.md
+
+- id: poster_case219
+  style_tags: [photography, cinematic, ink, realistic]
+  summary: "Viral Food Infographic Poster"
+  file: prompts/poster/case219.md
+
+- id: poster_case220
+  style_tags: [minimalist]
+  summary: "2x2 Luxury 3D Sculptural Poster"
+  file: prompts/poster/case220.md
+
+- id: poster_case221
+  style_tags: [photography]
+  summary: "Physics Infographic Code Prompt"
+  file: prompts/poster/case221.md
+
+- id: poster_case222
+  style_tags: [photography, cinematic, realistic]
+  summary: "Football Player Dynamic Poster"
+  file: prompts/poster/case222.md
+
+- id: poster_case223
+  style_tags: [realistic]
+  summary: "Travel Food Advertisement Poster"
+  file: prompts/poster/case223.md
+
+- id: poster_case224
+  style_tags: [illustration, watercolor, minimalist, cinematic, sketch, ink]
+  summary: "Vintage Watercolor Travel Poster"
+  file: prompts/poster/case224.md
+
+- id: poster_case225
+  style_tags: [photography, watercolor, sketch, ink, retro, realistic]
+  summary: "Retro Cafe Scrapbook Poster"
+  file: prompts/poster/case225.md
+
+- id: poster_case226
+  style_tags: [photography, illustration, cinematic, sketch, ink, realistic]
+  summary: "Blueberry Lavender Soda Scrapbook Poster"
+  file: prompts/poster/case226.md
+
+- id: poster_case227
+  style_tags: [realistic]
+  summary: "Scientific Concept Anchor Poster"
+  file: prompts/poster/case227.md
+
+- id: poster_case228
+  style_tags: [minimalist]
+  summary: "Editorial Fashion Poster"
+  file: prompts/poster/case228.md
+
+- id: poster_case229
+  style_tags: [photography, editorial, infographic]
+  summary: "High Fashion Editorial Infographic Poster"
+  file: prompts/poster/case229.md
+
+- id: poster_case230
+  style_tags: [cinematic, photography, 3d render]
+  summary: "Basketball Poster Design"
+  file: prompts/poster/case230.md
+
+- id: poster_case231
+  style_tags: [anime, illustration, flat design]
+  summary: "角色卡三视图生成"
+  file: prompts/poster/case231.md
+
+- id: poster_case232
+  style_tags: [fashion, editorial]
+  summary: "High-Fashion Editorial Poster Template"
+  file: prompts/poster/case232.md
+
+- id: poster_case233
+  style_tags: [retro, propaganda, typography]
+  summary: "1980s Propaganda Style Poster"
+  file: prompts/poster/case233.md
+
+- id: poster_case234
+  style_tags: [chinese-style, product, typography]
+  summary: "Chinese New Tea Brand Launch Poster"
+  file: prompts/poster/case234.md
+
+- id: poster_case235
+  style_tags: [silhouette, concept-art, cinematic]
+  summary: "Silhouette Universe Narrative Poster"
+  file: prompts/poster/case235.md
+
+- id: poster_case236
+  style_tags: [skincare, product, minimalist]
+  summary: "Premium Skincare Product Poster"
+  file: prompts/poster/case236.md
+
+- id: poster_case237
+  style_tags: [calligraphy, ink, chinese-style]
+  summary: "Chinese Calligraphy Manuscript Restoration"
+  file: prompts/poster/case237.md
+

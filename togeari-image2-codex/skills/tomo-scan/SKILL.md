@@ -20,18 +20,18 @@ Your job is to search the prompt gallery index and retrieve specific verified pr
 
 ## Data Sources
 
-All data lives under `gallery/evolinkai/`:
+All data lives under `gallery/`:
 
-- **Per-category index files** (`gallery/evolinkai/index/{category}.yaml`) — 7 files, one per category. Each entry has id, style_tags, summary, and file path. Read the index file(s) matching the target category.
-- **Full prompt files** (`gallery/evolinkai/prompts/{category}/caseN.md`) — complete prompt text for each entry. Read these when you need the actual verified prompt.
+- **Per-category index files** (`gallery/index/{category}.yaml`) — 9 files, one per category. Each entry has id, style_tags, summary, and file path. Read the index file(s) matching the target category.
+- **Full prompt files** (`gallery/prompts/{category}/caseN.md`) — complete prompt text for each entry. Read these when you need the actual verified prompt.
 
-Available categories: `poster` (232), `portrait` (196), `ui` (95), `comparison` (60), `ad-creative` (31), `ecommerce` (20), `character` (15).
+Available categories: `poster` (237), `portrait` (196), `ui` (100), `comparison` (60), `ad-creative` (34), `ecommerce` (35), `infographic` (22), `character` (22), `illustration` (12).
 
 ## Process
 
 **Input:** Confirmed direction + user brief summary + target category (from the producer, after the user has chosen a direction)
 
-1. Read `gallery/evolinkai/index/{category}.yaml` for the target category. If the direction spans multiple categories, read multiple index files.
+1. Read `gallery/index/{category}.yaml` for the target category. If the direction spans multiple categories, read multiple index files.
 2. Scan the entries' style_tags and summaries, use semantic understanding to find the most relevant entries for the confirmed direction.
 3. Read up to 10-15 full prompt files to get a broad view of available techniques.
 4. From those, select 3-5 best prompts as references.
@@ -53,8 +53,8 @@ Available categories: `poster` (232), `portrait` (196), `ui` (95), `comparison` 
 
 This skill is invoked by togeari-producer via Skill("tomo-scan").
 
-**Default (inline):** When the target category is small (character: 15 entries, ecommerce: 20 entries), the producer follows these instructions directly. This is faster.
+**Default (inline):** When the target category is small (character: 22 entries, illustration: 12 entries, infographic: 22 entries), the producer follows these instructions directly. This is faster.
 
-**Escalate to subagent:** When the target category is large (poster: 232 entries, portrait: 196 entries) or the direction spans multiple categories, dispatch as a subagent via Agent() to isolate the heavy index reading from the main conversation context.
+**Escalate to subagent:** When the target category is large (poster: 237 entries, portrait: 196 entries, ui: 100 entries) or the direction spans multiple categories, dispatch as a subagent via Agent() to isolate the heavy index reading from the main conversation context.
 
 The producer decides which mode to use based on target category size.

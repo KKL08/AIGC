@@ -1,0 +1,111 @@
+# infographic prompt index (22 entries)
+
+- id: infographic_case1
+  style_tags: [educational, diagram, infographic, flat-design, illustration]
+  summary: "Atmospheric Circulation Textbook Infographic"
+  file: prompts/infographic/case1.md
+
+- id: infographic_case2
+  style_tags: [infographic, illustration, typography, flat-design, diagram]
+  summary: "Couture Garment Process Infographic"
+  file: prompts/infographic/case2.md
+
+- id: infographic_case3
+  style_tags: [brand-identity, typography, flat-design, infographic, diagram]
+  summary: "Pet Brand Identity System Board"
+  file: prompts/infographic/case3.md
+
+- id: infographic_case4
+  style_tags: [educational, flat-design, infographic, typography, social-media-mockup]
+  summary: "Google Fonts Japanese Infographic"
+  file: prompts/infographic/case4.md
+
+- id: infographic_case5
+  style_tags: [3d-render, infographic, diagram, illustration, data-viz]
+  summary: "3D Stone Staircase Evolution Infographic"
+  file: prompts/infographic/case5.md
+
+- id: infographic_case6
+  style_tags: [watercolor, hand-drawn, map, illustration, infographic]
+  summary: "Illustrated City Food Map Chengdu"
+  file: prompts/infographic/case6.md
+
+- id: infographic_case7
+  style_tags: [3d-render, diagram, product, infographic, illustration]
+  summary: "VR Headset Exploded View Poster"
+  file: prompts/infographic/case7.md
+
+- id: infographic_case8
+  style_tags: [photography, product, infographic, flat-design, diagram]
+  summary: "Fashion Height Comparison Chart"
+  file: prompts/infographic/case8.md
+
+- id: infographic_case9
+  style_tags: [document-replica, retro, illustration, diagram, typography]
+  summary: "Vintage Patent Technical Drawing"
+  file: prompts/infographic/case9.md
+
+- id: infographic_case10
+  style_tags: [infographic, data-viz, educational, flat-design, diagram]
+  summary: "Coffee Journey Infographic"
+  file: prompts/infographic/case10.md
+
+- id: infographic_case11
+  style_tags: [infographic, educational, document-replica, diagram, typography]
+  summary: "Museum Catalog Disassembly Infographic"
+  file: prompts/infographic/case11.md
+
+- id: infographic_case12
+  style_tags: [educational, diagram, document-replica, infographic, illustration]
+  summary: "Jingdezhen Blue-and-White Porcelain Diagram"
+  file: prompts/infographic/case12.md
+
+- id: infographic_case13
+  style_tags: [educational, infographic, flat-design, diagram, social-media-mockup]
+  summary: "Encyclopedia Knowledge Card Template"
+  file: prompts/infographic/case13.md
+
+- id: infographic_case14
+  style_tags: [infographic, educational, flat-design, diagram, typography]
+  summary: "Fitness Training Infographic Template"
+  file: prompts/infographic/case14.md
+
+- id: infographic_case15
+  style_tags: [infographic, map, flat-design, social-media-mockup, illustration]
+  summary: "Three-Day Travel Guide Card"
+  file: prompts/infographic/case15.md
+
+- id: infographic_case16
+  style_tags: [infographic, data-viz, diagram, illustration, typography]
+  summary: "Character Relationship Poster Template"
+  file: prompts/infographic/case16.md
+
+- id: infographic_case17
+  style_tags: [document-replica, photography, typography, educational, retro]
+  summary: "Chinese Math Exam Paper"
+  file: prompts/infographic/case17.md
+
+- id: infographic_case18
+  style_tags: [document-replica, photography, hand-drawn, retro, typography]
+  summary: "Chinese Medical Prescription"
+  file: prompts/infographic/case18.md
+
+- id: infographic_case19
+  style_tags: [social-media-mockup, illustration, retro, typography, flat-design]
+  summary: "Song Dynasty Social Media Feed"
+  file: prompts/infographic/case19.md
+
+- id: infographic_case20
+  style_tags: [photography, diagram, product, flat-design, data-viz]
+  summary: "World Time Analog Clock Wall"
+  file: prompts/infographic/case20.md
+
+- id: infographic_case21
+  style_tags: [infographic, data-viz, illustration, educational, diagram]
+  summary: "100 Technology Topics Grid"
+  file: prompts/infographic/case21.md
+
+- id: infographic_case22
+  style_tags: [product, flat-design, infographic, 3d-render, social-media-mockup]
+  summary: "Liquid Glass Bento Grid Product Infographic"
+  file: prompts/infographic/case22.md

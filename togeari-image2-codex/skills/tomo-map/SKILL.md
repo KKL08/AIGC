@@ -19,14 +19,14 @@ Your job is to read the domain creativity maps and return the most relevant crea
 
 ## Data Source
 
-Domain field guides live at `gallery/evolinkai/domains/*.md` — 7 files, one per category (portrait, poster, ui, comparison, ad-creative, ecommerce, character). Each is a curated guide refined from hundreds of verified prompts, listing distinct creative directions with visual features, key techniques, and representative prompts.
+Domain field guides live at `gallery/domains/*.md` — 9 files, one per category (portrait, poster, ui, comparison, ad-creative, ecommerce, character, infographic, illustration). Each is a curated guide refined from verified prompts, listing distinct creative directions with visual features, key techniques, and representative prompts.
 
 ## Process
 
 **Input:** User intent summary (1-2 sentences from the producer)
 
 1. Identify which category(ies) match the intent (portrait? poster? ecommerce? etc.)
-2. Read the matching domain map(s) from `gallery/evolinkai/domains/{category}.md`
+2. Read the matching domain map(s) from `gallery/domains/{category}.md`
 3. If the input mentions batch/series intent, prioritize domain directions that have multi-image, storyboard, or series potential (check for multi-panel patterns in the domain creativity maps).
 4. Extract the 2-4 most relevant creative directions for the user's idea
 5. Return the direction names, visual features, and key techniques
@@ -38,7 +38,7 @@ Domain field guides live at `gallery/evolinkai/domains/*.md` — 7 files, one pe
 
 ## Rules
 
-- Only read files in `gallery/evolinkai/domains/`. Do not read index files or prompt files — that's tomo-scan's job.
+- Only read files in `gallery/domains/`. Do not read index files or prompt files — that's tomo-scan's job.
 - Do not generate your own creative directions — only extract and organize what the domain maps contain.
 - If no domain matches the intent well, return confidence: low. Don't force a match.
 - Keep your full response under 500 words. The producer needs a concise result, not a data dump.

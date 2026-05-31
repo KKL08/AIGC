@@ -24,7 +24,7 @@ rm -rf /tmp/aigc
 
 > Skill 依赖 Codex 内置的 Image Generation 功能（基于 gpt-image-2），新版 Codex 默认已开启。如遇生图不可用，检查 `~/.codex/config.toml` 中 `image_generation = true` 是否存在。
 
-Gallery 数据（649 条验证 prompt + 7 个领域指南 + 索引）已包含在仓库中，无需额外安装步骤。
+Gallery 数据（718 条验证 prompt + 9 个领域指南 + 索引）已包含在仓库中，无需额外安装步骤。
 
 ### 其他平台
 
@@ -51,10 +51,10 @@ togeari-image2-codex/
 ├── references/
 │   └── openai-image-guide.md          ← gpt-image-2 参考指南
 └── gallery/
-    └── evolinkai/
-        ├── index/                     ← 按领域拆分的索引（7 个文件）
-        ├── domains/*.md               ← 7 个领域指南（Creativity Maps）
-        └── prompts/**/*.md            ← 649 个完整 prompt
+    ├── index/                         ← 按领域拆分的索引（9 个文件）
+    ├── domains/*.md                   ← 9 个领域指南（Creativity Maps）
+    ├── prompts/**/*.md                ← 718 个完整 prompt
+    └── SOURCES.md                     ← 数据来源记录
 ```
 
 ## 卸载

@@ -1,0 +1,61 @@
+# illustration prompt index (12 entries)
+
+- id: illustration_case1
+  style_tags: [papercraft, diorama, kawaii, illustration]
+  summary: "Paper-Cut Layered Illustration Style"
+  file: prompts/illustration/case1.md
+
+- id: illustration_case2
+  style_tags: [papercraft, diorama, kawaii, retro, illustration]
+  summary: "Japanese Papercraft Cafe Diorama"
+  file: prompts/illustration/case2.md
+
+- id: illustration_case3
+  style_tags: [papercraft, diorama, manga, illustration]
+  summary: "Japanese Paper Craft Art Scenes"
+  file: prompts/illustration/case3.md
+
+- id: illustration_case4
+  style_tags: [retro, illustration, anime, concept-art]
+  summary: "Four-Panel Retro Kitchen Scene Design"
+  file: prompts/illustration/case4.md
+
+- id: illustration_case5
+  style_tags: [fantasy, steampunk, concept-art, cinematic, illustration]
+  summary: "Floating Sky Night Market"
+  file: prompts/illustration/case5.md
+
+- id: illustration_case6
+  style_tags: [anime, sci-fi, concept-art, cinematic, illustration]
+  summary: "Endless Megastructure Free Fall"
+  file: prompts/illustration/case6.md
+
+- id: illustration_case7
+  style_tags: [anime, fantasy, watercolor, illustration]
+  summary: "Fantasy Sky Mirror Illustration"
+  file: prompts/illustration/case7.md
+
+- id: illustration_case8
+  style_tags: [cinematic, photorealistic, illustration]
+  summary: "Cinematic Rainy Suburban Street"
+  file: prompts/illustration/case8.md
+
+- id: illustration_case9
+  style_tags: [comic, mixed-media, illustration, photorealistic]
+  summary: "Hybrid Photo-Comic Illustration"
+  file: prompts/illustration/case9.md
+
+- id: illustration_case10
+  style_tags: [diorama, fantasy, illustration, concept-art]
+  summary: "Magical Fantasy Book Diorama Grid"
+  file: prompts/illustration/case10.md
+
+- id: illustration_case11
+  style_tags: [manga, comic, illustration]
+  summary: "Two-Panel Manga Office Comic"
+  file: prompts/illustration/case11.md
+
+- id: illustration_case12
+  style_tags: [manga, comic, anime, concept-art]
+  summary: "Marvel-Style Harry Potter Poster"
+  file: prompts/illustration/case12.md

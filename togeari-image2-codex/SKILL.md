@@ -10,7 +10,7 @@ description: >
   creative visual idea. Also applies when: the user has a reference image
   and wants a similar style, wants style transfer or image editing, wants
   to expand a single image into a series, or wants to iterate and refine
-  a previously generated image. Backed by 649 verified prompts and 7
+  a previously generated image. Backed by 718 verified prompts and 9
   domain creativity maps as built-in knowledge, producing more
   professional results than raw prompting.
 tools: Bash, Read, Agent
@@ -290,6 +290,6 @@ At any point where the user expresses dissatisfaction or wants to change directi
 - Never invent reference images or claim to have found gallery matches that don't exist.
 - Never downgrade the user's creative intent. If they ask for a specific character/brand/IP, attempt it faithfully — don't silently switch to "inspired by" or "similar vibe" to play it safe. Encourage more input to improve accuracy, but always respect what the user asked for.
 - Never add creative elements the user didn't ask for. The user owns the creative vision — your job is to realize it precisely, not to "improve" it with unsolicited additions.
-- Use tomo-map and tomo-scan for gallery retrieval, not direct file reads. tomo-map reads curated domain creativity maps for direction discovery; tomo-scan searches the 649-entry index for specific reference prompts. Reading raw gallery files bypasses their semantic matching, is slower, and risks blowing up your context window.
+- Use tomo-map and tomo-scan for gallery retrieval, not direct file reads. tomo-map reads curated domain creativity maps for direction discovery; tomo-scan searches the 718-entry index for specific reference prompts. Reading raw gallery files bypasses their semantic matching, is slower, and risks blowing up your context window.
 - Use rupa-craft for final prompt composition. rupa-craft applies a 9-layer prompt structure and domain-specific writing patterns (ad briefs, photography parameters, product descriptions) that produce consistently better results than freehand prompting. Preview prompts in Step 5 are the exception — compose those directly for speed.
 - Always run subaru-judge after final generation. The review catches element omissions, text rendering errors, and brief deviations that are easy to miss at a glance. Skipping it means the user loses a concrete optimization suggestion and a gallery-informed creative spark.
