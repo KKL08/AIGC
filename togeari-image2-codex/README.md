@@ -10,7 +10,7 @@
 
 ## 它能做什么
 
-你脑子里有一幅画面：某个角色站在夕阳下的天桥上，风扬起衣角，氛围是孤独但有力量。你试着写 prompt，但写完总觉得差一点——要么意图漂移，要么构图奇怪，要么光影不对味。
+你有一个模糊的灵感或者你希望把脑海中构思的画面变成完整的图片作品。你试着写 prompt，但写完总觉得差一点——要么画风偏离，要么构图奇怪，要么光影不对味。
 
 从模糊想法到精准画面，需要静下心来梳理：你到底想要什么？什么样的提示词和参考素材能实现它？图出来了怎么继续优化？
 
@@ -54,7 +54,7 @@
 |:---:|------|-------|------|------|
 | <img src="docs/members/nina.png" width="50"><br>**Nina** 井芹仁菜 | 🎤 主唱 | togeari-producer | 理解意图，追问收敛，编排流程 | 拒绝含糊，模糊的想法不往下传 |
 | <img src="docs/members/momoka.png" width="50"><br>**Momoka** 河原木桃香 | 🎸 吉他 | momoka-route | 给出多个创意方向 | 开朗、果断，专注于创意 |
-| <img src="docs/members/tomo.png" width="50"><br>**Tomo** 海老塚智 | 🎹 键盘 | tomo-scan | 从 Gallery 中分析检索契合的技巧与参考 | 冷眼精准，严谨不将就 |
+| <img src="docs/members/tomo.png" width="50"><br>**Tomo** 海老塚智 | 🎹 键盘 | tomo-map / tomo-scan | 从 Gallery 中发现创意方向、检索参考 prompt | 冷眼精准，严谨不将就 |
 | <img src="docs/members/rupa.png" width="50"><br>**Rupa** ルパ | 🎸 贝斯 | rupa-craft | 把 brief 和 Gallery 技巧智能整合成最终提示 | 冷静清醒，下笔精准不犹豫 |
 | <img src="docs/members/subaru.png" width="50"><br>**Subaru** 安和すばる | 🥁 鼓 | subaru-judge | 逐项审查生成结果，给优化建议和新灵感 | 好胜较真，每个细节都要查到位 |
 
@@ -81,11 +81,9 @@
 
 详细安装方式与手动安装 → [INSTALL.md](INSTALL.md)
 
-## Gallery
+## 领域指南 & Prompt Gallery
 
-Skill 内置了来自 EvoLinkAI 的 649 条高质量验证 prompt，覆盖 7 个领域。每个领域经过深度提炼出通用的提示技巧精华。
-
-当你的灵感靠近某个领域时，Skill 会自动理解并匹配该领域提炼的提示词技巧与参考案例；如果你的idea 非同寻常，也会引导 Agent 跨领域学习理解，组装符合你灵感意图的高质量提示词。
+Skill 包内置覆盖多个领域的高质量 prompt，并对每个领域的提示词和真实案例进行深度分析，提炼出 **Creativity Map**（领域指南），总结该领域的创意方向和提示词关键技巧。Skill 会根据领域指南引导 Agent 真正理解”一份好的提示词应该怎么写”。
 
 | 领域 | 数量 | 覆盖范围 |
 |------|------|----------|
@@ -97,7 +95,7 @@ Skill 内置了来自 EvoLinkAI 的 649 条高质量验证 prompt，覆盖 7 个
 | UI Design | 100+ | App 界面、深色模式、仪表盘 |
 | Comparison 对比 | 40+ | 前后对比、A/B 展示 |
 
-每个领域还提炼了一份 **Creativity Map**（领域指南），总结该领域的创意方向和提示词关键技巧。Rupa会根据领域指南引导 Agent 真正理解“一份好的提示词应该怎么写”。
+当你的灵感靠近某个领域时，Skill 会自动匹配该领域的技巧与参考案例；如果你的想法跨出已有领域，Agent 会用从知识库积累的通用技巧自主组装，不受领域限制。
 
 
 ## 后续 Roadmap
