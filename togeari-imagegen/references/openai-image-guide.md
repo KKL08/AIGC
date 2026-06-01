@@ -19,8 +19,8 @@ All skills (especially rupa-craft) should read this before composing prompts.
 
 | Endpoint | Purpose |
 |----------|---------|
-| `POST /v1/images/generations` | Text-to-image generation |
-| `POST /v1/images/edits` | Edit existing images with prompt (inpainting, restyle) |
+| `POST /v1/images/generations` | Text-to-image generation (text prompt only, no image input) |
+| `POST /v1/images/edits` | Image-guided generation, editing, inpainting, restyle. Accepts up to 16 reference images via multipart/form-data. When used without a mask, references guide new generation rather than editing. |
 
 ### Parameters
 
@@ -38,7 +38,7 @@ All skills (especially rupa-craft) should read this before composing prompts.
 ### What Image2 Can Do
 
 - **Text rendering**: Significantly better than gpt-image-1, especially for multilingual text. Still imperfect for precise placement.
-- **Multi-image input**: Accepts up to 16 reference images for style/content guidance. Always processed at high fidelity (no `input_fidelity` parameter — it's always high).
+- **Multi-image input**: Accepts up to 16 reference images via the **edits endpoint** (`/v1/images/edits`, multipart/form-data). Always processed at high fidelity. When used without a mask, reference images guide new generation (not editing). The generations endpoint (`/v1/images/generations`) is text-only and does not accept image input.
 - **Arbitrary resolutions**: Any WxH where both edges are multiples of 16, max edge 3840px on either side. Sweet spot ≤2560×1440.
 - **Inpainting**: Supply mask (transparent PNG) to regenerate specific regions. Masks are approximate guidance, not pixel-perfect.
 - **Full restyle**: Submit source image + new prompt without mask to transform entire image.
@@ -89,10 +89,12 @@ Use action-oriented language: prefer "draw," "edit," "create" over vague "combin
 
 ### Reference Images
 
+- **Endpoint:** Reference images are passed via `/v1/images/edits` (multipart/form-data), NOT `/v1/images/generations`. Omit the mask to use references for guided generation rather than inpainting.
 - All input images are always processed at high fidelity (no parameter needed).
 - Multiple images can synthesize new compositions — index and describe each ("Image 1: product photo... Image 2: style reference").
 - Give explicit compositing instructions ("apply Image 2's style to Image 1").
 - Explicitly state what to preserve (identity, style, composition) and what to change.
+- **Identity preservation:** When a reference image is passed to the API, use short identity-locking language ("Use the person in the reference as the same identity. Do not redesign.") instead of long appearance descriptions. Long descriptions cause the model to synthesize a new similar-looking subject rather than preserving the reference.
 
 ### Edit Constraints (critical)
 
