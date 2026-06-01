@@ -12,8 +12,8 @@ __pycache__/
 # Generated images
 output/
 
-# Tests (local development only)
-tests/
+# User workspace (generated images + extracted refs)
+workspace/
 
 # Local design docs (not for GitHub)
 docs/superpowers/

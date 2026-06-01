@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import base64
 import json
 import os
 import sys
@@ -52,10 +53,10 @@ class GenerateRequest:
     prompt: str
     provider: str = "openai"
     model: Optional[str] = None
-    aspect_ratio: str = "1:1"
-    quality: str = "standard"
-    output_format: str = "png"
-    output_path: str = "output/image.png"
+    aspect_ratio: str = "auto"
+    quality: str = "auto"
+    output_format: str = "jpeg"
+    output_path: str = "output/image.jpeg"
     reference_images: list[str] = field(default_factory=list)
     n: int = 1
 
@@ -65,10 +66,10 @@ class GenerateRequest:
             prompt=data["prompt"],
             provider=data.get("provider", "openai"),
             model=data.get("model"),
-            aspect_ratio=data.get("aspect_ratio", "1:1"),
-            quality=data.get("quality", "standard"),
-            output_format=data.get("output_format", "png"),
-            output_path=data.get("output", "output/image.png"),
+            aspect_ratio=data.get("aspect_ratio", "auto"),
+            quality=data.get("quality", "auto"),
+            output_format=data.get("output_format", "jpeg"),
+            output_path=data.get("output", "output/image.jpeg"),
             reference_images=data.get("reference_images", []),
             n=data.get("n", 1),
         )
@@ -92,9 +93,61 @@ class GenerateResult:
         return json.dumps(d, ensure_ascii=False)
 
 
-ALLOWED_ASPECT_RATIOS = {"1:1", "16:9", "9:16", "4:3", "3:4", "3:2", "2:3"}
-ALLOWED_QUALITIES = {"preview", "standard", "high"}
+ALLOWED_ASPECT_RATIOS = {"auto", "1:1", "16:9", "9:16", "4:3", "3:4", "3:2", "2:3"}
+ALLOWED_QUALITIES = {"auto", "preview", "standard", "high"}
 ALLOWED_FORMATS = {"png", "jpeg", "webp"}
+
+_EXT_TO_MEDIA_TYPE: dict[str, str] = {
+    ".png": "image/png",
+    ".jpg": "image/jpeg",
+    ".jpeg": "image/jpeg",
+    ".webp": "image/webp",
+}
+
+
+def resolve_image_input(value: str) -> tuple[bytes, str]:
+    """Resolve a reference image string to (raw_bytes, media_type).
+
+    Accepts two formats:
+      - File path: reads the file and detects media type from extension.
+      - Data URI: ``data:image/<subtype>;base64,<data>`` — extracts and decodes.
+    """
+    if not value:
+        raise ValueError("reference image value must not be empty")
+
+    # -- Data URI ----------------------------------------------------------
+    if value.startswith("data:"):
+        # Expected: data:<media_type>;base64,<encoded>
+        try:
+            header, encoded = value.split(",", 1)
+        except ValueError:
+            raise ValueError(f"Invalid data URI format: missing comma")
+        # header looks like "data:image/png;base64"
+        if ";base64" not in header:
+            raise ValueError(f"Invalid data URI: expected base64 encoding")
+        media_type = header[len("data:"):].split(";")[0]
+        if not media_type.startswith("image/"):
+            raise ValueError(
+                f"Invalid data URI: expected image/* media type, got '{media_type}'"
+            )
+        try:
+            decoded = base64.b64decode(encoded, validate=True)
+        except Exception as exc:
+            raise ValueError(f"Invalid base64 in data URI: {exc}") from exc
+        return decoded, media_type
+
+    # -- File path ---------------------------------------------------------
+    p = Path(value)
+    if not p.is_file():
+        raise FileNotFoundError(f"Reference image file not found: {value}")
+    ext = p.suffix.lower()
+    media_type = _EXT_TO_MEDIA_TYPE.get(ext)
+    if media_type is None:
+        raise ValueError(
+            f"Unknown image extension '{ext}'. "
+            f"Supported: {sorted(_EXT_TO_MEDIA_TYPE.keys())}"
+        )
+    return p.read_bytes(), media_type
 
 
 def validate_request(req: GenerateRequest) -> list[str]:
@@ -110,6 +163,12 @@ def validate_request(req: GenerateRequest) -> list[str]:
         errors.append(f"output_format must be one of {sorted(ALLOWED_FORMATS)}")
     if req.n < 1 or req.n > 10:
         errors.append("n must be between 1 and 10")
+    # -- reference_images --------------------------------------------------
+    if len(req.reference_images) > 16:
+        errors.append("reference_images must have at most 16 entries")
+    for i, entry in enumerate(req.reference_images):
+        if not isinstance(entry, str) or not entry:
+            errors.append(f"reference_images[{i}] must be a non-empty string")
     return errors
 
 

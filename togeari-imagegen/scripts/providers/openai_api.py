@@ -11,14 +11,17 @@ import sys
 import time
 import urllib.error
 import urllib.request
+import uuid
 from pathlib import Path
 from typing import Any, Optional
 
 from . import (
     GenerateRequest,
     GenerateResult,
+    _EXT_TO_MEDIA_TYPE,
     register_provider,
     resolve_api_key,
+    resolve_image_input,
     validate_request,
 )
 
@@ -63,6 +66,12 @@ QUALITY_MAP: dict[str, str] = {
 }
 
 OPENAI_IMAGES_URL = "https://api.openai.com/v1/images/generations"
+OPENAI_EDITS_URL = "https://api.openai.com/v1/images/edits"
+
+# Inverse of _EXT_TO_MEDIA_TYPE: media_type → extension (without dot)
+_MEDIA_TO_EXT: dict[str, str] = {
+    v: k.lstrip(".") for k, v in _EXT_TO_MEDIA_TYPE.items()
+}
 
 # Transient HTTP status codes that should trigger a retry
 _TRANSIENT_STATUS_CODES = {429, 500, 502, 503, 504}
@@ -82,6 +91,71 @@ def _call_api(api_key: str, payload: dict[str, Any]) -> dict[str, Any]:
         data=body,
         headers={
             "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}",
+        },
+        method="POST",
+    )
+    with urllib.request.urlopen(req, timeout=180) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def _build_multipart_body(
+    fields: dict[str, str],
+    images: list[tuple[bytes, str]],
+) -> tuple[bytes, str]:
+    """Build a multipart/form-data body from text fields and image data.
+
+    Returns (body_bytes, content_type_header).
+    Raises ValueError if the images list is empty.
+    """
+    if not images:
+        raise ValueError("images list must contain at least one image")
+
+    boundary = uuid.uuid4().hex
+    parts: list[bytes] = []
+
+    for name, value in fields.items():
+        parts.append(
+            f"--{boundary}\r\n"
+            f'Content-Disposition: form-data; name="{name}"\r\n'
+            f"\r\n"
+            f"{value}\r\n".encode("utf-8")
+        )
+
+    for idx, (img_bytes, media_type) in enumerate(images):
+        ext = _MEDIA_TO_EXT.get(media_type, "png")
+        parts.append(
+            f"--{boundary}\r\n"
+            f'Content-Disposition: form-data; name="image[]"; filename="ref_{idx}.{ext}"\r\n'
+            f"Content-Type: {media_type}\r\n"
+            f"\r\n".encode("utf-8")
+            + img_bytes
+            + b"\r\n"
+        )
+
+    parts.append(f"--{boundary}--\r\n".encode("utf-8"))
+
+    body = b"".join(parts)
+    content_type = f"multipart/form-data; boundary={boundary}"
+    return body, content_type
+
+
+def _call_edits_api(
+    api_key: str,
+    fields: dict[str, str],
+    images: list[tuple[bytes, str]],
+) -> dict[str, Any]:
+    """POST to OpenAI Images Edits API with multipart body. Returns parsed JSON.
+
+    Raises urllib.error.HTTPError on non-2xx status,
+    or other exceptions on network failure.
+    """
+    body, content_type = _build_multipart_body(fields, images)
+    req = urllib.request.Request(
+        OPENAI_EDITS_URL,
+        data=body,
+        headers={
+            "Content-Type": content_type,
             "Authorization": f"Bearer {api_key}",
         },
         method="POST",
@@ -183,17 +257,25 @@ class OpenAIProvider:
 
         # --- resolve parameters ----------------------------------------
         model = req.model or self.default_model
-        size = self.resolve_size(req.aspect_ratio, req.quality)
-        api_quality = QUALITY_MAP[req.quality]
+        use_auto_size = req.aspect_ratio == "auto"
+        use_auto_quality = req.quality == "auto"
+        size = "auto" if use_auto_size else self.resolve_size(req.aspect_ratio, req.quality)
+        api_quality = "auto" if use_auto_quality else QUALITY_MAP[req.quality]
+        use_edits = bool(req.reference_images)
 
-        payload: dict[str, Any] = {
-            "model": model,
-            "prompt": req.prompt,
-            "n": req.n,
-            "size": size,
-            "quality": api_quality,
-            "output_format": req.output_format,
-        }
+        # --- resolve reference images (edits path) --------------------
+        resolved_images: list[tuple[bytes, str]] = []
+        if use_edits:
+            for ref in req.reference_images:
+                try:
+                    resolved_images.append(resolve_image_input(ref))
+                except (FileNotFoundError, ValueError) as exc:
+                    return GenerateResult(
+                        status="error",
+                        error=str(exc),
+                        provider="openai",
+                        model=model,
+                    )
 
         # --- call API with retry ---------------------------------------
         response_data: Optional[dict[str, Any]] = None
@@ -201,7 +283,32 @@ class OpenAIProvider:
 
         for attempt in range(_MAX_ATTEMPTS):
             try:
-                response_data = _call_api(api_key, payload)
+                if use_edits:
+                    fields: dict[str, str] = {
+                        "model": model,
+                        "prompt": req.prompt,
+                        "n": str(req.n),
+                        "output_format": req.output_format,
+                    }
+                    if not use_auto_size:
+                        fields["size"] = size
+                    if not use_auto_quality:
+                        fields["quality"] = api_quality
+                    response_data = _call_edits_api(
+                        api_key, fields, resolved_images,
+                    )
+                else:
+                    payload: dict[str, Any] = {
+                        "model": model,
+                        "prompt": req.prompt,
+                        "n": req.n,
+                        "output_format": req.output_format,
+                    }
+                    if not use_auto_size:
+                        payload["size"] = size
+                    if not use_auto_quality:
+                        payload["quality"] = api_quality
+                    response_data = _call_api(api_key, payload)
                 last_error = None
                 break
             except urllib.error.HTTPError as exc:
