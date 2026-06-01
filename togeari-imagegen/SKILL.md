@@ -173,12 +173,12 @@ If you detected real entities (IP characters, brands, landmarks) in Step 1, firs
 **Known/mainstream entities** (e.g., Mario, Nike, Eiffel Tower, GIRLS BAND CRY):
 You likely know their visual characteristics. Encourage enrichment but be ready to proceed directly.
 
-> [entity] 的视觉很有辨识度！你能补充一下想突出哪些元素吗？比如具体角色、标志性场景、配色风格？如果手边有参考图也可以发给我。当然直接开始也完全可以，我会基于角色的公开视觉特征来画。
+> [entity] 的视觉很有辨识度！你能补充一下想突出哪些元素吗？比如具体角色、标志性场景、配色风格？如果你手边有参考图，发给我的话可以直接传给生图模型做视觉参考，还原度会高很多。当然直接开始也完全可以。
 
 **Niche/obscure entities** (e.g., an indie game character, a local brand, a lesser-known artwork):
 You may not have reliable visual knowledge. More actively encourage the user to provide visual context.
 
-> 我对 [entity] 的视觉细节不太确定，你能描述一下它的关键视觉特征吗？比如配色、造型、标志性元素？或者发一张参考图给我，这样我能画得更准确。
+> 我对 [entity] 的视觉细节不太确定，你能描述一下它的关键视觉特征吗？比如配色、造型、标志性元素？或者发一张参考图给我，我可以直接传给生图模型，还原度会比纯文字描述好很多。
 
 Key principles:
 - **Adapt tone to knowledge confidence** — known entities encourage, unknown entities ask for help. Both are positive, neither is a warning.
@@ -186,10 +186,52 @@ Key principles:
 - **Never downgrade the user's request.** If they ask for a specific character, attempt that character — don't silently switch to "inspired by" or "similar vibe."
 
 **If the user provides a reference image:**
-Analyze it and confirm usage boundary in plain language:
+
+This is triggered when the user includes an image in their message — either at the start or at any point during the conversation. Do NOT proactively ask for reference images; this flow only activates when the user actually provides one.
+
+**1. Analyze and confirm usage boundary:**
 
 > 这张参考图，你希望生成的结果——
-> **像这个人/角色本身**，还是**只参考这种整体风格感觉**？
+> **像这个人/角色/产品本身**，还是**只参考这种整体风格感觉**？
+
+**2. Determine reference mode** based on user's answer:
+- **identity**: preserve the subject's appearance (face, hair, outfit, build) — change scene/style/context
+- **style**: apply the visual style/mood/palette — different subject allowed
+- **product**: keep the product/object locked — change presentation/context
+
+**3. Confirm preserve/change boundary and resolve image file:**
+
+> 收到参考图。我理解：
+> - 保留：[specific features from your image analysis]
+> - 改变：[what the user wants different]
+>
+> 参考图会直接传给生图模型。
+
+**4. Resolve ref_path (silently — do NOT ask the user):**
+
+If the user referenced the image via `@/path/to/file` → `ref_path` = that path directly.
+
+Otherwise (user pasted/dragged image) → auto-extract from session transcript:
+
+```bash
+python3 scripts/extract-ref-image.py --output workspace/refs
+```
+
+This script reads the current session's JSONL transcript (supports both Claude Code and Codex), extracts the most recent user-provided image's base64 data, saves it to `output/ref-<hash>.png`, and returns JSON with the path. Use `--index N` to select older images (0=most recent, 1=second most recent).
+
+- If `status` is "ok" → `ref_path` = the returned `path`. Proceed silently — user doesn't need to know how the image was obtained.
+- If `status` is "error" or `total_images` is high and you're unsure which image the user means → **backup**: ask the user for the file path:
+
+> 这张参考图我没能自动获取到，你能把图片文件路径发给我吗？（在 Finder 里右键图片 → 拷贝路径，或者用 @ 引用文件）
+
+**5. Record** for downstream use:
+- `ref_mode`: identity / style / product
+- `ref_path`: file path (from @ reference or auto-extraction); null only if backup also failed
+- `preserve_list`: specific features to keep
+- `change_list`: what the user wants different
+- `visual_analysis`: your detailed analysis of the image content (always do this — needed for rupa-craft context regardless of ref_path)
+
+**If the user provides a reference image later in the flow** (e.g., after seeing previews), enter this same confirmation flow, then resume from the current step.
 
 ### Step 4: Gallery — Direction Discovery [Tomo]
 
@@ -241,11 +283,14 @@ When the user selects a direction (from previews or text options), present a con
 > **你的生成计划：**
 > - 主题：[theme]
 > - 风格：[style]
+> - 参考图：[N] 张 [ref_mode]（保留：[preserve_list] / 改变：[change_list]）← only if reference images present
 > - 关键元素：[key elements]
 > - 文字：[text content, if any]
 > - 尺寸：[dimensions]
 >
 > 确认这样生成，还是要调整什么？
+
+When passing the confirmed brief to rupa-craft, include reference image metadata if present: `ref_mode`, `ref_path` (or null), `preserve_list`, `change_list`, `visual_analysis`. Rupa uses these to switch prompt strategy.
 
 **Batch brief (when batch intent is active):**
 Extend the brief with batch-specific fields:
@@ -316,6 +361,7 @@ The generation path is determined by `user_mode_choice` from Step 0, not by per-
 2. Assemble the generation request JSON:
    - `provider`: from Step 0 available providers (default: "openai")
    - `prompt`: rupa-craft's output
+   - `reference_images`: if `ref_path` is available from Step 3, include the file path(s) or data URI(s) as a list. If `ref_path` is null (user couldn't provide path), omit this field — rupa-craft's enhanced prompt handles it via text description. The script automatically routes to the edits endpoint when reference images are present.
    - `aspect_ratio`: from Step 1 inference, or user's explicit choice, or omit for default "1:1"
    - `quality`: from Step 1 inference ("preview" for Step 5 previews, "standard" default, "high" if user asked)
    - `output_format`: "png" default, or user's explicit choice
@@ -385,6 +431,7 @@ At any point where the user expresses dissatisfaction or wants to change directi
 - "调一下" / "改一改" → go back to Step 6 with the adjustment
 - "再看看其他预览" → go back to Step 5
 - "不对，我想要的是..." → re-enter Step 1 with the new description
+- User provides a reference image mid-flow → enter Step 3 reference image confirmation flow, then resume from current step
 
 ## Language
 
