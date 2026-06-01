@@ -26,9 +26,14 @@ rm -rf /tmp/aigc
 
 Gallery 数据（718 条验证 prompt + 9 个领域指南 + 索引）已包含在仓库中，无需额外安装步骤。
 
-### 其他平台
+### Claude Code / CoWork
 
-Claude Code、通用 Agent 平台的支持正在开发中，敬请期待。
+```bash
+git clone https://github.com/KKL08/AIGC.git /tmp/aigc
+ln -s /tmp/aigc/togeari-imagegen ~/.claude/skills/togeari-imagegen
+```
+
+需要配置 `OPENAI_API_KEY` 环境变量以启用生图。首次使用时 Skill 会引导完成配置。
 
 ## 使用
 
