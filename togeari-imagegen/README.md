@@ -31,17 +31,17 @@
 
 | 瑞幸咖啡「生椰丝绒拿铁」新品广告 | 西安美食旅行海报「长安食味」 |
 |:---:|:---:|
-| <img src="docs/showcase/case1.png" width="380"> | <img src="docs/showcase/case2.png" width="380"> |
+| <img src="docs/showcase/case1.png" width="380"> | <img src="docs/showcase/case2.jpeg" width="380"> |
 | 城市商业广告画风，产品特写 + 代言人构图 | 水墨国风排版，多道地方美食组合展示 |
 
 | 鸣潮 × 喜茶联名宣传图 | Sony A7R VI 产品信息图 |
 |:---:|:---:|
 | <img src="docs/showcase/case4.png" width="380"> | <img src="docs/showcase/case3.png" width="380"> |
-| 游戏 IP 联名茶饮，水元素氛围渲染 | 结构化参数信息图，深色科技风格 |
+| 游戏 IP 联名茶饮，幻想世界观产品广告 | 结构化参数信息图，深色科技风格 |
 
-| iPhone 17 × 千早爱音 TVC 九宫格分镜 | 河原木桃香 Coser × Galgame UI 壁纸 |
+| iPhone 17 × 千早爱音 TVC 九宫格分镜 | 河原木桃香 Coser × 对话框壁纸 |
 |:---:|:---:|
-| <img src="docs/showcase/case5.png" width="380"> | <img src="docs/showcase/case6.png" width="380"> |
+| <img src="docs/showcase/case5.png" width="380"> | <img src="docs/showcase/case6.jpeg" width="380"> |
 | 动画联名广告分镜，9 个镜头批量生成 | 真人写真叠加动画风对话框 UI，9:16 竖屏 |
 
 ## 工作流程
