@@ -7,7 +7,7 @@
 
 > 输入名字，Agent 自动搜索取景地、推理关联关系，再生成一张角色亲临的巡礼照。
 
-[**👉 立即体验**](https://cyber-anime-pilgrimage.vercel.app/)  [**📖 查看合集**](https://github.com/KKL08/AIGC)
+[**👉 立即体验**](https://cyber-anime-pilgrimage.vercel.app/)
 
 ---
 
@@ -22,11 +22,11 @@
 
 ## 🧭 三步完成一次巡礼
 
-| 步骤 | 操作 | 说明（Agent 视角） |
-|------|------|------------------|
-| 1️⃣ | **搜角色** | Agent 调用 Gemini 3.5 Flash + Google 搜索，从 ACG 相关信源、地图信息中**推理**出最可能的现实取景地／原型地点。 |
-| 2️⃣ | **选地点** | Agent 将推理结果标注在地图上，并提供地名、城市、关联作品说明，由你确认最终巡礼点。 |
-| 3️⃣ | **生成巡礼照** | 上传实拍照片 → Agent 根据场景光线、构图自动选择生图策略，调用 Nano Banana 2 或 GPT-Image-2 合成角色，输出一张高融合度的巡礼照。 |
+| 操作 | 说明（Agent 视角） |
+|------|------------------|
+| 1️⃣ **搜角色** | Agent 调用 Gemini 3.5 Flash + Google 搜索，从 ACG 相关信源、地图信息中**推理**出最可能的现实取景地／原型地点。 |
+| 2️⃣ **选地点** | Agent 将推理结果标注在地图上，并提供地名、城市、关联作品说明，由你确认最终巡礼点。 |
+| 3️⃣ **生成巡礼照** | 上传实拍照片 → Agent 根据场景光线、构图自动选择生图策略，调用 Nano Banana 2 或 GPT-Image-2 合成角色，输出一张高融合度的巡礼照。 |
 
 ---
 
@@ -43,12 +43,15 @@
 
 <details>
 <summary>需要付费吗？</summary>
-目前在线体验版本需要使用者自行准备相关服务商 API Key。
+目前在线体验版本需要使用者自行准备相关服务商 API Key。可前往官方开通相关服务申请 Key：
+
+- Gemini API Key → [Google AI Studio](https://aistudio.google.com/apikey)
+- OpenAI API Key → [OpenAI Platform](https://platform.openai.com/api-keys)
 </details>
 
 <details>
 <summary>支持哪些角色/作品？</summary>
-只要作品有公认的现实取景地或原型地点，Agent 均可检索推理。具体覆盖范围可自行尝试。
+只要作品有公认的现实取景地或原型地点，Agent 均可检索推理。覆盖面非常广，欢迎多多尝试。
 </details>
 
 <details>
