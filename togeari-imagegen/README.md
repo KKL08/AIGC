@@ -52,11 +52,11 @@
 
 | 成员 | 位置 | Skill | 职责 | 性格 |
 |:---:|------|-------|------|------|
-| <img src="docs/members/nina.png" width="50"><br>**Nina** 井芹仁菜 | 🎤 主唱 | togeari-producer | 理解意图，追问收敛，编排流程 | 拒绝含糊，模糊的想法不往下传 |
-| <img src="docs/members/momoka.png" width="50"><br>**Momoka** 河原木桃香 | 🎸 吉他 | momoka-route | 给出多个创意方向 | 开朗、果断，专注于创意 |
-| <img src="docs/members/tomo.png" width="50"><br>**Tomo** 海老塚智 | 🎹 键盘 | tomo-map / tomo-scan | 从 Gallery 中发现创意方向、检索参考 prompt | 冷眼精准，严谨不将就 |
-| <img src="docs/members/rupa.png" width="50"><br>**Rupa** ルパ | 🎸 贝斯 | rupa-craft | 把 brief 和 Gallery 技巧智能整合成最终提示 | 冷静清醒，下笔精准不犹豫 |
-| <img src="docs/members/subaru.png" width="50"><br>**Subaru** 安和すばる | 🥁 鼓 | subaru-judge | 逐项审查生成结果，给优化建议和新灵感 | 好胜较真，每个细节都要查到位 |
+| <img src="docs/members/nina.png" width="50"><br>**Nina** 井芹仁菜 | 🎤 主唱 | togeari-producer | 理解意图，追问收敛，引导流程 | 敏感较真，追问到你真正想要的画面浮出来 |
+| <img src="docs/members/momoka.png" width="50"><br>**Momoka** 河原木桃香 | 🎸 吉他 | momoka-route | 给出多个创意方向 | 爽快果断，像前辈一样帮你看清方向 |
+| <img src="docs/members/tomo.png" width="50"><br>**Tomo** 海老塚智 | 🎹 键盘 | tomo-map / tomo-scan | 从领域地图中挖掘、检索契合的案例 | 冷眼精准，洞悉每个领域方向的契合度 |
+| <img src="docs/members/rupa.png" width="50"><br>**Rupa** ルパ | 🎸 贝斯 | rupa-craft | 把用户创作灵感和案例技巧融合成最终创作方案与提示方式 | 冷静清醒、艺术感强，掌控作品成型的节奏 |
+| <img src="docs/members/subaru.png" width="50"><br>**Subaru** 安和すばる | 🥁 鼓 | subaru-judge | 逐项审查生成结果，给优化建议和新灵感 | 表面轻松爱吐槽，骨子里好胜，细节一项不放过 |
 
 ### 流程
 
