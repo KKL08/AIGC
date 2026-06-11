@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/状态-在线-green)
 ![Agent](https://img.shields.io/badge/🤖_架构-Agent_链路-blueviolet)
 ![搜索模型](https://img.shields.io/badge/搜索-Gemini_3.5_Flash-blue)
-![生图模型](https://img.shields.io/badge/生图-Nano_Banana_2_|_GPT_Image_2-orange)
+![生图模型](https://img.shields.io/badge/生图-Nano_Banana_Pro_|_GPT_Image_2-orange)
 
 > 输入名字，Agent 自动搜索取景地、推理关联关系，再生成一张二次元角色亲临圣地的巡礼照。
 
@@ -26,7 +26,7 @@
 |------|------------------|
 | 1️⃣ **搜角色** | Agent 调用 Gemini 3.5 Flash + Google 搜索，从 ACG 相关信源、地图信息中**推理**出最可能的现实取景地／原型地点。 |
 | 2️⃣ **选地点** | Agent 将推理结果标注在地图上，并提供地名、城市、关联作品说明，由你确认最终巡礼点。 |
-| 3️⃣ **生成巡礼照** | 上传你选择的二次元角色照片（全身或半身效果最佳） → Agent 根据场景光线、构图自动选择生图策略，调用 Nano Banana 2 或 GPT-Image-2 合成角色，输出一张高融合度的巡礼照。 |
+| 3️⃣ **生成巡礼照** | 上传你选择的二次元角色照片（全身或半身效果最佳） → Agent 根据场景光线、构图自动选择生图策略，调用 Nano Banana Pro 或 GPT-Image-2 合成角色，输出一张高融合度的巡礼照。 |
 
 ---
 
@@ -64,7 +64,7 @@
 ## 🧩 项目状态
 
 - 在线体验 → [赛博巡礼相机](https://cyber-anime-pilgrimage.vercel.app/)
-- 📱 移动端已适配，打开即用。
+- 💻 推荐使用 Web 端，体验更稳定。
 
 ---
 
